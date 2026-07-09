@@ -1,0 +1,66 @@
+{
+  "id": "mdq",
+  "title": "MDQ",
+  "fullName": "Questionnaire des Troubles de l'Humeur (Mood Disorder Questionnaire)",
+  "description": "Questionnaire de dépistage du trouble bipolaire. Évalue les antécédents d'épisodes (hypo)maniaques.",
+  "type": "self-report",
+  "reference": "Hirschfeld RMA, Williams JBW, Spitzer RL, et al. (2000). Development and validation of a screening instrument for bipolar spectrum disorder: the Mood Disorder Questionnaire.",
+  "license": "Libre d'utilisation clinique",
+  "durationMin": 4,
+  "sections": [
+    { "id": "symptoms", "title": "Question 1 — Symptômes (hypo)maniaques", "instruction": "Avez-vous déjà vécu une période durant laquelle votre état d'esprit était inhabituel et... (cochez OUI ou NON pour chaque item)" },
+    { "id": "validation", "title": "Questions de validation", "instruction": "Questions complémentaires" }
+  ],
+  "items": [
+    { "id": "mdq-1", "section": "symptoms", "text": "Vous vous sentiez si bien ou si hyperactif que les autres trouvaient que cela ne vous ressemblait pas ou que cela vous a attiré des ennuis ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-2", "section": "symptoms", "text": "Vous étiez irritable au point de crier après les gens ou de commencer des disputes ou des bagarres ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-3", "section": "symptoms", "text": "Vous aviez beaucoup plus confiance en vous que d'habitude ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-4", "section": "symptoms", "text": "Vous dormiez beaucoup moins longtemps que d'habitude, sans que cela ne vous dérange vraiment ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-5", "section": "symptoms", "text": "Vous parliez plus rapidement ou beaucoup plus que d'habitude ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-6", "section": "symptoms", "text": "Vos pensées défilaient rapidement dans votre tête ou vous n'arriviez pas à ralentir vos pensées ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-7", "section": "symptoms", "text": "Vous étiez si facilement distrait par votre environnement que vous n'arriviez pas à vous concentrer ni à effectuer une tâche soutenue ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-8", "section": "symptoms", "text": "Vous aviez beaucoup plus d'énergie que d'habitude ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-9", "section": "symptoms", "text": "Vous étiez beaucoup plus actif ou faisiez beaucoup plus de choses que d'habitude ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-10", "section": "symptoms", "text": "Vous étiez beaucoup plus sociable ou communicatif que d'habitude (par exemple, téléphoner à des amis au milieu de la nuit) ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-11", "section": "symptoms", "text": "Votre intérêt pour la sexualité était beaucoup plus grand que d'habitude ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-12", "section": "symptoms", "text": "Vos actions étaient inhabituelles pour vous ou auraient pu être jugées comme exagérées, irresponsables ou risquées par d'autres personnes ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-13", "section": "symptoms", "text": "Vos dépenses d'argent vous ont attiré des ennuis, à vous ou à votre famille ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-q2", "section": "validation", "type": "single-select", "text": "Si vous avez répondu OUI à plus d'une question ci-dessus, est-ce que plusieurs de ces évènements se sont produits au cours de la même période ?", "options": [{ "label": "Non", "value": 0 }, { "label": "Oui", "value": 1 }] },
+    { "id": "mdq-q3", "section": "validation", "type": "single-select", "text": "Ces événements vous ont-ils posé des problèmes au point de ne pas pouvoir travailler, d'avoir des problèmes familiaux, financiers ou juridiques, de vous quereller ou de vous battre ?", "options": [{ "label": "Aucun problème", "value": 0 }, { "label": "Problème mineur", "value": 1 }, { "label": "Problème modéré", "value": 2 }, { "label": "Problème sérieux", "value": 3 }] }
+  ],
+  "subscales": {
+    "symptomes": { "label": "Symptômes (hypo)maniaques", "items": ["mdq-1","mdq-2","mdq-3","mdq-4","mdq-5","mdq-6","mdq-7","mdq-8","mdq-9","mdq-10","mdq-11","mdq-12","mdq-13"] }
+  },
+  "scoring": {
+    "rules": [
+      { "id": "symptom-count", "type": "subscale-sum", "subscale": "symptomes", "operator": "gte", "threshold": 7, "description": "≥ 7 symptômes sur 13 = seuil atteint" },
+      { "id": "q2-simultaneous", "type": "item-value", "item": "mdq-q2", "operator": "eq", "threshold": 1, "description": "Q2 : les symptômes sont survenus en même temps" },
+      { "id": "q3-severity", "type": "item-value", "item": "mdq-q3", "operator": "gte", "threshold": 2, "description": "Q3 : retentissement ≥ modéré" }
+    ],
+    "complexThreshold": {
+      "description": "MDQ positif si : (≥ 7 symptômes) ET (Q2 = Oui) ET (Q3 ≥ modéré)",
+      "and": ["symptom-count", "q2-simultaneous", "q3-severity"]
+    }
+  },
+  "interpretations": [
+    {
+      "level": "negatif",
+      "minScore": 0,
+      "maxScore": 6,
+      "label": "Non évocateur d'un trouble bipolaire",
+      "color": "#5b8b6a",
+      "text": "Vos réponses ne suggèrent pas d'antécédents significatifs d'épisodes (hypo)maniaques selon ce questionnaire.",
+      "recommendation": "Si vous avez des préoccupations concernant votre humeur, discutez-en avec un professionnel de santé."
+    },
+    {
+      "level": "positif",
+      "minScore": 7,
+      "maxScore": 13,
+      "label": "Évocateur — consultation recommandée",
+      "color": "#b85a42",
+      "text": "Vos réponses indiquent une probabilité significative d'antécédents d'épisodes (hypo)maniaques. Un trouble du spectre bipolaire ne peut être exclu.",
+      "recommendation": "Une évaluation psychiatrique spécialisée est recommandée. Ce résultat est particulièrement important car il influence les choix thérapeutiques (certains antidépresseurs et psychostimulants sont déconseillés en cas de trouble bipolaire non stabilisé)."
+    }
+  ],
+  "disclaimer": "Le MDQ est un outil de DÉPISTAGE, pas un outil diagnostique. Il ne remplace pas une évaluation clinique par un psychiatre. Le trouble bipolaire est un diagnostic qui nécessite un entretien clinique approfondi."
+}

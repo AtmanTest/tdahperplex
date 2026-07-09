@@ -300,6 +300,265 @@ section[id]{scroll-margin-top:4rem}
   font-style:italic;color:var(--text);
 }
 .sixty em{font-style:normal;color:var(--accent)}
+
+/* ============================================
+   14. TESTS DE DIAGNOSTIC — OVERLAY & COMPONENTS
+   ============================================ */
+
+/* --- Test cards (selection screen) --- */
+.test-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:540px){.test-grid{grid-template-columns:1fr 1fr}}
+
+.test-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:1.2rem 1.4rem;
+  cursor:pointer;transition:box-shadow .3s,transform .15s;
+  position:relative;overflow:hidden;
+}
+.test-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px)}
+.test-card-top{display:flex;align-items:flex-start;gap:.8rem;margin-bottom:.5rem}
+.test-card-icon{font-size:1.6rem;line-height:1;flex-shrink:0}
+.test-card-title{font-weight:600;font-size:.95rem;color:var(--text);margin-bottom:.15rem}
+.test-card-subtitle{font-size:.72rem;color:var(--text-light);margin-bottom:.25rem}
+.test-card-desc{font-size:.82rem;color:var(--text-sec);line-height:1.5;margin-bottom:.6rem}
+.test-card-meta{display:flex;gap:1rem;font-size:.72rem;color:var(--text-light)}
+.test-card-meta span{display:flex;align-items:center;gap:.3rem}
+.test-card-btn{
+  display:inline-flex;align-items:center;gap:.4rem;
+  margin-top:.6rem;padding:.4rem 1rem;
+  background:var(--accent);color:#fff;border:none;
+  border-radius:20px;font-size:.78rem;font-weight:500;
+  cursor:pointer;transition:background .2s,transform .1s;
+}
+.test-card-btn:hover{background:#2d4a72;transform:scale(1.03)}
+.test-card-btn:active{transform:scale(.97)}
+
+/* --- Test runner overlay --- */
+.tq-overlay{
+  position:fixed;inset:0;z-index:100;
+  background:rgba(0,0,0,.45);
+  display:flex;align-items:center;justify-content:center;
+  animation:tqFadeIn .2s ease;
+}
+@keyframes tqFadeIn{from{opacity:0}to{opacity:1}}
+
+.tq-modal{
+  background:var(--surface);border-radius:var(--radius);
+  width:90%;max-width:680px;max-height:90vh;
+  display:flex;flex-direction:column;
+  box-shadow:0 20px 60px rgba(0,0,0,.15);
+  animation:tqSlideIn .25s ease;
+}
+@keyframes tqSlideIn{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+.tq-header{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem 1.4rem;border-bottom:1px solid var(--border);
+  flex-shrink:0;
+}
+.tq-title{font-size:.85rem;font-weight:600;color:var(--text)}
+.tq-subtitle{font-size:.72rem;color:var(--text-light);font-weight:400;margin-left:.5rem}
+.tq-close{
+  background:none;border:none;font-size:1.5rem;cursor:pointer;
+  color:var(--text-light);padding:.2rem .4rem;line-height:1;
+  border-radius:6px;transition:background .2s,color .2s;
+}
+.tq-close:hover{background:var(--border);color:var(--text)}
+
+.tq-progress-wrap{
+  display:flex;align-items:center;gap:.8rem;
+  padding:.6rem 1.4rem;flex-shrink:0;
+}
+.tq-progress-bar{flex:1;height:5px;background:var(--border);border-radius:3px;overflow:hidden}
+.tq-progress-fill{height:100%;background:var(--accent);border-radius:3px;transition:width .3s ease}
+.tq-progress-label{font-size:.68rem;color:var(--text-light);white-space:nowrap}
+
+.tq-section-label{
+  font-size:.65rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--accent);
+  padding:.3rem 1.4rem 0;flex-shrink:0;
+}
+
+.tq-body{
+  flex:1;overflow-y:auto;padding:1.4rem;
+  scroll-behavior:smooth;
+}
+.tq-question-num{
+  font-size:.65rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--accent);margin-bottom:.3rem;
+}
+.tq-question-text{
+  font-size:1.02rem;font-weight:500;line-height:1.6;
+  color:var(--text);margin-bottom:1.3rem;
+}
+
+/* --- Options --- */
+.tq-opts{display:flex;flex-direction:column;gap:.55rem}
+.tq-opts-3{flex-direction:row;flex-wrap:wrap;gap:.4rem}
+.tq-opts-3 .tq-opt{flex:1;min-width:80px;text-align:center}
+
+.tq-opt{
+  display:flex;align-items:center;gap:.6rem;
+  padding:.7rem 1rem;border:1.5px solid var(--border);
+  border-radius:var(--radius-sm);cursor:pointer;
+  transition:border-color .2s,background .2s,box-shadow .2s;
+  background:var(--bg);
+}
+.tq-opt:hover{border-color:var(--accent-soft);background:var(--accent-light)}
+.tq-opt.selected{
+  border-color:var(--accent);background:var(--accent-light);
+  box-shadow:0 0 0 1px var(--accent);
+}
+.tq-opt input[type="radio"]{opacity:0;position:absolute;width:0;height:0}
+.tq-opt-num{
+  flex-shrink:0;width:22px;height:22px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:50%;background:var(--accent-soft);
+  font-size:.7rem;font-weight:600;color:var(--accent);
+}
+.tq-opt.selected .tq-opt-num{background:var(--accent);color:#fff}
+.tq-opt-text{font-size:.88rem;color:var(--text-sec)}
+.tq-opt-sm{padding:.45rem .6rem}
+.tq-opt-sm .tq-opt-text{font-size:.78rem}
+
+/* --- Sub-items for borderline --- */
+.tq-subitem{margin-bottom:1rem;padding-bottom:.8rem;border-bottom:1px solid var(--border)}
+.tq-subitem:last-child{border-bottom:none;margin-bottom:0}
+.tq-subitem-text{font-size:.9rem;color:var(--text);margin-bottom:.5rem;line-height:1.5}
+
+/* --- Error shake --- */
+.tq-error .tq-opt{border-color:#e74c3c!important;animation:tqShake .4s ease}
+@keyframes tqShake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+
+/* --- Footer / nav --- */
+.tq-footer{
+  padding:.8rem 1.4rem;border-top:1px solid var(--border);
+  flex-shrink:0;
+}
+.tq-nav{display:flex;justify-content:space-between;align-items:center}
+.tq-btn{
+  padding:.55rem 1.3rem;border:none;border-radius:20px;
+  font-size:.82rem;font-weight:500;cursor:pointer;
+  transition:background .2s,transform .1s;
+}
+.tq-btn:active{transform:scale(.97)}
+.tq-btn-primary{background:var(--accent);color:#fff}
+.tq-btn-primary:hover{background:#2d4a72}
+.tq-btn-secondary{background:var(--border);color:var(--text-sec)}
+.tq-btn-secondary:hover{background:#d0d0da}
+.tq-btn-success{background:#2e7d5e;color:#fff}
+.tq-btn-success:hover{background:#23664b}
+
+/* --- Results display --- */
+.tr-results{padding:var(--sp) 0;max-width:var(--max-w);margin:0 auto}
+.tr-header{margin-bottom:1.3rem}
+.tr-header-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:.3rem}
+.tr-badge{
+  font-size:.68rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--accent);background:var(--accent-light);
+  padding:.2rem .7rem;border-radius:12px;
+}
+.tr-date{font-size:.72rem;color:var(--text-light)}
+.tr-title{font-size:1.3rem;font-weight:660;margin:0}
+.tr-score-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:1.3rem 1.5rem;
+  margin-bottom:1.2rem;
+}
+.tr-score-main{display:flex;align-items:baseline;gap:.6rem;margin-bottom:.8rem}
+.tr-score-number{font-size:2.5rem;font-weight:700;letter-spacing:-.03em;line-height:1}
+.tr-score-max{font-size:1.1rem;font-weight:400;opacity:.5}
+.tr-score-label{font-size:.88rem;font-weight:500}
+.tr-score-bar-wrap{display:flex;align-items:center;gap:.6rem}
+.tr-score-bar{flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden}
+.tr-score-fill{height:100%;border-radius:4px;transition:width .6s ease}
+.tr-score-percent{font-size:.78rem;color:var(--text-light);min-width:35px;text-align:right}
+
+/* Thresholds */
+.tr-section{margin-bottom:1.2rem}
+.tr-section-title{font-size:.88rem;font-weight:600;margin-bottom:.5rem;color:var(--text)}
+.tr-threshold-card{
+  display:flex;align-items:flex-start;gap:.6rem;
+  padding:.65rem .9rem;border-radius:var(--radius-sm);
+  margin-bottom:.35rem;font-size:.82rem;line-height:1.4;
+}
+.tr-pass{background:#eaf7ee;border:1px solid #c8e6d1;color:#2d6a4a}
+.tr-fail{background:#fef3f0;border:1px solid #f5d6ce;color:#8a3f30}
+.tr-threshold-icon{font-weight:700;font-size:1rem}
+.tr-threshold-desc{font-size:.78rem;opacity:.8;margin-top:.1rem}
+
+/* Bar chart */
+.tr-bars{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1rem}
+.tr-bar-item{display:flex;align-items:center;gap:.6rem}
+.tr-bar-label{font-size:.78rem;color:var(--text-sec);min-width:110px;flex-shrink:0}
+.tr-bar-track{flex:1;height:10px;background:var(--border);border-radius:5px;overflow:hidden}
+.tr-bar-fill{height:100%;border-radius:5px;transition:width .5s ease}
+.tr-bar-value{font-size:.78rem;color:var(--text-light);min-width:40px;text-align:right}
+
+/* Radar */
+.tr-chart-wrap{display:flex;justify-content:center;margin:.5rem 0}
+
+/* Interpretation */
+.tr-interp-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:1.2rem 1.4rem;
+  font-size:.9rem;line-height:1.7;color:var(--text-sec);
+}
+.tr-reco{margin-top:.5rem;padding-top:.5rem;border-top:1px solid var(--border)}
+
+/* Alerts */
+.tr-alert-title{color:#b85a42}
+.tr-alert-card{
+  background:#fef3f0;border:1px solid #f5d6ce;
+  border-radius:var(--radius-sm);padding:.8rem 1rem;
+  margin-bottom:.4rem;font-size:.85rem;line-height:1.5;
+}
+
+/* Disclaimer */
+.tr-disclaimer{
+  background:#fdf6ec;border:1px solid #f0dcc0;
+  border-radius:var(--radius);padding:1.2rem 1.4rem;
+  margin-bottom:1.2rem;font-size:.82rem;line-height:1.6;color:#6b5a3a;
+}
+.tr-disclaimer strong{display:block;margin-bottom:.3rem;color:#8b6f40}
+.tr-urgent{color:#b85a42;font-weight:500;margin-top:.4rem}
+
+/* Actions */
+.tr-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.tr-actions .tq-btn{font-size:.8rem}
+
+/* History */
+.tr-history{display:flex;flex-direction:column;gap:.3rem}
+.tr-history-item{
+  display:flex;align-items:center;gap:.6rem;
+  padding:.5rem .7rem;background:var(--bg);
+  border-radius:var(--radius-sm);font-size:.78rem;
+}
+.tr-h-date{color:var(--text-light);min-width:80px}
+.tr-h-score{font-weight:600;min-width:50px}
+.tr-h-label{color:var(--text-sec);flex:1}
+.tr-h-badge{
+  font-size:.6rem;font-weight:600;text-transform:uppercase;
+  background:var(--accent-light);color:var(--accent);
+  padding:.1rem .4rem;border-radius:8px;
+}
+
+/* Error message */
+.tq-error-msg{
+  text-align:center;padding:2rem;
+  color:#b85a42;font-size:.9rem;
+}
+.tq-error-msg .tq-btn{margin-top:.8rem}
+
+/* Print styles */
+@media print{
+  nav,footer,#chat-toggle,#chat-overlay{display:none!important}
+  .tq-overlay{position:static;background:none}
+  .tq-modal{max-height:none;box-shadow:none;border:1px solid #ddd}
+  .tr-results{padding:0}
+  .tq-btn{display:none!important}
+}
+
 </style>
 </head>
 <body>
@@ -318,6 +577,7 @@ section[id]{scroll-margin-top:4rem}
       <a href="#dialogue">Consultation</a>
       <a href="#psychiatre">60s</a>
       <a href="#tableau">Synthèse</a>
+      <a href="#tests">Tests</a>
     </div>
   </div>
 </nav>
@@ -941,6 +1201,25 @@ section[id]{scroll-margin-top:4rem}
   </div>
 </section>
 
+<!-- ===== 11. TESTS DE DIAGNOSTIC ===== -->
+<section id="tests">
+  <div class="section-label">Auto-évaluations</div>
+  <h2>Tests de diagnostic</h2>
+  <p>Questionnaires standardisés pour évaluer différents aspects de votre santé mentale. Une question à la fois, résultat immédiat, confidentiel (tout reste sur votre appareil).</p>
+  <div class="caveat" style="margin:1rem 0 1.5rem">
+    <h3>⚠ Important à savoir</h3>
+    <p>Ces questionnaires sont des <strong>outils de dépistage et de sensibilisation</strong>, pas des outils de diagnostic. Ils ne remplacent en aucun cas une évaluation par un professionnel de santé. Les résultats sont stockés uniquement sur votre appareil (localStorage) et ne sont pas envoyés sur un serveur.</p>
+  </div>
+  <div id="test-container">
+    <div id="test-grid" class="test-grid">
+      <div style="text-align:center;padding:2rem;color:var(--text-light)">
+        <p>Chargement des tests disponibles…</p>
+      </div>
+    </div>
+  </div>
+  <div id="test-results"></div>
+</section>
+
 </div>
 
 <footer>
@@ -1144,6 +1423,12 @@ section[id]{scroll-margin-top:4rem}
   #chat-modal { border-radius: 0; }
 }
 </style>
+
+<!-- Test Runner Modules -->
+<script src="tests/js/scoring-engine.js"></script>
+<script src="tests/js/test-history.js"></script>
+<script src="tests/js/test-runner.js"></script>
+<script src="tests/js/results-display.js"></script>
 
 <script>
 (function(){
@@ -1391,6 +1676,119 @@ Règles :
   keyInput.addEventListener('keydown', function(e){
     if (e.key === 'Enter') keySave.click();
   });
+
+})();
+
+/* ============================================
+   TESTS DE DIAGNOSTIC — INIT
+   ============================================ */
+(function(){
+  'use strict';
+
+  const container = document.getElementById('test-container');
+  const grid = document.getElementById('test-grid');
+  const resultsEl = document.getElementById('test-results');
+
+  if (!container || !grid) return;
+
+  /**
+   * Charge un fichier JSON
+   */
+  async function loadJSON(url) {
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    return resp.json();
+  }
+
+  /**
+   * Initialise les cartes des tests disponibles
+   */
+  async function initTestCatalog() {
+    try {
+      const manifest = await loadJSON('tests/config/manifest.json');
+      
+      grid.innerHTML = manifest.map(test => `
+        <div class="test-card" data-test-id="${test.id}">
+          <div class="test-card-top">
+            <span class="test-card-icon">${test.icon || '📋'}</span>
+            <div style="flex:1">
+              <div class="test-card-title">${test.title}</div>
+              <div class="test-card-subtitle">${test.fullName || ''}</div>
+            </div>
+          </div>
+          <div class="test-card-desc">${test.desc || test.shortDesc || ''}</div>
+          <div class="test-card-meta">
+            <span>⏱ ${test.duration || '?'}</span>
+            <span>📄 ${test.questions || '?'} questions</span>
+          </div>
+          <button class="test-card-btn" data-test-id="${test.id}">
+            Commencer le test →
+          </button>
+        </div>
+      `).join('');
+
+      // Lancer le test au clic
+      document.querySelectorAll('.test-card-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          const testId = this.dataset.testId;
+          startTest(testId);
+        });
+      });
+
+      // Clic sur toute la carte
+      document.querySelectorAll('.test-card').forEach(card => {
+        card.addEventListener('click', function() {
+          const testId = this.dataset.testId;
+          startTest(testId);
+        });
+      });
+
+    } catch (err) {
+      grid.innerHTML = `
+        <div style="text-align:center;padding:2rem;color:#b85a42">
+          <p>⚠ Impossible de charger les tests : ${err.message}</p>
+        </div>
+      `;
+    }
+  }
+
+  /**
+   * Démarre un test par son ID
+   */
+  async function startTest(testId) {
+    resultsEl.innerHTML = '';
+    try {
+      const config = await loadJSON('tests/config/' + testId + '.json');
+      
+      // Créer un conteneur overlay
+      const overlayContainer = document.createElement('div');
+      overlayContainer.id = 'test-overlay-container';
+      container.appendChild(overlayContainer);
+
+      TestRunner.start(config, overlayContainer, function(result) {
+        // Callback : afficher les résultats
+        overlayContainer.innerHTML = '';
+        resultsEl.innerHTML = '';
+        resultsEl.scrollIntoView({ behavior: 'smooth' });
+        ResultsDisplay.show(result, resultsEl);
+      });
+
+    } catch (err) {
+      resultsEl.innerHTML = `
+        <div class="tq-error-msg">
+          <p>⚠ Erreur lors du chargement du test : ${err.message}</p>
+        </div>
+      `;
+    }
+  }
+
+  // Initialiser au chargement
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTestCatalog);
+  } else {
+    initTestCatalog();
+  }
 
 })();
 </script>
