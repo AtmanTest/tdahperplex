@@ -25,7 +25,7 @@ jobs:
 
       - name: Vérifier version
         run: |
-          grep -q 'v17a' index.html && echo "✅ Version v17a" || (echo "❌ Version non trouvée"; exit 1)
+          grep -q 'v17b' index.html && echo "✅ Version v17b" || (echo "❌ Version non trouvée"; exit 1)
 
       - name: Vérifier absence chat
         run: |
@@ -40,10 +40,6 @@ jobs:
       - name: Vérifier IntersectionObserver
         run: |
           grep -q 'IntersectionObserver' index.html && echo "✅ IntersectionObserver" || (echo "❌ IntersectionObserver manquant"; exit 1)
-
-      - name: Vérifier version
-        run: |
-          grep -q 'v17a' index.html && echo "✅ v17a" || (echo "❌ v17a manquant"; exit 1)
 
       - name: Vérifier responsive
         run: |
