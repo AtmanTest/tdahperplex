@@ -20,7 +20,7 @@
   }
 
   function applyLang(lang){
-    if(!window.i18n || !i18n[lang]) return;
+    if(!i18n || !i18n[lang]) return;
 
     // Update html lang attribute
     if(i18n[lang]['html.lang'])

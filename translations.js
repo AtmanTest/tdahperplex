@@ -3,7 +3,7 @@
  * Structure: i18n.fr.key / i18n.en.key
  * Loaded before i18n.js
  */
-const i18n = {
+var i18n = {
   fr: {
     "html.lang": "fr",
     "meta.title": "Profil TDAH inattentif — Support de consultation",

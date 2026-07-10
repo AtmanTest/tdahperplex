@@ -97,6 +97,10 @@ nav .logo:hover{opacity:.7}
   font-size:.55rem;font-weight:400;color:var(--text-light);
   letter-spacing:.04em;white-space:nowrap;
 }
+.logo-version{
+  font-size:.5rem;color:var(--text-light);opacity:.35;
+  letter-spacing:.05em;white-space:nowrap;width:100%;
+}
 .nav-actions{display:flex;align-items:center;gap:.3rem;margin-left:auto}
 nav .links{
   display:flex;flex-wrap:wrap;gap:.15rem;
@@ -360,6 +364,14 @@ footer{
    13. UTILITIES
    ============================================ */
 section[id]{scroll-margin-top:4rem}
+section[id]{
+  background:var(--surface);
+  border-radius:var(--radius);
+  padding:var(--sp);
+  margin-bottom:var(--sp);
+  border:1px solid var(--border);
+  transition:background .3s,border-color .3s;
+}
 .summary-block{font-size:.92rem;line-height:1.7}
 .sixty{
   font-size:clamp(1rem,2vw,1.12rem);line-height:1.7;
@@ -875,6 +887,7 @@ section[id]{scroll-margin-top:4rem}
     <div class="nav-left">
       <a href="#" class="logo" data-i18n="nav.logo" title="🏠 Accueil — retour en haut">🏠 Profil TDAH</a>
       <span class="logo-sub" data-i18n="nav.madeby">✦ Made by Tazou</span>
+      <span class="logo-version">v16c</span>
     </div>
     <div class="nav-actions">
       <a href="#" id="lang-toggle" data-lang="fr" style="text-decoration:none;font-size:.85rem;display:inline-flex;align-items:center;gap:2px;padding:.2rem .45rem;border-radius:8px;background:var(--accent-soft);transition:background .2s;flex-shrink:0;color:var(--text)"><span data-lang-active="fr">🇫🇷</span><span style="opacity:.3">/</span><span data-lang-active="en" style="opacity:.35">🇬🇧</span></a>
