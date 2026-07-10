@@ -61,7 +61,7 @@ nav .links{
   flex:1;
 }
 nav .links a{
-  font-size:.68rem;color:var(--text-sec);text-decoration:none;
+  font-size:.68rem;font-weight:600;color:var(--text-sec);text-decoration:none;
   padding:.2rem .45rem;border-radius:6px;
   white-space:nowrap;transition:background .2s,color .2s;
 }
@@ -571,26 +571,38 @@ section[id]{scroll-margin-top:4rem}
   display:flex;align-items:center;gap:.6rem;
 }
 .news-banner-label{
-  flex-shrink:0;font-weight:600;font-size:.68rem;
-  text-transform:uppercase;letter-spacing:.04em;
-  background:rgba(255,255,255,.15);
-  padding:.15rem .6rem;border-radius:10px;white-space:nowrap;
+  flex-shrink:0;font-weight:700;font-size:.65rem;
+  text-transform:uppercase;letter-spacing:.06em;
+  background:rgba(255,255,255,.12);
+  padding:.15rem .65rem .2rem;border-radius:10px;white-space:nowrap;
+  border:1px solid rgba(255,255,255,.08);
 }
-.news-banner-ticker{flex:1;overflow:hidden;height:1.4rem;position:relative}
-.news-banner-item{
-  position:absolute;width:100%;top:0;left:0;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-  opacity:0;transform:translateY(8px);
-  transition:opacity .5s ease,transform .5s ease;
+.news-banner-ticker{
+  flex:1;overflow:hidden;height:1.6rem;
+  position:relative;mask-image:linear-gradient(90deg,transparent 0,#000 3%,#000 97%,transparent 100%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 3%,#000 97%,transparent 100%);
 }
-.news-banner-item.active{opacity:1;transform:translateY(0)}
-.news-banner-item a{color:#fff;text-decoration:none;opacity:.85}
-.news-banner-item a:hover{opacity:1;text-decoration:underline}
+.news-track{
+  display:inline-flex;white-space:nowrap;
+  will-change:transform;
+}
+.news-track-item{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:0 2rem 0 0;font-size:.78rem;opacity:.9;
+}
+.news-track-item a{color:#fff;text-decoration:none}
+.news-track-item a:hover{text-decoration:underline;opacity:1}
+.news-track-item .sep{color:rgba(255,255,255,.25);font-weight:300}
 .news-banner-more{
   flex-shrink:0;font-size:.68rem;
   color:rgba(255,255,255,.7);cursor:pointer;white-space:nowrap;
 }
 .news-banner-more:hover{color:#fff}
+
+@keyframes ticker-scroll{
+  0%{transform:translateX(0)}
+  100%{transform:translateX(-50%)}
+}
 
 /* ============================================
    16. NEWS SECTION
@@ -674,9 +686,11 @@ section[id]{scroll-margin-top:4rem}
   <div class="inner">
     <span class="news-banner-label">📡 Flash TDAH</span>
     <div class="news-banner-ticker" id="news-ticker">
-      <span class="news-banner-item active">⏳ Chargement des actualités…</span>
+      <div class="news-track" id="news-track">
+        <span class="news-track-item">⏳ Chargement des actualités…</span>
+      </div>
     </div>
-    <a href="#actualites" class="news-banner-more">Toutes les news →</a>
+    <a href="#actualites" class="news-banner-more">Toutes →</a>
   </div>
 </div>
 
@@ -819,53 +833,83 @@ section[id]{scroll-margin-top:4rem}
     <div class="theme-card">
       <span class="icon">🧠</span>
       <h3>Brouillard mental</h3>
-      <p>Sensation d’avoir la tête embrumée, surtout face à une tâche qui demande de l’attention soutenue. Comme si un voile tombait sur ma concentration.</p>
+      <p>Sensation d'avoir la tête embrumée, surtout face à une tâche qui demande de l'attention soutenue. Comme si un voile tombait sur ma concentration.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">🌀</span>
       <h3>Trop de pensées en parallèle</h3>
-      <p>Mon esprit passe d’un sujet à l’autre sans pause. Je pense à trois choses à la fois, ce qui m’empêche d’en finir une correctement.</p>
+      <p>Mon esprit passe d'un sujet à l'autre sans pause. Je pense à trois choses à la fois, ce qui m'empêche d'en finir une correctement.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">⏳</span>
       <h3>Procrastination massive</h3>
-      <p>Impossible de commencer une tâche perçue comme ennuyeuse ou complexe. Je tourne autour pendant des heures, parfois des jours, jusqu’à l’urgence absolue.</p>
+      <p>Impossible de commencer une tâche perçue comme ennuyeuse ou complexe. Je tourne autour pendant des heures, parfois des jours, jusqu'à l'urgence absolue.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">📌</span>
       <h3>Oublis quotidiens</h3>
-      <p>Clés, téléphone, carte bleue, rendez-vous, appels — rien n’est fiable. Je vis avec la peur constante d’avoir oublié quelque chose d’important.</p>
+      <p>Clés, téléphone, carte bleue, rendez-vous, appels — rien n'est fiable. Je vis avec la peur constante d'avoir oublié quelque chose d'important.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">🧩</span>
       <h3>Difficulté à prioriser</h3>
-      <p>Quand plusieurs tâches s’accumulent, je suis incapable de décider par quoi commencer. Je stagne, je zappe, je me disperse.</p>
+      <p>Quand plusieurs tâches s'accumulent, je suis incapable de décider par quoi commencer. Je stagne, je zappe, je me disperse.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">🚧</span>
       <h3>Projets non aboutis</h3>
-      <p>Je commence avec enthousiasme, puis très vite l’intérêt retombe ou une difficulté me bloque. Des dizaines de projets dormants jonchent mon parcours.</p>
+      <p>Je commence avec enthousiasme, puis très vite l'intérêt retombe ou une difficulté me bloque. Des dizaines de projets dormants jonchent mon parcours.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">🔁</span>
       <h3>Difficulté à terminer</h3>
-      <p>Même les tâches que j’ai commencées, je les finis dans l’urgence ou pas du tout. Le passage à l’acte final est un obstacle récurrent.</p>
+      <p>Même les tâches que j'ai commencées, je les finis dans l'urgence ou pas du tout. Le passage à l'acte final est un obstacle récurrent.</p>
     </div>
 
     <div class="theme-card">
       <span class="icon">😰</span>
       <h3>Anxiété associée</h3>
-      <p>L’accumulation des oublis et des retards génère une anxiété permanente. La peur d’oublier, de décevoir, d’être perçu comme négligent.</p>
+      <p>L'accumulation des oublis et des retards génère une anxiété permanente. La peur d'oublier, de décevoir, d'être perçu comme négligent.</p>
     </div>
 
-  </div>
-</section>
+    <div class="theme-card">
+      <span class="icon">🎰</span>
+      <h3>Recherche de dopamine</h3>
+      <p>Besoin constant de stimulation, de nouveauté, de rush. Sans dopamine, rien n'accroche. Je cherche l'excitation partout — nouveaux projets, risques, jeux, paris — pour me sentir vivant.</p>
+    </div>
+
+    <div class="theme-card">
+      <span class="icon">💸</span>
+      <h3>Dépenses impulsives & pertes</h3>
+      <p>Achats compulsifs, investissements risqués sans réflexion (crypto, trading). L'impulsivité TDAH pousse à chercher le gain rapide — et à accumuler les pertes. L'argent part aussi vite qu'il vient.</p>
+    </div>
+
+    <div class="theme-card">
+      <span class="icon">🍕</span>
+      <h3>Alimentation compulsive</h3>
+      <p>Grignotage impulsif, nourriture comme récompense dopamine, difficulté à résister aux cravings. Le cerveau TDAH réclame du sucre et du gras pour un shoot de dopamine rapide.</p>
+    </div>
+
+    <div class="theme-card">
+      <span class="icon">🍷</span>
+      <h3>Addictions & substances</h3>
+      <p>Alcool festif sans contrôle, tendance à l'auto-médication. Le cerveau TDAH cherche des stimulants pour compenser le déficit de dopamine — ce qui augmente le risque d'addictions en tout genre.</p>
+    </div>
+
+    <div class="theme-card">
+      <span class="icon">🔥</span>
+      <h3>Comportements sexuels à risque</h3>
+      <p>Impulsivité sexuelle, recherche de sensations fortes, rapports non protégés ou avec inconnus. La récompense immédiate prend le pas sur la raison, avec des conséquences assumées après coup.</p>
+    </div>
+
+    </div>
+    </section>
 
 <!-- ===== 4. EXEMPLES CONCRETS ===== -->
 <section id="exemples">
@@ -1910,11 +1954,10 @@ Règles :
 <script>
 (function(){
   'use strict';
-  const TICKER_MS = 5000;
   const TICKER_EL = document.getElementById('news-ticker');
   const LIST_EL = document.getElementById('news-list');
   const FILTERS = document.getElementById('news-filters');
-  let articles = [], tickerIdx = 0, timer = null, filter = 'all';
+  let articles = [], filter = 'all';
 
   async function loadNews(){
     try {
@@ -1931,20 +1974,28 @@ Règles :
   }
 
   function initTicker(arr){
-    if(!TICKER_EL) return;
-    if(!arr.length){ TICKER_EL.innerHTML = '<span class="news-banner-item active">Aucune actualité</span>'; return; }
-    TICKER_EL.innerHTML = arr.map((a,i) =>
-      '<span class="news-banner-item'+(i===0?' active':'')+'" data-idx="'+i+'">'+
-      (a.icon||'📰')+' <a href="'+esc(a.link)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a></span>'
-    ).join('');
-    tickerIdx = 0;
-    if(timer) clearInterval(timer);
-    timer = setInterval(function(){
-      var items = TICKER_EL.querySelectorAll('.news-banner-item');
-      items.forEach(function(el){ el.classList.remove('active'); });
-      tickerIdx = (tickerIdx+1) % items.length;
-      items[tickerIdx].classList.add('active');
-    }, TICKER_MS);
+    var track = document.getElementById('news-track');
+    if(!track) return;
+    if(!arr.length){ track.innerHTML = '<span class="news-track-item">Aucune actualité</span>'; return; }
+
+    // Build content: headline · headline · headline · (duplicate for seamless loop)
+    var html = arr.map(function(a,i){
+      return '<span class="news-track-item">'+
+        (a.icon||'📰')+' <a href="'+esc(a.link)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a>'+
+        '<span class="sep">·</span></span>';
+    }).join('');
+
+    // Duplicate for seamless loop
+    track.innerHTML = html + html;
+
+    // Measure and animate
+    var speed = 40; // px per second
+    var w = track.scrollWidth / 2; // width of one set
+    var duration = w / speed;
+
+    track.style.animation = 'none';
+    track.offsetHeight; // force reflow
+    track.style.animation = 'ticker-scroll '+duration+'s linear infinite';
   }
 
   function render(f){
