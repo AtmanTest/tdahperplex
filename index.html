@@ -136,7 +136,7 @@ nav .links a.active{animation:glow-pulse 2s ease-in-out infinite}
    3. LAYOUT
    ============================================ */
 .container{max-width:var(--max-w);margin:0 auto;padding:0 var(--sp)}
-section{padding:clamp(1rem,3vw,2.5rem) 0}
+section{padding:clamp(1rem,3vw,2.5rem) 0;position:relative;overflow:hidden}
 .section-label{
   display:inline-flex;align-items:center;gap:.4rem;
   font-size:.65rem;font-weight:800;text-transform:uppercase;
@@ -164,6 +164,9 @@ a{color:var(--accent);text-decoration:none}
 .hero{
   padding:clamp(2.5rem,7vw,5rem) 0 clamp(1.5rem,4vw,3rem);
   text-align:center;
+  position:relative;
+  overflow:hidden;
+}
 }
 .hero .badge{
   display:inline-block;font-size:.68rem;font-weight:600;
@@ -185,6 +188,26 @@ a{color:var(--accent);text-decoration:none}
 }
 .hero .meta span{padding:0 .6rem}
 .hero .meta span+span{border-left:1px solid var(--border)}
+
+/* ===== BACKGROUND IMAGES ===== */
+.hero::before{
+  content:'';position:absolute;inset:0;background-size:cover;background-position:center;
+  opacity:0;pointer-events:none;z-index:0;transition:opacity .4s;
+}
+.hero::before{background-image:url(images/hero-bg.png);opacity:.08}
+[data-theme="light"] .hero::before{opacity:.04}
+.hero>*{position:relative;z-index:1}
+
+/* Generic section background setup */
+section::before{
+  content:'';position:absolute;inset:0;background-size:cover;background-position:center;
+  opacity:0;pointer-events:none;z-index:0;transition:opacity .4s;
+}
+section>*{position:relative;z-index:1}
+#symptomes::before{background-image:url(images/puzzle-bg.png);opacity:.06}
+#synthese::before{background-image:url(images/brain-bg.png);opacity:.05}
+[data-theme="light"] #symptomes::before{opacity:.03}
+[data-theme="light"] #synthese::before{opacity:.03}
 
 /* ============================================
    5. CARDS
