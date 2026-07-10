@@ -21,7 +21,6 @@ var i18n = {
     "nav.60s": "60s",
     "nav.synthese": "Synthèse",
     "nav.dashboard": "Scores",
-    "nav.chat": "Chat",
     "nav.pdf": "PDF",
     "nav.planner": "Rdv",
     "nav.tracker": "Médic",
@@ -51,7 +50,6 @@ var i18n = {
     "sec.tableau": "Tableau de synthèse",
     "sec.tests": "Auto-évaluations",
     "sec.dashboard": "Tableau de bord",
-    "sec.chat": "Assistant TDAH",
     "sec.pdf": "Export PDF",
     "sec.planner": "Planificateur",
     "sec.tracker": "Suivi médicaments",
@@ -70,7 +68,6 @@ var i18n = {
     "h2.tableau": "Symptômes — Enfance — Adulte — Impact",
     "h2.tests": "Tests de diagnostic",
     "h2.dashboard": "Vue d'ensemble des scores",
-    "h2.chat": "Chat TDAH — Pose tes questions",
     "h2.pdf": "Générer un récapitulatif pour le psychiatre",
     "h2.planner": "Planifier mon parcours de soin",
     "h2.tracker": "Suivi médicamenteux quotidien",
@@ -288,7 +285,6 @@ var i18n = {
     "dashboard.intro": "Visualise l'ensemble de tes résultats en un coup d'œil. Renseigne les scores obtenus dans chaque test pour voir apparaître le radar.",
 
     /* ── CHAT ── */
-    "chat.intro": "Un assistant IA spécialisé dans le TDAH adulte. Pose-lui tes questions sur les symptômes, les traitements, les démarches. Gratuit (clé DeepSeek personnelle requise).",
 
     /* ── PDF ── */
     "pdf.intro": "Un document A4 imprimable avec tous tes scores, les seuils, et la liste des documents à apporter en consultation.",
@@ -327,7 +323,6 @@ var i18n = {
     "nav.60s": "60s",
     "nav.synthese": "Overview",
     "nav.dashboard": "Scores",
-    "nav.chat": "Chat",
     "nav.pdf": "PDF",
     "nav.planner": "Appts",
     "nav.tracker": "Meds",
@@ -357,7 +352,6 @@ var i18n = {
     "sec.tableau": "Summary Table",
     "sec.tests": "Self-Assessments",
     "sec.dashboard": "Dashboard",
-    "sec.chat": "ADHD Assistant",
     "sec.pdf": "PDF Export",
     "sec.planner": "Planner",
     "sec.tracker": "Medication",
@@ -376,7 +370,6 @@ var i18n = {
     "h2.tableau": "Symptoms — Childhood — Adult — Impact",
     "h2.tests": "Diagnostic Assessments",
     "h2.dashboard": "Score Overview",
-    "h2.chat": "ADHD Chat — Ask Your Questions",
     "h2.pdf": "Generate a Summary for Your Psychiatrist",
     "h2.planner": "Plan Your Care Journey",
     "h2.tracker": "Daily Medication Tracking",
@@ -593,7 +586,6 @@ var i18n = {
     "dashboard.intro": "View all your results at a glance. Enter the scores from each test to display the radar chart.",
 
     /* ── CHAT ── */
-    "chat.intro": "An AI assistant specialized in adult ADHD. Ask questions about symptoms, treatments, care pathways. Free (personal DeepSeek key required).",
 
     /* ── PDF ── */
     "pdf.intro": "A printable A4 document with all your scores, thresholds, and a checklist of documents to bring to your consultation.",

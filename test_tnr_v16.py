@@ -57,7 +57,7 @@ nav_count = h.count('<a href="#')
 if nav_count >= 17:
     ok(f"Nav: {nav_count} liens")
 else:
-    die(f"Nav: seulement {nav_count} liens (attendu ≥ 17)")
+    die(f"Nav: seulement {nav_count} liens (attendu ≥ 18)")
 
 # Script tags for 6 new features
 for script in ["dashboard.js", "chat.js", "pdf-print.js", "planner.js", "tracker.js", "testimonials.js"]:
