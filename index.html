@@ -136,13 +136,14 @@ nav .links a.active{animation:glow-pulse 2s ease-in-out infinite}
    3. LAYOUT
    ============================================ */
 .container{max-width:var(--max-w);margin:0 auto;padding:0 var(--sp)}
-section{padding:var(--sp-lg) 0}
+section{padding:clamp(1rem,3vw,2.5rem) 0}
 .section-label{
   display:inline-flex;align-items:center;gap:.4rem;
-  font-size:.6rem;font-weight:700;text-transform:uppercase;
-  letter-spacing:.08em;color:var(--accent);margin-bottom:.3rem;
-  background:var(--accent-light);padding:.2rem .6rem .2rem .55rem;
-  border-radius:20px;border:1px solid rgba(90,127,186,.15);
+  font-size:.65rem;font-weight:800;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--accent);margin-bottom:.4rem;
+  background:var(--accent-light);padding:.25rem .7rem .25rem .6rem;
+  border-radius:20px;border:1.5px solid rgba(90,127,186,.2);
+  box-shadow:0 1px 3px rgba(0,0,0,.04);
 }
 .section-label::before{
   content:'';display:inline-block;width:5px;height:5px;
@@ -888,7 +889,7 @@ section[id]>:first-child{margin-top:0}
     <div class="nav-left">
       <a href="#" class="logo" data-i18n="nav.logo" title="🏠 Accueil — retour en haut">🏠 Profil TDAH</a>
       <span class="logo-sub" data-i18n="nav.madeby">✦ Made by Tazou</span>
-      <span class="logo-version"><strong>v17</strong></span>
+      <span class="logo-version"><strong>v17a</strong></span>
     </div>
     <div class="nav-actions">
       <a href="#" id="lang-toggle" data-lang="fr" style="text-decoration:none;font-size:.85rem;display:inline-flex;align-items:center;gap:2px;padding:.2rem .45rem;border-radius:8px;background:var(--accent-soft);transition:background .2s;flex-shrink:0;color:var(--text)"><span data-lang-active="fr">🇫🇷</span><span style="opacity:.3">/</span><span data-lang-active="en" style="opacity:.35">🇬🇧</span></a>
@@ -1509,7 +1510,7 @@ section[id]>:first-child{margin-top:0}
 </section>
 
 <!-- ===== 9. TABLEAU DE SYNTHÈSE ===== -->
-<section id="tableau" id="synthese">
+<section id="synthese">
   <div class="section-label" data-i18n="sec.tableau">Tableau de synthèse</div>
   <h2 data-i18n="h2.tableau">Symptômes — Enfance — Adulte — Impact</h2>
   <div class="table-wrap">
@@ -1795,7 +1796,7 @@ section[id]>:first-child{margin-top:0}
 
 <script src="scripts/news-ticker.js"></script>
 
-/* ── Scroll Spy — active nav link on scroll ── */
+/* ── Scroll Spy (IntersectionObserver) ── */
 (function(){
   var navLinks = document.querySelectorAll('nav .links a');
   if(!navLinks.length) return;
@@ -1808,18 +1809,34 @@ section[id]>:first-child{margin-top:0}
     }
   });
   if(!sections.length) return;
-  function updateActive(){
-    var scrollY = window.scrollY + 100;
-    var active = null;
-    for(var i=sections.length-1; i>=0; i--){
-      var s = sections[i];
-      if(s.el.offsetTop <= scrollY){ active = s; break; }
-    }
+  var observer = new IntersectionObserver(function(entries){
+    var visible = [];
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        var idx = entry.target.getAttribute('data-section-idx');
+        if(idx !== null) visible.push(parseInt(idx));
+      }
+    });
+    if(!visible.length) return;
+    // Pick the first (topmost) visible section
+    var active = Math.min.apply(null, visible);
+    // Remove all active classes
     [].forEach.call(navLinks, function(l){ l.classList.remove('active'); });
-    if(active) active.link.classList.add('active');
-  }
-  window.addEventListener('scroll', updateActive, {passive:true});
-  updateActive();
+    // Add active to matching link
+    var s = sections[active];
+    if(s && s.link) s.link.classList.add('active');
+  }, { threshold: 0.2, rootMargin: '-60px 0px -40% 0px' });
+  // Store index on each section
+  sections.forEach(function(s, i){
+    s.el.setAttribute('data-section-idx', i);
+    observer.observe(s.el);
+  });
+  // Remove old scroll listener if any
+  if(window._oldScroll) window.removeEventListener('scroll', window._oldScroll);
+  // Cleanup attribute after initial run
+  setTimeout(function(){
+    sections.forEach(function(s){ s.el.removeAttribute('data-section-idx'); });
+  }, 1000);
 })();
 
 /* ── Theme Toggle ── */
