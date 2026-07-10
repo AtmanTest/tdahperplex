@@ -10,6 +10,7 @@ const i18n = {
 
     /* ── NAV ── */
     "nav.logo": "🏠 Profil TDAH",
+    "nav.madeby": "✦ Made by Tazou",
     "nav.resume": "Résumé",
     "nav.parcours": "Parcours",
     "nav.symptomes": "Symptômes",
@@ -276,6 +277,7 @@ const i18n = {
 
     /* ── NAV ── */
     "nav.logo": "🏠 ADHD Profile",
+    "nav.madeby": "✦ Made by Tazou",
     "nav.resume": "Summary",
     "nav.parcours": "Journey",
     "nav.symptomes": "Symptoms",

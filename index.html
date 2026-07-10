@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,6 +29,36 @@
   --sp:clamp(1rem,3vw,2rem);
   --sp-lg:clamp(2rem,5vw,4rem);
 }
+/* ===== DARK THEME (default) ===== */
+[data-theme="dark"]{
+  --bg:#0e0e1a;
+  --surface:#16162a;
+  --text:#e8e8f0;
+  --text-sec:#a0a0b8;
+  --text-light:#707088;
+  --accent:#5a7fba;
+  --accent-light:#1e1e3a;
+  --accent-soft:#2a2a4a;
+  --border:#2a2a44;
+  --shadow:0 1px 3px rgba(0,0,0,.15),0 4px 16px rgba(0,0,0,.2);
+  --shadow-hover:0 4px 20px rgba(0,0,0,.2),0 12px 40px rgba(0,0,0,.15);
+  --glow:0 0 20px rgba(90,127,186,.25);
+}
+/* ===== LIGHT THEME ===== */
+[data-theme="light"]{
+  --bg:#fafafa;
+  --surface:#fff;
+  --text:#1a1a2e;
+  --text-sec:#555571;
+  --text-light:#8888a0;
+  --accent:#3b5b8c;
+  --accent-light:#e8edf5;
+  --accent-soft:#d0dcee;
+  --border:#e2e4ea;
+  --shadow:0 1px 3px rgba(0,0,0,.04),0 4px 16px rgba(0,0,0,.04);
+  --shadow-hover:0 4px 20px rgba(0,0,0,.06),0 12px 40px rgba(0,0,0,.04);
+  --glow:0 0 20px rgba(59,91,140,.2);
+}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{
   font-family:var(--font);
@@ -45,25 +75,37 @@ body{
    ============================================ */
 nav{
   position:sticky;top:0;z-index:50;
-  background:rgba(250,250,250,.92);
+  background:hsla(240,40%,8%,.92);
   backdrop-filter:blur(14px);
   -webkit-backdrop-filter:blur(14px);
   border-bottom:1px solid var(--border);
 }
+[data-theme="light"] nav{background:hsla(0,0%,100%,.88)}
 nav .inner{
   max-width:var(--max-w);margin:0 auto;
-  display:flex;align-items:center;
-  padding:.5rem var(--sp);gap:.5rem;
+  display:flex;align-items:center;flex-wrap:wrap;
+  padding:.4rem var(--sp);gap:.3rem;
 }
+.nav-left{display:flex;align-items:baseline;gap:.4rem;flex-shrink:0}
 nav .logo{
   font-size:.85rem;font-weight:800;color:var(--accent);
   white-space:nowrap;flex-shrink:0;text-decoration:none;
   transition:opacity .2s;padding:.15rem 0;
 }
 nav .logo:hover{opacity:.7}
+.logo-sub{
+  font-size:.55rem;font-weight:400;color:var(--text-light);
+  letter-spacing:.04em;white-space:nowrap;
+}
+.nav-actions{display:flex;align-items:center;gap:.3rem;margin-left:auto}
 nav .links{
-  display:flex;flex-wrap:wrap;gap:.2rem;
-  flex:1;
+  display:flex;flex-wrap:wrap;gap:.15rem;
+  flex:1;order:3;width:100%;
+}
+@media(min-width:500px){
+  nav .inner{flex-wrap:nowrap;padding:.5rem var(--sp)}
+  .nav-actions{margin-left:0}
+  nav .links{order:0;width:auto;justify-content:flex-end}
 }
 nav .links a{
   font-size:.65rem;font-weight:500;color:var(--text-sec);text-decoration:none;
@@ -74,14 +116,15 @@ nav .links a{
 nav .links a:hover{background:var(--accent-light);color:var(--accent);font-weight:600}
 nav .links a.active{
   background:var(--accent);color:#fff;font-weight:700;
-  box-shadow:0 2px 8px rgba(59,91,140,.25);
+  box-shadow:0 2px 8px rgba(90,127,186,.3);
 }
-@keyframes glow-pulse{0%,100%{box-shadow:0 2px 8px rgba(59,91,140,.25)}50%{box-shadow:0 2px 16px rgba(59,91,140,.45)}}
+@keyframes glow-pulse{0%,100%{box-shadow:0 2px 8px rgba(90,127,186,.3)}50%{box-shadow:0 2px 16px rgba(90,127,186,.55)}}
 nav .links a.active{animation:glow-pulse 2s ease-in-out infinite}
 @media(max-width:500px){
-  nav .inner{flex-wrap:wrap;gap:.3rem}
+  nav .inner{flex-wrap:wrap;gap:.25rem}
   nav .links{order:3;width:100%;justify-content:center}
   nav .links a{font-size:.6rem;padding:.15rem .4rem}
+  .nav-actions{margin-left:auto}
 }
 
 /* ============================================
@@ -570,33 +613,36 @@ section[id]{scroll-margin-top:4rem}
    15. NEWS BANNER
    ============================================ */
 .news-banner{
-  background:rgba(180,215,245,.12);
+  background:linear-gradient(90deg,rgba(90,127,186,.06) 0%,rgba(90,127,186,.02) 100%);
   backdrop-filter:blur(10px);
   -webkit-backdrop-filter:blur(10px);
   color:var(--text);
-  padding:.45rem var(--sp);
+  padding:.4rem var(--sp);
   font-size:.75rem;
   overflow:hidden;
-  border-bottom:1px solid rgba(59,91,140,.1);
+  border-bottom:1px solid var(--border);
   transition:opacity .3s,height .3s;
+}
+[data-theme="light"] .news-banner{
+  background:linear-gradient(90deg,rgba(59,91,140,.05) 0%,rgba(59,91,140,.02) 100%);
 }
 .news-banner.hidden{opacity:0;height:0;padding:0;overflow:hidden}
 .news-banner .inner{
   max-width:var(--max-w);margin:0 auto;
-  display:flex;align-items:center;gap:.6rem;
+  display:flex;align-items:center;gap:.5rem;
 }
 .news-banner-label{
-  flex-shrink:0;font-weight:700;font-size:.6rem;
-  text-transform:uppercase;letter-spacing:.06em;
-  background:rgba(59,91,140,.1);
+  flex-shrink:0;font-weight:700;font-size:.55rem;
+  text-transform:uppercase;letter-spacing:.08em;
+  background:var(--accent-soft);
   color:var(--accent);
-  padding:.15rem .65rem .2rem;border-radius:10px;white-space:nowrap;
-  border:1px solid rgba(59,91,140,.12);
+  padding:.15rem .5rem .2rem;border-radius:6px;white-space:nowrap;
+  border:1px solid rgba(90,127,186,.1);
 }
 .news-banner-ticker{
-  flex:1;overflow:hidden;height:2.6rem;
-  position:relative;mask-image:linear-gradient(90deg,transparent 0,#000 2%,#000 98%,transparent 100%);
-  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 2%,#000 98%,transparent 100%);
+  flex:1;overflow:hidden;height:2.2rem;
+  position:relative;mask-image:linear-gradient(90deg,transparent 0,#000 3%,#000 97%,transparent 100%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 3%,#000 97%,transparent 100%);
 }
 .news-track{
   display:flex;white-space:nowrap;
@@ -605,15 +651,25 @@ section[id]{scroll-margin-top:4rem}
 .news-track-item{
   display:inline-flex;flex-direction:column;align-items:flex-start;gap:.05rem;
   padding:0 2.5rem 0 0;font-size:.7rem;line-height:1.25;opacity:.85;
-  min-width:300px;max-width:380px;
+  min-width:260px;max-width:340px;
 }
 .news-track-item .news-title{color:var(--text);font-weight:600;font-size:.72rem}
-.news-track-item .news-desc{font-size:.62rem;color:var(--text-sec);opacity:.7;white-space:normal;overflow:hidden;text-overflow:ellipsis;max-width:360px;line-height:1.2}
+.news-track-item .news-desc{font-size:.6rem;color:var(--text-sec);opacity:.65;white-space:normal;overflow:hidden;text-overflow:ellipsis;max-width:320px;line-height:1.15}
 .news-banner-more{
   flex-shrink:0;font-size:.65rem;
-  color:var(--accent);cursor:pointer;white-space:nowrap;opacity:.7;
+  color:var(--accent);cursor:pointer;white-space:nowrap;opacity:.6;text-decoration:none;
+  transition:opacity .2s;
 }
 .news-banner-more:hover{opacity:1}
+
+[data-theme="dark"] .news-banner-label{border-color:rgba(90,127,186,.15)}
+
+/* Dark mode overrides for test result cards */
+[data-theme="dark"] .caveat{background:#1e1e30;border-color:#2a2a44;color:var(--text)}
+[data-theme="dark"] .tr-pass{background:#0e2a1a;border-color:#1a4a2a;color:#7cc98a}
+[data-theme="dark"] .tr-fail{background:#2a1410;border-color:#4a2a20;color:#e88a7a}
+[data-theme="dark"] .tr-alert-card{background:#2a1410;border-color:#4a2a20;color:var(--text)}
+[data-theme="dark"] .tr-disclaimer{background:#1e1e30;border-color:#2a2a44;color:var(--text)}
 
 @keyframes ticker-scroll{
   0%{transform:translateX(0)}
@@ -674,10 +730,28 @@ section[id]{scroll-margin-top:4rem}
 }
 /* Chat disabled — no API key */
 #chat-toggle,#chat-overlay{display:none!important}
-.hero-cta:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(59,91,140,.4)!important}
-/* Hero CTA glow pulse */
-.hero-cta{animation:hero-glow 2.5s ease-in-out infinite}
-@keyframes hero-glow{0%,100%{box-shadow:0 4px 14px rgba(59,91,140,.3)}50%{box-shadow:0 4px 28px rgba(59,91,140,.55)}}
+.hero-cta:hover{transform:translateY(-2px);box-shadow:0 6px 25px rgba(59,91,140,.5)!important}
+/* Hero CTA glow pulse — plus fort */
+.hero-cta{
+  animation:hero-glow 2.5s ease-in-out infinite;
+  position:relative;
+}
+.hero-cta::after{
+  content:'→';display:inline-block;
+  margin-left:.45rem;font-weight:700;
+  animation:hero-arrow 1.2s ease-in-out infinite;
+}
+@keyframes hero-arrow{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+@keyframes hero-glow{
+  0%,100%{box-shadow:0 4px 14px rgba(59,91,140,.3),0 0 0 0 rgba(90,127,186,0)}
+  50%{box-shadow:0 4px 28px rgba(59,91,140,.55),0 0 0 6px rgba(90,127,186,.08)}}
+[data-theme="dark"] .hero-cta{
+  box-shadow:0 4px 14px rgba(90,127,186,.35),0 0 0 0 rgba(90,127,186,0);
+}
+[data-theme="dark"] .hero-cta:hover{box-shadow:0 6px 25px rgba(90,127,186,.6)!important}
+@keyframes hero-glow-dark{
+  0%,100%{box-shadow:0 4px 14px rgba(90,127,186,.35),0 0 0 0 rgba(90,127,186,0)}
+  50%{box-shadow:0 4px 28px rgba(90,127,186,.6),0 0 0 8px rgba(90,127,186,.1)}}
 #lang-toggle:hover{background:var(--accent-light)}
 </style>
 </head>
@@ -686,7 +760,14 @@ section[id]{scroll-margin-top:4rem}
 <!-- ===== NAVIGATION ===== -->
 <nav>
   <div class="inner">
-    <a href="#" class="logo" data-i18n="nav.logo" title="🏠 Accueil — retour en haut">🏠 Profil TDAH</a>
+    <div class="nav-left">
+      <a href="#" class="logo" data-i18n="nav.logo" title="🏠 Accueil — retour en haut">🏠 Profil TDAH</a>
+      <span class="logo-sub" data-i18n="nav.madeby">✦ Made by Tazou</span>
+    </div>
+    <div class="nav-actions">
+      <a href="#" id="lang-toggle" data-lang="fr" style="text-decoration:none;font-size:.85rem;display:inline-flex;align-items:center;gap:2px;padding:.2rem .45rem;border-radius:8px;background:var(--accent-soft);transition:background .2s;flex-shrink:0;color:var(--text)">🇫🇷<span style="opacity:.4">/</span>🇬🇧</a>
+      <button id="theme-toggle" aria-label="Basculer thème" style="background:var(--accent-soft);border:none;cursor:pointer;font-size:1rem;padding:.25rem .4rem;border-radius:8px;display:inline-flex;align-items:center;color:var(--text)">🌙</button>
+    </div>
     <div class="links">
       <a href="#resume" data-i18n="nav.resume">Résumé</a>
       <a href="#chronologie" data-i18n="nav.parcours">Parcours</a>
@@ -700,7 +781,6 @@ section[id]{scroll-margin-top:4rem}
       <a href="#actualites" data-i18n="nav.actualites">Actualités</a>
       <a href="#tests" data-i18n="nav.tests">Tests</a>
     </div>
-    <a href="#" id="lang-toggle" data-lang="fr" style="text-decoration:none;font-size:.85rem;padding:.1rem .35rem;border-radius:6px;transition:background .2s;flex-shrink:0">🇫🇷 <span style="opacity:.5">/</span> <span style="opacity:.4">🇬🇧</span></a>
   </div>
 </nav>
 
@@ -2030,7 +2110,7 @@ Règles :
     track.innerHTML = html + html;
 
     // Measure and animate
-    var speed = 50; // px per second
+    var speed = 80; // px per second
     var w = track.scrollWidth / 2; // width of one set
     var duration = w / speed;
 
@@ -2106,6 +2186,24 @@ Règles :
   }
   window.addEventListener('scroll', updateActive, {passive:true});
   updateActive();
+})();
+
+/* ── Theme Toggle ── */
+(function(){
+  var btn = document.getElementById('theme-toggle');
+  if(!btn) return;
+  // read from localStorage or default to dark
+  var theme = localStorage.getItem('tdah_theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', theme);
+  btn.textContent = theme === 'dark' ? '🌙' : '☀️';
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+    var cur = document.documentElement.getAttribute('data-theme') || 'dark';
+    var next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('tdah_theme', next);
+    btn.textContent = next === 'dark' ? '🌙' : '☀️';
+  });
 })();
 </script>
 

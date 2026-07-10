@@ -51,8 +51,8 @@
     var tog = document.getElementById(TOGGLE_ID);
     if(tog){
       tog.innerHTML = lang === 'fr'
-        ? '🇫🇷 <span style="opacity:.5">/</span> <span style="opacity:.4">🇬🇧</span>'
-        : '<span style="opacity:.4">🇫🇷</span> <span style="opacity:.5">/</span> 🇬🇧';
+        ? '🇫🇷<span style="opacity:.4">/</span>🇬🇧'
+        : '<span style="opacity:.4">🇫🇷</span><span style="opacity:.4">/</span>🇬🇧';
       tog.setAttribute('data-lang', lang);
     }
   }
