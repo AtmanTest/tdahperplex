@@ -65,16 +65,7 @@ function parseRSS(xml) {
       return m ? m[1].trim() : '';
     };
 
-    const title = extract('title')
-      .replace(/<[^>]*>/g, '')
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'")
-      .replace(/&#(\d+);/g, (m, d) => String.fromCharCode(d))
-      .trim()
-      .substring(0, 200);
+    const title = extract('title');
     const link = extract('link').replace(/&amp;/g, '&');
     const description = extract('description')
       .replace(/<[^>]*>/g, '')

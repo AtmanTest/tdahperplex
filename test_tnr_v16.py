@@ -190,8 +190,57 @@ if 'id="theme-toggle"' in h:
 else:
     die("Theme toggle button MANQUANT")
 
-# ── 7. NOJEYKLL ──
-print("\n🔧 7. GitHub Pages")
+# ── 7. NAV ORDER — matches section order ──
+print("\n🧭 7. Ordre Nav → Sections")
+# Expected nav→section mapping
+nav_map = [
+    ("resume","Résumé"),("chronologie","Parcours"),("symptomes","Symptômes"),
+    ("exemples","Exemples"),("impacts","Impacts"),("pourquoi","Analyse"),
+    ("dialogue","Consultation"),("tests","Tests"),("psychiatre","60s"),
+    ("synthese","Synthèse"),("dashboard","Scores"),("chat","Chat"),
+    ("pdf","PDF"),("planner","Rdv"),("tracker","Médic"),
+    ("community","Communauté"),("actualites","Actualités"),
+]
+nav_idx = []
+for sid, _ in nav_map:
+    if sid == "synthese":
+        # synthese shares section with tableau
+        check = 'id="synthese"' if 'id="synthese"' in h else 'id="tableau"'
+        idx = h.find(check)
+    else:
+        idx = h.find(f'id="{sid}"')
+    if idx >= 0:
+        nav_idx.append((idx, sid))
+    else:
+        die(f"Section #{sid} MANQUANTE dans HTML")
+nav_idx.sort()
+nav_order = [s for _, s in nav_idx]
+expected = [n[0] for n in nav_map]
+if nav_order == expected:
+    ok("Ordre HTML parfait: Résumé→Parcours→Symptômes→Exemples→Impacts→Analyse→Consultation→Tests→60s→Synthèse→Scores→Chat→PDF→Rdv→Médic→Communauté→Actualités")
+else:
+    for i, (got, exp) in enumerate(zip(nav_order, expected)):
+        if got != exp:
+            die(f"Position {i+1}: attendu #{exp}, trouvé #{got}")
+            break
+
+# ── 8. I18N — FR/EN toggle + synthese ──
+print("\n🌐 8. I18N & Navigation")
+if 'data-lang-active="fr"' in h:
+    ok("Toggle: data-lang-active=\"fr\" présent")
+else:
+    die("Toggle: data-lang-active=\"fr\" MANQUANT")
+if 'data-lang-active="en"' in h:
+    ok("Toggle: data-lang-active=\"en\" présent")
+else:
+    die("Toggle: data-lang-active=\"en\" MANQUANT")
+if 'id="synthese"' in h:
+    ok("#synthese (alias tableau) accessible")
+else:
+    die("#synthese MANQUANT")
+
+# ── 9. NOJEYKLL ──
+print("\n🔧 9. GitHub Pages")
 if os.path.isfile(os.path.join(BASE, ".nojekyll")):
     ok(".nojekyll présent")
 else:

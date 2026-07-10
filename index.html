@@ -133,8 +133,15 @@ nav .links a.active{animation:glow-pulse 2s ease-in-out infinite}
 .container{max-width:var(--max-w);margin:0 auto;padding:0 var(--sp)}
 section{padding:var(--sp-lg) 0}
 .section-label{
-  font-size:.68rem;font-weight:600;text-transform:uppercase;
-  letter-spacing:.06em;color:var(--accent);margin-bottom:.4rem;
+  display:inline-flex;align-items:center;gap:.4rem;
+  font-size:.6rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--accent);margin-bottom:.3rem;
+  background:var(--accent-light);padding:.2rem .6rem .2rem .55rem;
+  border-radius:20px;border:1px solid rgba(90,127,186,.15);
+}
+.section-label::before{
+  content:'';display:inline-block;width:5px;height:5px;
+  border-radius:50%;background:var(--accent);flex-shrink:0;
 }
 h2{
   font-size:clamp(1.35rem,3.5vw,1.8rem);font-weight:660;
@@ -882,16 +889,16 @@ section[id]{scroll-margin-top:4rem}
       <a href="#impacts" data-i18n="nav.impacts">Impacts</a>
       <a href="#pourquoi" data-i18n="nav.analyse">Analyse</a>
       <a href="#dialogue" data-i18n="nav.consultation">Consultation</a>
+      <a href="#tests" data-i18n="nav.tests">Tests</a>
       <a href="#psychiatre" data-i18n="nav.60s">60s</a>
       <a href="#synthese" data-i18n="nav.synthese">Synthèse</a>
       <a href="#dashboard" data-i18n="nav.dashboard">Scores</a>
-      <a href="#chat" data-i18n="nav.chat">Chat</a>
       <a href="#pdf" data-i18n="nav.pdf">PDF</a>
+      <a href="#chat" data-i18n="nav.chat">Chat</a>
       <a href="#planner" data-i18n="nav.planner">Rdv</a>
       <a href="#tracker" data-i18n="nav.tracker">Médic</a>
       <a href="#community" data-i18n="nav.community">Communauté</a>
       <a href="#actualites" data-i18n="nav.actualites">Actualités</a>
-      <a href="#tests" data-i18n="nav.tests">Tests</a>
     </div>
   </div>
 </nav>
@@ -1448,6 +1455,25 @@ section[id]{scroll-margin-top:4rem}
   </div>
 </section>
 
+<!-- ===== 9. TESTS DE DIAGNOSTIC ===== -->
+<section id="tests">
+  <div class="section-label" data-i18n="sec.tests">Auto-évaluations</div>
+  <h2 data-i18n="h2.tests">Tests de diagnostic</h2>
+  <p data-i18n="tests.intro">Questionnaires standardisés pour évaluer différents aspects de votre santé mentale. Une question à la fois, résultat immédiat, confidentiel (tout reste sur votre appareil).</p>
+  <div class="caveat" style="margin:1rem 0 1.5rem">
+    <h3 data-i18n="tests.warning.title">⚠ Important à savoir</h3>
+    <p data-i18n="tests.warning.desc">Ces questionnaires sont des <strong>outils de dépistage et de sensibilisation</strong>, pas des outils de diagnostic. Ils ne remplacent pas une évaluation par un professionnel de santé.</p>
+  </div>
+  <div id="test-container">
+    <div id="test-grid" class="test-grid">
+      <div style="text-align:center;padding:2rem;color:var(--text-light)">
+        <p>Chargement des tests disponibles...</p>
+      </div>
+    </div>
+  </div>
+  <div id="test-results"></div>
+</section>
+
 <!-- ===== 8. VERSION 60 SECONDES ===== -->
 <section id="psychiatre">
   <div class="section-label" data-i18n="sec.60s">Version courte</div>
@@ -1472,7 +1498,7 @@ section[id]{scroll-margin-top:4rem}
 </section>
 
 <!-- ===== 9. TABLEAU DE SYNTHÈSE ===== -->
-<section id="tableau">
+<section id="tableau" id="synthese">
   <div class="section-label" data-i18n="sec.tableau">Tableau de synthèse</div>
   <h2 data-i18n="h2.tableau">Symptômes — Enfance — Adulte — Impact</h2>
   <div class="table-wrap">
@@ -1567,40 +1593,6 @@ section[id]{scroll-margin-top:4rem}
   </div>
 </section>
 
-<!-- ===== 12. ACTUALITÉS TDAH ===== -->
-<section id="actualites">
-  <div class="section-label" data-i18n="sec.actualites">Actualités TDAH</div>
-  <h2 data-i18n="h2.actualites">Veille quotidienne</h2>
-  <p style="margin-bottom:1rem" data-i18n="news.desc">Articles récents issus de sources spécialisées (ADDitude, CHADD, Google News, TDAH France). Mise à jour automatique chaque jour via GitHub Actions.</p>
-  <div class="news-filters" id="news-filters">
-    <button class="news-filter-btn active" data-filter="all" data-i18n="news.filter.all">Toutes</button>
-    <button class="news-filter-btn" data-filter="FR" data-i18n="news.filter.fr">🇫🇷 Français</button>
-    <button class="news-filter-btn" data-filter="EN" data-i18n="news.filter.en">🇬🇧 English</button>
-  </div>
-  <div id="news-list" class="news-list">
-    <div class="news-loading" data-i18n="news.loading">⏳ Chargement des actualités…</div>
-  </div>
-</section>
-
-<!-- ===== 11. TESTS DE DIAGNOSTIC ===== -->
-<section id="tests">
-  <div class="section-label" data-i18n="sec.tests">Auto-évaluations</div>
-  <h2 data-i18n="h2.tests">Tests de diagnostic</h2>
-  <p data-i18n="tests.intro">Questionnaires standardisés pour évaluer différents aspects de votre santé mentale. Une question à la fois, résultat immédiat, confidentiel (tout reste sur votre appareil).</p>
-  <div class="caveat" style="margin:1rem 0 1.5rem">
-    <h3 data-i18n="tests.warning.title">⚠ Important à savoir</h3>
-    <p data-i18n="tests.warning.desc">Ces questionnaires sont des <strong>outils de dépistage et de sensibilisation</strong>, pas des outils de diagnostic. Ils ne remplacent pas une évaluation par un professionnel de santé.</p>
-  </div>
-  <div id="test-container">
-    <div id="test-grid" class="test-grid">
-      <div style="text-align:center;padding:2rem;color:var(--text-light)">
-        <p>Chargement des tests disponibles…</p>
-      </div>
-    </div>
-  </div>
-  <div id="test-results"></div>
-</section>
-
 <!-- ===== 12. DASHBOARD SCORES ===== -->
 <section id="dashboard">
   <div class="section-label" data-i18n="sec.dashboard">Tableau de bord</div>
@@ -1654,6 +1646,21 @@ section[id]{scroll-margin-top:4rem}
     <h3 data-i18n="community.testi_title" style="font-size:1rem;font-weight:600;margin-bottom:.3rem;color:var(--text)">💬 Témoignages</h3>
     <p data-i18n="community.testi_desc" style="font-size:.75rem;color:var(--text-sec);margin-bottom:.6rem">Partage ton expérience anonymement — ça aide d'autres personnes à se sentir moins seules.</p>
     <div id="testimonials-app"></div>
+  </div>
+</section>
+
+<!-- ===== ACTUALITÉS TDAH ===== -->
+<section id="actualites">
+  <div class="section-label" data-i18n="sec.actualites">Actualités TDAH</div>
+  <h2 data-i18n="h2.actualites">Veille quotidienne</h2>
+  <p style="margin-bottom:1rem" data-i18n="news.desc">Articles récents issus de sources spécialisées (ADDitude, CHADD, Google News, TDAH France). Mise à jour automatique chaque jour via GitHub Actions.</p>
+  <div class="news-filters" id="news-filters">
+    <button class="news-filter-btn active" data-filter="all" data-i18n="news.filter.all">Toutes</button>
+    <button class="news-filter-btn" data-filter="FR" data-i18n="news.filter.fr">🇫🇷 Français</button>
+    <button class="news-filter-btn" data-filter="EN" data-i18n="news.filter.en">🇬🇧 English</button>
+  </div>
+  <div id="news-list" class="news-list">
+    <div class="news-loading" data-i18n="news.loading">⏳ Chargement des actualités...</div>
   </div>
 </section>
 
@@ -2238,7 +2245,7 @@ Règles :
 })();
 </script>
 
-<script src="scripts/fetch-news.js"></script>
+<script src="scripts/news-ticker.js"></script>
 
 /* ── Scroll Spy — active nav link on scroll ── */
 (function(){
@@ -2285,8 +2292,6 @@ Règles :
   });
 })();
 </script>
-
-<script src="scripts/fetch-news.js"></script>
 
 <script src="scripts/dashboard.js"></script>
 <script src="scripts/chat.js"></script>
