@@ -1,0 +1,33 @@
+name: 📡 Veille TDAH — News quotidienne
+
+on:
+  schedule:
+    # Une fois par jour à 8h UTC (9h Paris / 10h Paris été)
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # Déclenchement manuel possible
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 📡 Fetch RSS news
+        run: node scripts/fetch-news.js
+
+      - name: 📝 Commit news.json
+        run: |
+          git config user.name "TDAH News Bot"
+          git config user.email "bot@tdah-profile.local"
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "✅ No new articles — skipping commit"
+          else
+            git commit -m "📡 news: mise à jour quotidienne $(date +%Y-%m-%d)"
+            git push
+            echo "✅ News updated and pushed"
+          fi
