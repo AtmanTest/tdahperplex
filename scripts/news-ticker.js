@@ -21,6 +21,12 @@
 
   async function loadNews(){
     try {
+      // Skip fetch when running from local file (no news.json)
+      if(location.protocol === 'file:'){
+        if(BANNER) BANNER.innerHTML = '<span style="color:var(--text-light);font-size:.75rem">Actualités TDAH</span>';
+        if(LIST_EL) LIST_EL.innerHTML = '<div class="news-loading">📡 Les actualités se chargent sur le site en ligne</div>';
+        return;
+      }
       const r = await fetch('news.json?_=' + Date.now());
       if(!r.ok) throw new Error('HTTP '+r.status);
       const d = await r.json();

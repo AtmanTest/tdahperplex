@@ -196,11 +196,6 @@ a{color:var(--accent);text-decoration:none}
   transition:box-shadow .3s;
 }
 .card:hover{box-shadow:var(--shadow-hover)}
-.card:last-child{margin-bottom:0}
-.card-grid{display:grid;grid-template-columns:1fr;gap:1rem}
-@media(min-width:640px){.card-grid{grid-template-columns:1fr 1fr}}
-.card-grid .card{margin-bottom:0}
-
 /* ============================================
    6. TIMELINE
    ============================================ */
@@ -220,428 +215,7 @@ a{color:var(--accent);text-decoration:none}
 }
 .timeline-item .age{
   font-size:.72rem;font-weight:600;color:var(--accent);
-  text-transform:uppercase;letter-spacing:.04em;margin-bottom:.1rem;
 }
-.timeline-item h3{font-size:.95rem;margin-bottom:.3rem}
-.timeline-item p{font-size:.88rem;margin-bottom:0}
-
-/* ============================================
-   7. THEME GRID
-   ============================================ */
-.theme-grid{display:grid;grid-template-columns:1fr;gap:.9rem}
-@media(min-width:640px){.theme-grid{grid-template-columns:1fr 1fr}}
-.theme-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:1.2rem 1.4rem;
-  transition:box-shadow .3s;
-}
-.theme-card:hover{box-shadow:var(--shadow-hover)}
-.theme-card .icon{font-size:1.3rem;margin-bottom:.3rem;display:block}
-.theme-card h3{font-size:.9rem;margin-bottom:.3rem}
-.theme-card p{font-size:.82rem;margin-bottom:0}
-
-/* ============================================
-   8. TABLE
-   ============================================ */
-.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-table{width:100%;border-collapse:collapse;font-size:.82rem;min-width:580px}
-thead th{
-  background:var(--accent-light);color:var(--text);font-weight:600;
-  text-align:left;padding:.7rem .75rem;
-  border-bottom:2px solid var(--accent-soft);white-space:nowrap;
-}
-tbody td{
-  padding:.6rem .75rem;border-bottom:1px solid var(--border);vertical-align:top;
-}
-tbody tr:hover{background:var(--accent-light)}
-tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
-
-/* ============================================
-   9. PULL QUOTES
-   ============================================ */
-.pull{
-  background:var(--accent-light);border-left:3px solid var(--accent);
-  border-radius:0 var(--radius-sm) var(--radius-sm) 0;
-  padding:1.2rem 1.5rem;margin:1.3rem 0;
-}
-.pull p:last-child{margin-bottom:0}
-
-/* ============================================
-   10. DIALOGUE
-   ============================================ */
-.dialogue{margin:1.5rem 0}
-.dlg-line{
-  display:flex;gap:.8rem;margin-bottom:1rem;
-  opacity:0;transform:translateY(8px);
-  animation:fadeIn .4s ease forwards;
-}
-.dlg-line:nth-child(1){animation-delay:.05s}
-.dlg-line:nth-child(2){animation-delay:.1s}
-.dlg-line:nth-child(3){animation-delay:.15s}
-.dlg-line:nth-child(4){animation-delay:.2s}
-.dlg-line:nth-child(5){animation-delay:.25s}
-.dlg-line:nth-child(6){animation-delay:.3s}
-.dlg-line:nth-child(7){animation-delay:.35s}
-.dlg-line:nth-child(8){animation-delay:.4s}
-.dlg-line:nth-child(9){animation-delay:.45s}
-.dlg-line:nth-child(10){animation-delay:.5s}
-.dlg-line:nth-child(11){animation-delay:.55s}
-.dlg-line:nth-child(12){animation-delay:.6s}
-.dlg-line:nth-child(13){animation-delay:.65s}
-.dlg-line:nth-child(14){animation-delay:.7s}
-.dlg-line:nth-child(15){animation-delay:.75s}
-.dlg-line:nth-child(16){animation-delay:.8s}
-.dlg-line:nth-child(17){animation-delay:.85s}
-.dlg-line:nth-child(18){animation-delay:.9s}
-.dlg-line:nth-child(19){animation-delay:.95s}
-.dlg-line:nth-child(20){animation-delay:1s}
-.dlg-line:nth-child(21){animation-delay:1.05s}
-.dlg-line:nth-child(22){animation-delay:1.1s}
-.dlg-line:nth-child(23){animation-delay:1.15s}
-.dlg-line:nth-child(24){animation-delay:1.2s}
-.dlg-line:nth-child(25){animation-delay:1.25s}
-.dlg-line:nth-child(26){animation-delay:1.3s}
-.dlg-line:nth-child(27){animation-delay:1.35s}
-.dlg-line:nth-child(28){animation-delay:1.4s}
-.dlg-line:nth-child(29){animation-delay:1.45s}
-.dlg-line:nth-child(30){animation-delay:1.5s}
-.dlg-line:nth-child(31){animation-delay:1.55s}
-.dlg-line:nth-child(32){animation-delay:1.6s}
-.dlg-line:nth-child(33){animation-delay:1.65s}
-.dlg-line:nth-child(34){animation-delay:1.7s}
-.dlg-line:nth-child(35){animation-delay:1.75s}
-.dlg-line:nth-child(36){animation-delay:1.8s}
-.dlg-line:nth-child(37){animation-delay:1.85s}
-.dlg-line:nth-child(38){animation-delay:1.9s}
-.dlg-line:nth-child(39){animation-delay:1.95s}
-.dlg-line:nth-child(40){animation-delay:2s}
-@keyframes fadeIn{to{opacity:1;transform:translateY(0)}}
-.dlg-speaker{
-  flex-shrink:0;font-size:.7rem;font-weight:700;
-  text-transform:uppercase;letter-spacing:.03em;
-  min-width:3.5rem;padding-top:.15rem;
-}
-.dlg-speaker.psy{color:var(--accent)}
-.dlg-speaker.pat{color:#6d8a6d}
-.dlg-text{
-  font-size:.92rem;line-height:1.6;color:var(--text-sec);
-  padding:.6rem 1rem;border-radius:var(--radius-sm);
-  background:var(--bg);max-width:85%;
-}
-.dlg-line.patient .dlg-text{background:var(--accent-light)}
-.dlg-line.psychiatrist .dlg-text{background:var(--surface);border:1px solid var(--border)}
-.dlg-stage{
-  text-align:center;font-size:.7rem;font-weight:600;
-  color:var(--text-light);text-transform:uppercase;
-  letter-spacing:.04em;padding:.6rem 0 .8rem;
-  position:relative;margin:1.2rem 0 .6rem;
-}
-.dlg-stage::before,.dlg-stage::after{
-  content:'';position:absolute;top:50%;height:1px;
-  background:var(--border);width:clamp(1rem,10%,3rem);
-}
-.dlg-stage::before{left:0}
-.dlg-stage::after{right:0}
-
-/* ============================================
-   11. CAVEAT
-   ============================================ */
-.caveat{
-  background:#fdf6ec;border:1px solid #f0dcc0;
-  border-radius:var(--radius);padding:1.5rem;margin-top:2rem;
-}
-.caveat h3{font-size:.92rem;color:#8b6f40;margin-bottom:.4rem}
-.caveat p{font-size:.85rem;color:#6b5a3a;margin-bottom:0}
-
-/* ============================================
-   12. FOOTER
-   ============================================ */
-footer{
-  text-align:center;padding:2rem var(--sp);
-  color:var(--text-light);font-size:.78rem;
-  border-top:1px solid var(--border);
-}
-
-/* ============================================
-   13. UTILITIES
-   ============================================ */
-section[id]{scroll-margin-top:4rem}
-[id^="sect-"]>[id],
-section[id]>:first-child{margin-top:0}
-/* Subtle section backgrounds — no padding/margin, just tint */
-#resume{background:var(--surface)}
-#chronologie{background:var(--bg)}
-#symptomes{background:var(--surface)}
-#exemples{background:var(--bg)}
-#impacts{background:var(--surface)}
-#pourquoi{background:var(--bg)}
-#dialogue{background:var(--surface)}
-#tests{background:var(--bg)}
-#psychiatre{background:var(--surface)}
-#tableau{background:var(--bg)}
-#dashboard{background:var(--surface)}
-#chat{background:var(--bg)}
-#pdf{background:var(--surface)}
-#planner{background:var(--bg)}
-#tracker{background:var(--surface)}
-#community{background:var(--bg)}
-#actualites{background:var(--surface)}
-.summary-block{font-size:.92rem;line-height:1.7}
-.sixty{
-  font-size:clamp(1rem,2vw,1.12rem);line-height:1.7;
-  font-style:italic;color:var(--text);
-}
-.sixty em{font-style:normal;color:var(--accent)}
-
-/* ============================================
-   14. TESTS DE DIAGNOSTIC — OVERLAY & COMPONENTS
-   ============================================ */
-
-/* --- Test cards (selection screen) --- */
-.test-grid{display:grid;grid-template-columns:1fr;gap:1rem}
-@media(min-width:540px){.test-grid{grid-template-columns:1fr 1fr}}
-
-.test-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:1.2rem 1.4rem;
-  cursor:pointer;transition:box-shadow .3s,transform .15s;
-  position:relative;overflow:hidden;
-}
-.test-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px)}
-.test-card-top{display:flex;align-items:flex-start;gap:.8rem;margin-bottom:.5rem}
-.test-card-icon{font-size:1.6rem;line-height:1;flex-shrink:0}
-.test-card-title{font-weight:600;font-size:.95rem;color:var(--text);margin-bottom:.15rem}
-.test-card-subtitle{font-size:.72rem;color:var(--text-light);margin-bottom:.25rem}
-.test-card-desc{font-size:.82rem;color:var(--text-sec);line-height:1.5;margin-bottom:.6rem}
-.test-card-meta{display:flex;gap:1rem;font-size:.72rem;color:var(--text-light)}
-.test-card-meta span{display:flex;align-items:center;gap:.3rem}
-.test-card-btn{
-  display:inline-flex;align-items:center;gap:.4rem;
-  margin-top:.6rem;padding:.4rem 1rem;
-  background:var(--accent);color:#fff;border:none;
-  border-radius:20px;font-size:.78rem;font-weight:500;
-  cursor:pointer;transition:background .2s,transform .1s;
-}
-.test-card-btn:hover{background:#2d4a72;transform:scale(1.03)}
-.test-card-btn:active{transform:scale(.97)}
-
-/* --- Test runner overlay --- */
-.tq-overlay{
-  position:fixed;inset:0;z-index:100;
-  background:rgba(0,0,0,.45);
-  display:flex;align-items:center;justify-content:center;
-  animation:tqFadeIn .2s ease;
-}
-@keyframes tqFadeIn{from{opacity:0}to{opacity:1}}
-
-.tq-modal{
-  background:var(--surface);border-radius:var(--radius);
-  width:90%;max-width:680px;max-height:90vh;
-  display:flex;flex-direction:column;
-  box-shadow:0 20px 60px rgba(0,0,0,.15);
-  animation:tqSlideIn .25s ease;
-}
-@keyframes tqSlideIn{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
-
-.tq-header{
-  display:flex;justify-content:space-between;align-items:center;
-  padding:1rem 1.4rem;border-bottom:1px solid var(--border);
-  flex-shrink:0;
-}
-.tq-title{font-size:.85rem;font-weight:600;color:var(--text)}
-.tq-subtitle{font-size:.72rem;color:var(--text-light);font-weight:400;margin-left:.5rem}
-.tq-close{
-  background:none;border:none;font-size:1.5rem;cursor:pointer;
-  color:var(--text-light);padding:.2rem .4rem;line-height:1;
-  border-radius:6px;transition:background .2s,color .2s;
-}
-.tq-close:hover{background:var(--border);color:var(--text)}
-
-.tq-progress-wrap{
-  display:flex;align-items:center;gap:.8rem;
-  padding:.6rem 1.4rem;flex-shrink:0;
-}
-.tq-progress-bar{flex:1;height:5px;background:var(--border);border-radius:3px;overflow:hidden}
-.tq-progress-fill{height:100%;background:var(--accent);border-radius:3px;transition:width .3s ease}
-.tq-progress-label{font-size:.68rem;color:var(--text-light);white-space:nowrap}
-
-.tq-section-label{
-  font-size:.65rem;font-weight:600;text-transform:uppercase;
-  letter-spacing:.04em;color:var(--accent);
-  padding:.3rem 1.4rem 0;flex-shrink:0;
-}
-
-.tq-body{
-  flex:1;overflow-y:auto;padding:1.4rem;
-  scroll-behavior:smooth;
-}
-.tq-question-num{
-  font-size:.65rem;font-weight:600;text-transform:uppercase;
-  letter-spacing:.06em;color:var(--accent);margin-bottom:.3rem;
-}
-.tq-question-text{
-  font-size:1.02rem;font-weight:500;line-height:1.6;
-  color:var(--text);margin-bottom:1.3rem;
-}
-
-/* --- Options --- */
-.tq-opts{display:flex;flex-direction:column;gap:.55rem}
-.tq-opts-3{flex-direction:row;flex-wrap:wrap;gap:.4rem}
-.tq-opts-3 .tq-opt{flex:1;min-width:80px;text-align:center}
-
-.tq-opt{
-  display:flex;align-items:center;gap:.6rem;
-  padding:.7rem 1rem;border:1.5px solid var(--border);
-  border-radius:var(--radius-sm);cursor:pointer;
-  transition:border-color .2s,background .2s,box-shadow .2s;
-  background:var(--bg);
-}
-.tq-opt:hover{border-color:var(--accent-soft);background:var(--accent-light)}
-.tq-opt.selected{
-  border-color:var(--accent);background:var(--accent-light);
-  box-shadow:0 0 0 1px var(--accent);
-}
-.tq-opt input[type="radio"]{opacity:0;position:absolute;width:0;height:0}
-.tq-opt-num{
-  flex-shrink:0;width:22px;height:22px;
-  display:flex;align-items:center;justify-content:center;
-  border-radius:50%;background:var(--accent-soft);
-  font-size:.7rem;font-weight:600;color:var(--accent);
-}
-.tq-opt.selected .tq-opt-num{background:var(--accent);color:#fff}
-.tq-opt-text{font-size:.88rem;color:var(--text-sec)}
-.tq-opt-sm{padding:.45rem .6rem}
-.tq-opt-sm .tq-opt-text{font-size:.78rem}
-
-/* --- Sub-items for borderline --- */
-.tq-subitem{margin-bottom:1rem;padding-bottom:.8rem;border-bottom:1px solid var(--border)}
-.tq-subitem:last-child{border-bottom:none;margin-bottom:0}
-.tq-subitem-text{font-size:.9rem;color:var(--text);margin-bottom:.5rem;line-height:1.5}
-
-/* --- Error shake --- */
-.tq-error .tq-opt{border-color:#e74c3c!important;animation:tqShake .4s ease}
-@keyframes tqShake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
-
-/* --- Footer / nav --- */
-.tq-footer{
-  padding:.8rem 1.4rem;border-top:1px solid var(--border);
-  flex-shrink:0;
-}
-.tq-nav{display:flex;justify-content:space-between;align-items:center}
-.tq-btn{
-  padding:.55rem 1.3rem;border:none;border-radius:20px;
-  font-size:.82rem;font-weight:500;cursor:pointer;
-  transition:background .2s,transform .1s;
-}
-.tq-btn:active{transform:scale(.97)}
-.tq-btn-primary{background:var(--accent);color:#fff}
-.tq-btn-primary:hover{background:#2d4a72}
-.tq-btn-secondary{background:var(--border);color:var(--text-sec)}
-.tq-btn-secondary:hover{background:#d0d0da}
-.tq-btn-success{background:#2e7d5e;color:#fff}
-.tq-btn-success:hover{background:#23664b}
-
-/* --- Results display --- */
-.tr-results{padding:var(--sp) 0;max-width:var(--max-w);margin:0 auto}
-.tr-header{margin-bottom:1.3rem}
-.tr-header-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:.3rem}
-.tr-badge{
-  font-size:.68rem;font-weight:600;text-transform:uppercase;
-  letter-spacing:.04em;color:var(--accent);background:var(--accent-light);
-  padding:.2rem .7rem;border-radius:12px;
-}
-.tr-date{font-size:.72rem;color:var(--text-light)}
-.tr-title{font-size:1.3rem;font-weight:660;margin:0}
-.tr-score-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:1.3rem 1.5rem;
-  margin-bottom:1.2rem;
-}
-.tr-score-main{display:flex;align-items:baseline;gap:.6rem;margin-bottom:.8rem}
-.tr-score-number{font-size:2.5rem;font-weight:700;letter-spacing:-.03em;line-height:1}
-.tr-score-max{font-size:1.1rem;font-weight:400;opacity:.5}
-.tr-score-label{font-size:.88rem;font-weight:500}
-.tr-score-bar-wrap{display:flex;align-items:center;gap:.6rem}
-.tr-score-bar{flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden}
-.tr-score-fill{height:100%;border-radius:4px;transition:width .6s ease}
-.tr-score-percent{font-size:.78rem;color:var(--text-light);min-width:35px;text-align:right}
-
-/* Thresholds */
-.tr-section{margin-bottom:1.2rem}
-.tr-section-title{font-size:.88rem;font-weight:600;margin-bottom:.5rem;color:var(--text)}
-.tr-threshold-card{
-  display:flex;align-items:flex-start;gap:.6rem;
-  padding:.65rem .9rem;border-radius:var(--radius-sm);
-  margin-bottom:.35rem;font-size:.82rem;line-height:1.4;
-}
-.tr-pass{background:#eaf7ee;border:1px solid #c8e6d1;color:#2d6a4a}
-.tr-fail{background:#fef3f0;border:1px solid #f5d6ce;color:#8a3f30}
-.tr-threshold-icon{font-weight:700;font-size:1rem}
-.tr-threshold-desc{font-size:.78rem;opacity:.8;margin-top:.1rem}
-
-/* Bar chart */
-.tr-bars{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1rem}
-.tr-bar-item{display:flex;align-items:center;gap:.6rem}
-.tr-bar-label{font-size:.78rem;color:var(--text-sec);min-width:110px;flex-shrink:0}
-.tr-bar-track{flex:1;height:10px;background:var(--border);border-radius:5px;overflow:hidden}
-.tr-bar-fill{height:100%;border-radius:5px;transition:width .5s ease}
-.tr-bar-value{font-size:.78rem;color:var(--text-light);min-width:40px;text-align:right}
-
-/* Radar */
-.tr-chart-wrap{display:flex;justify-content:center;margin:.5rem 0}
-
-/* Interpretation */
-.tr-interp-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:1.2rem 1.4rem;
-  font-size:.9rem;line-height:1.7;color:var(--text-sec);
-}
-.tr-reco{margin-top:.5rem;padding-top:.5rem;border-top:1px solid var(--border)}
-
-/* Alerts */
-.tr-alert-title{color:#b85a42}
-.tr-alert-card{
-  background:#fef3f0;border:1px solid #f5d6ce;
-  border-radius:var(--radius-sm);padding:.8rem 1rem;
-  margin-bottom:.4rem;font-size:.85rem;line-height:1.5;
-}
-
-/* Disclaimer */
-.tr-disclaimer{
-  background:#fdf6ec;border:1px solid #f0dcc0;
-  border-radius:var(--radius);padding:1.2rem 1.4rem;
-  margin-bottom:1.2rem;font-size:.82rem;line-height:1.6;color:#6b5a3a;
-}
-.tr-disclaimer strong{display:block;margin-bottom:.3rem;color:#8b6f40}
-.tr-urgent{color:#b85a42;font-weight:500;margin-top:.4rem}
-
-/* Actions */
-.tr-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
-.tr-actions .tq-btn{font-size:.8rem}
-
-/* History */
-.tr-history{display:flex;flex-direction:column;gap:.3rem}
-.tr-history-item{
-  display:flex;align-items:center;gap:.6rem;
-  padding:.5rem .7rem;background:var(--bg);
-  border-radius:var(--radius-sm);font-size:.78rem;
-}
-.tr-h-date{color:var(--text-light);min-width:80px}
-.tr-h-score{font-weight:600;min-width:50px}
-.tr-h-label{color:var(--text-sec);flex:1}
-.tr-h-badge{
-  font-size:.6rem;font-weight:600;text-transform:uppercase;
-  background:var(--accent-light);color:var(--accent);
-  padding:.1rem .4rem;border-radius:8px;
-}
-
-/* Error message */
-.tq-error-msg{
-  text-align:center;padding:2rem;
-  color:#b85a42;font-size:.9rem;
-}
-.tq-error-msg .tq-btn{margin-top:.8rem}
-
 /* ============================================
    15. NEWS BANNER
    ============================================ */
@@ -684,14 +258,6 @@ section[id]>:first-child{margin-top:0}
 .news-banner-more:hover{opacity:1}
 
 [data-theme="dark"] .news-banner-label{border-color:rgba(90,127,186,.15)}
-
-/* Dark mode overrides for test result cards */
-[data-theme="dark"] .caveat{background:#1e1e30;border-color:#2a2a44;color:var(--text)}
-[data-theme="dark"] .tr-pass{background:#0e2a1a;border-color:#1a4a2a;color:#7cc98a}
-[data-theme="dark"] .tr-fail{background:#2a1410;border-color:#4a2a20;color:#e88a7a}
-[data-theme="dark"] .tr-alert-card{background:#2a1410;border-color:#4a2a20;color:var(--text)}
-[data-theme="dark"] .tr-disclaimer{background:#1e1e30;border-color:#2a2a44;color:var(--text)}
-
 @keyframes ticker-scroll{
   0%{transform:translateX(0)}
   100%{transform:translateX(-50%)}
@@ -739,17 +305,7 @@ section[id]>:first-child{margin-top:0}
 }
 .news-card-domain{font-size:.62rem;color:var(--text-light)}
 .news-loading{text-align:center;padding:2rem;color:var(--text-light);font-size:.85rem}
-.news-error{text-align:center;padding:1.5rem;color:#b85a42;font-size:.82rem}
-
-/* Print styles */
-@media print{
-  nav,footer,.tq-overlay{display:none!important}
-  .tq-overlay{position:static;background:none}
-  .tq-modal{max-height:none;box-shadow:none;border:1px solid #ddd}
-  .tr-results{padding:0}
-  .tq-btn{display:none!important}
-}
-/* Chat disabled */
+.news-error{text-align:center;padding:1.5rem;color:#b85a42;font-size:.82rem}/* Chat disabled */
 .hero-cta:hover{transform:translateY(-2px);box-shadow:0 6px 25px rgba(59,91,140,.5)!important}
 /* Hero CTA glow pulse — plus fort */
 .hero-cta{
@@ -762,123 +318,41 @@ section[id]>:first-child{margin-top:0}
   animation:hero-arrow 1.2s ease-in-out infinite;
 }
 @keyframes hero-arrow{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
-@keyframes hero-glow{
-  0%,100%{box-shadow:0 4px 14px rgba(59,91,140,.3),0 0 0 0 rgba(90,127,186,0)}
-  50%{box-shadow:0 4px 28px rgba(59,91,140,.55),0 0 0 6px rgba(90,127,186,.08)}}
-[data-theme="dark"] .hero-cta{
-  box-shadow:0 4px 14px rgba(90,127,186,.35),0 0 0 0 rgba(90,127,186,0);
-}
-[data-theme="dark"] .hero-cta:hover{box-shadow:0 6px 25px rgba(90,127,186,.6)!important}
-@keyframes hero-glow-dark{
-  0%,100%{box-shadow:0 4px 14px rgba(90,127,186,.35),0 0 0 0 rgba(90,127,186,0)}
-  50%{box-shadow:0 4px 28px rgba(90,127,186,.6),0 0 0 8px rgba(90,127,186,.1)}}
-#lang-toggle:hover{background:var(--accent-light)}
+@keyframes hero-glow{0%,100%{box-shadow:0 4px 14px rgba(59,91,140,.3),0 0 0 0 rgba(90,127,186,0)}50%{box-shadow:0 4px 28px rgba(59,91,140,.55),0 0 0 6px rgba(90,127,186,.08)}}
+[data-theme="light"] .hero-cta{box-shadow:0 4px 14px rgba(59,91,140,.3)}
+[data-theme="dark"] .hero-cta{box-shadow:0 4px 28px rgba(59,91,140,.55),0 0 0 6px rgba(90,127,186,.08)}
 
-/* ═══════════════════════════════════════
-   FEATURE: Dashboard scores
-   ═══════════════════════════════════════ */
-.dash-card input[type="number"]:focus{outline:none;border-color:var(--accent)!important;box-shadow:0 0 0 2px rgba(90,127,186,.15)}
-.dash-card input[type="number"]::-webkit-inner-spin-button{opacity:.4}
+/* ── synthese table ── */
+.table-wrap{width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-wrap table{width:100%;border-collapse:collapse;font-size:.82rem}
+.table-wrap th,.table-wrap td{padding:.5rem .4rem;text-align:left;border-bottom:1px solid var(--border);vertical-align:top}
+.table-wrap th{font-weight:600;color:var(--accent);font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}
+.table-wrap td{font-size:.78rem}
 
-/* ═══════════════════════════════════════
-   FEATURE: Planner rendez-vous
-   ═══════════════════════════════════════ */
-.planner-progress{display:flex;align-items:center;gap:.6rem;margin-bottom:1.2rem}
-.planner-bar{flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden}
-.planner-bar-fill{height:100%;background:var(--accent);border-radius:4px;transition:width .5s ease}
-.planner-pct{font-size:.75rem;font-weight:600;color:var(--accent);min-width:2.4rem;text-align:right}
-.planner-milestones{display:flex;flex-direction:column;gap:.5rem}
-.planner-milestone{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
-.planner-m-top{display:flex;align-items:center;gap:.6rem;padding:.65rem .9rem;cursor:pointer;-webkit-user-select:none;user-select:none}
-.planner-m-check{width:18px;height:18px;border:2px solid var(--border);border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;font-size:.6rem;background:transparent}
-.planner-m-check.done{background:var(--accent);border-color:var(--accent);color:#fff}
-.planner-m-title{flex:1;font-size:.82rem;font-weight:500;color:var(--text)}
-.planner-m-title.done{text-decoration:line-through;opacity:.55}
-.planner-m-toggle{font-size:.6rem;color:var(--text-light);transition:transform .2s;cursor:pointer}
-.planner-m-toggle.open{transform:rotate(90deg)}
-.planner-details{padding:0 .9rem .65rem;display:none}
-.planner-details.open{display:block}
-.planner-desc{font-size:.72rem;color:var(--text-sec);line-height:1.5;margin-bottom:.5rem}
-.planner-notes{width:100%;padding:.45rem .6rem;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text);font-size:.72rem;font-family:var(--font);resize:vertical;min-height:40px}
-.planner-checklist{margin-top:1.2rem}
-.planner-checklist h4{font-size:.8rem;font-weight:600;color:var(--text);margin-bottom:.5rem}
-.planner-c-item{display:flex;align-items:center;gap:.45rem;padding:.25rem 0}
-.planner-c-item input[type="checkbox"]{accent-color:var(--accent);cursor:pointer}
-.planner-c-item label{font-size:.75rem;color:var(--text-sec);cursor:pointer}
-.planner-reset{margin-top:.8rem;padding:.3rem .7rem;font-size:.68rem;background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--text-light);cursor:pointer;font-family:var(--font)}
+/* ── theme grid ── */
+.theme-grid{display:grid;grid-template-columns:1fr;gap:.9rem}
+@media(min-width:640px){.theme-grid{grid-template-columns:1fr 1fr}}
+.theme-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.4rem;transition:box-shadow .3s}
+.theme-card:hover{box-shadow:var(--shadow-hover)}
+.theme-card .icon{font-size:1.3rem;margin-bottom:.3rem;display:block}
+.theme-card h3{font-size:.9rem;margin-bottom:.3rem}
+.theme-card p{font-size:.82rem;margin-bottom:0}
 
-/* ═══════════════════════════════════════
-   FEATURE: Daily Tracker
-   ═══════════════════════════════════════ */
-.tracker-today{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;margin-bottom:1rem}
-.tracker-today h3{font-size:.9rem;font-weight:600;margin-bottom:.7rem;color:var(--text)}
-.tracker-field{margin-bottom:.6rem}
-.tracker-field label{display:block;font-size:.68rem;font-weight:500;color:var(--text-sec);margin-bottom:.2rem}
-.tracker-field select,.tracker-field input{width:100%;padding:.4rem .5rem;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text);font-size:.78rem;font-family:var(--font)}
-.tracker-field select:focus,.tracker-field input:focus{outline:none;border-color:var(--accent)}
-.tracker-field-inline{display:flex;gap:.5rem;align-items:center}
-.tracker-field-inline input{width:80px!important}
-.tracker-checkboxes{display:flex;flex-wrap:wrap;gap:.35rem;margin:.3rem 0}
-.tracker-cb-label{display:flex;align-items:center;gap:.25rem;font-size:.68rem;color:var(--text-sec);cursor:pointer;padding:.15rem .4rem;border:1px solid var(--border);border-radius:12px;transition:all .15s}
-.tracker-cb-label:hover{border-color:var(--accent);color:var(--accent)}
-.tracker-cb-label input{accent-color:var(--accent)}
-.tracker-btn{padding:.4rem 1rem;background:var(--accent);color:#fff;border:none;border-radius:8px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:var(--font)}
-.tracker-btn-del{background:transparent;border:1px solid rgba(200,80,60,.3);color:#c85a3c;padding:.3rem .6rem;border-radius:6px;font-size:.68rem;cursor:pointer;font-family:var(--font)}
-.tracker-heatmap{display:flex;gap:.3rem;margin-bottom:.6rem;flex-wrap:wrap}
-.tracker-h-cell{width:36px;height:36px;border-radius:6px;background:var(--border);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.5rem;color:var(--text-light);transition:all .15s;position:relative}
-.tracker-h-cell.has-data{background:rgba(80,160,80,.35)}
-.tracker-h-cell.has-active{background:rgba(80,160,80,.55)}
-.tracker-h-cell.today{border:1.5px solid var(--accent)}
-.tracker-h-cell .th-day{position:absolute;top:-12px;font-size:.45rem;color:var(--text-light)}
-.tracker-hist{padding:.5rem 0}
-.tracker-day{border-left:2px solid var(--border);padding:.35rem .6rem;margin-bottom:.4rem;font-size:.75rem}
-.tracker-day.has-entry{border-left-color:rgba(80,160,80,.4)}
-.tracker-day-header{font-weight:600;color:var(--text);margin-bottom:.15rem}
-.tracker-day-detail{color:var(--text-sec);font-size:.7rem;line-height:1.4}
-.tracker-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.5rem;margin-bottom:1rem}
-.tracker-stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.6rem .8rem}
-.tracker-stat-label{font-size:.6rem;color:var(--text-light);text-transform:uppercase;letter-spacing:.05em}
-.tracker-stat-value{font-size:1.1rem;font-weight:700;color:var(--text);margin-top:.1rem}
-.tracker-badge{font-size:.6rem;padding:.05rem .35rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);margin-right:.2rem;display:inline-block}
+/* ── card grid ── */
+.card-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.card-grid{grid-template-columns:1fr 1fr}}
+.card-grid .card{margin-bottom:0}
+.card:last-child{margin-bottom:0}
 
-/* ═══════════════════════════════════════
-   FEATURE: FAQ + Témoignages
-   ═══════════════════════════════════════ */
-.faq-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:.4rem;overflow:hidden}
-.faq-q{display:flex;align-items:center;gap:.5rem;padding:.7rem .9rem;cursor:pointer;-webkit-user-select:none;user-select:none;font-size:.82rem;font-weight:500;color:var(--text);transition:background .15s}
-.faq-q:hover{background:var(--accent-light)}
-.faq-q-icon{flex-shrink:0;font-size:.6rem;color:var(--text-light);transition:transform .2s;width:14px;text-align:center}
-.faq-q-icon.open{transform:rotate(90deg)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease;padding:0 .9rem;font-size:.74rem;color:var(--text-sec);line-height:1.55}
-.faq-a.open{max-height:400px;padding:0 .9rem .7rem}
-.testi-list{display:flex;flex-direction:column;gap:.5rem;max-height:400px;overflow-y:auto}
-.testi-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:.7rem .9rem}
-.testi-header{display:flex;align-items:center;gap:.4rem;margin-bottom:.3rem}
-.testi-avatar{font-size:1rem}
-.testi-pseudo{font-size:.72rem;font-weight:600;color:var(--text)}
-.testi-date{font-size:.6rem;color:var(--text-light);margin-left:auto}
-.testi-badge{font-size:.55rem;padding:.05rem .35rem;border-radius:4px;background:var(--accent-soft);color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
-.testi-text{font-size:.75rem;color:var(--text-sec);line-height:1.45;margin-top:.2rem}
-.testi-del{background:transparent;border:none;cursor:pointer;font-size:.55rem;color:var(--text-light);padding:.1rem .3rem;margin-top:.15rem;font-family:var(--font)}
-.testi-del:hover{color:#c85a3c}
-.testi-empty{font-size:.75rem;color:var(--text-light);text-align:center;padding:1rem}
-.testi-form{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.9rem;margin-bottom:.8rem}
-.testi-form h4{font-size:.8rem;font-weight:600;margin-bottom:.5rem;color:var(--text)}
-.testi-form-field{margin-bottom:.5rem}
-.testi-form-field label{font-size:.65rem;color:var(--text-sec);display:block;margin-bottom:.15rem}
-.testi-form-field input,.testi-form-field select,.testi-form-field textarea{width:100%;padding:.4rem .5rem;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text);font-size:.78rem;font-family:var(--font)}
-.testi-form-field textarea{resize:vertical;min-height:70px}
-.testi-form-field input:focus,.testi-form-field select:focus,.testi-form-field textarea:focus{outline:none;border-color:var(--accent)}
-.testi-counter{font-size:.55rem;color:var(--text-light);text-align:right}
-.testi-error{font-size:.65rem;color:#c85a3c;margin-bottom:.3rem;display:none}
-.testi-error.show{display:block}
+/* ── pull quote ── */
+.pull{font-size:1rem;font-style:italic;color:var(--text-sec);padding:1rem 0;margin:1rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);line-height:1.5}
 
-/* ═══════════════════════════════════════
-   FEATURE: PDF print btn
-   ═══════════════════════════════════════ */
-.pdf-btn-wrap{text-align:center;margin-top:1rem}
-.pdf-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.3rem;background:var(--accent);color:#fff;border:none;border-radius:40px;font-weight:600;font-size:.85rem;cursor:pointer;text-decoration:none;font-family:var(--font);transition:transform .15s,box-shadow .15s}
-.pdf-btn:hover{transform:translateY(-1px);box-shadow:0 3px 12px rgba(90,127,186,.3)}
+/* ── table ── */
+table{width:100%;border-collapse:collapse;font-size:.82rem;min-width:580px}
+thead th{background:var(--accent-light);color:var(--text);font-weight:600;text-align:left;padding:.7rem .75rem;border-bottom:2px solid var(--accent-soft);white-space:nowrap}
+tbody td{padding:.6rem .75rem;border-bottom:1px solid var(--border);vertical-align:top}
+tbody tr:hover{background:var(--accent-light)}
+tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 </style>
 </head>
 <body>
@@ -889,7 +363,7 @@ section[id]>:first-child{margin-top:0}
     <div class="nav-left">
       <a href="#" class="logo" data-i18n="nav.logo" title="🏠 Accueil — retour en haut">🏠 Profil TDAH</a>
       <span class="logo-sub" data-i18n="nav.madeby">✦ Made by Tazou</span>
-      <span class="logo-version"><strong>v17a</strong></span>
+      <span class="logo-version"><strong>v17b</strong></span>
     </div>
     <div class="nav-actions">
       <a href="#" id="lang-toggle" data-lang="fr" style="text-decoration:none;font-size:.85rem;display:inline-flex;align-items:center;gap:2px;padding:.2rem .45rem;border-radius:8px;background:var(--accent-soft);transition:background .2s;flex-shrink:0;color:var(--text)"><span data-lang-active="fr">🇫🇷</span><span style="opacity:.3">/</span><span data-lang-active="en" style="opacity:.35">🇬🇧</span></a>
@@ -902,16 +376,11 @@ section[id]>:first-child{margin-top:0}
       <a href="#exemples" data-i18n="nav.exemples">Exemples</a>
       <a href="#impacts" data-i18n="nav.impacts">Impacts</a>
       <a href="#pourquoi" data-i18n="nav.analyse">Analyse</a>
-      <a href="#dialogue" data-i18n="nav.consultation">Consultation</a>
-      <a href="#tests" data-i18n="nav.tests">Tests</a>
-      <a href="#psychiatre" data-i18n="nav.60s">60s</a>
+
       <a href="#synthese" data-i18n="nav.synthese">Synthèse</a>
-      <a href="#dashboard" data-i18n="nav.dashboard">Scores</a>
-      <a href="#pdf" data-i18n="nav.pdf">PDF</a>
+
+
       
-      <a href="#planner" data-i18n="nav.planner">Rdv</a>
-      <a href="#tracker" data-i18n="nav.tracker">Médic</a>
-      <a href="#community" data-i18n="nav.community">Communauté</a>
       <a href="#actualites" data-i18n="nav.actualites">Actualités</a>
     </div>
   </div>
@@ -942,9 +411,7 @@ section[id]>:first-child{margin-top:0}
     <span data-i18n="hero.meta2">Secteur : Tech / QA / Freelance</span>
     <span data-i18n="hero.meta3">Plainte initiale : Brouillard mental, procrastination, épuisement</span>
   </div>
-  <!-- Hero CTA to tests -->
-  <a href="#tests" class="hero-cta" style="display:inline-block;margin-top:1.8rem;padding:.75rem 1.8rem;background:var(--accent);color:#fff;border-radius:40px;font-weight:600;font-size:.95rem;text-decoration:none;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 14px rgba(59,91,140,.3)">
-    <span data-i18n="hero.cta">Commencer les auto-évaluations →</span>
+      <span data-i18n="hero.cta">Commencer les auto-évaluations →</span>
     <br><span style="display:inline-block;margin-top:.15rem;font-size:.7rem;font-weight:400;opacity:.8" data-i18n="hero.cta2">5 tests diagnostiques standardisés</span>
   </a>
 </section>
@@ -1247,268 +714,6 @@ section[id]>:first-child{margin-top:0}
   </div>
 </section>
 
-<!-- ===== 7. DIALOGUE PSYCHIATRE-PATIENT ===== -->
-<section id="dialogue">
-  <div class="section-label" data-i18n="sec.consultation">Consultation simulée</div>
-  <h2 data-i18n="h2.consultation">Dialogue psychiatre-patient</h2>
-  <p style="font-size:.88rem;color:var(--text-light);margin-bottom:1.5rem" data-i18n="dlg.intro">
-    Simulation d'un premier entretien structuré. Le Dr. S. interroge, le patient répond
-    à la première personne. Ce dialogue illustre comment les éléments du profil
-    peuvent être présentés en consultation.
-  </p>
-
-  <div class="dialogue">
-
-    <!-- ACCUEIL -->
-    <div class="dlg-stage" data-i18n="dlg.start">Début de l'entretien</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.1">Bonjour, installez-vous. Qu'est-ce qui vous amène aujourd'hui ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.1">Je consulte parce que j'ai l'impression, depuis toujours, de fonctionner en dessous de mon potentiel — comme si mon cerveau m'empêchait de faire ce que je veux faire.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.2">«&nbsp;Depuis toujours&nbsp;»… Pouvez-vous m'en dire plus ? Depuis quand exactement ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text">Aussi loin que je me souvienne. En primaire, les bulletins disaient déjà «&nbsp;distrait&nbsp;», «&nbsp;rêveur&nbsp;», «&nbsp;manque d’attention&nbsp;». À l’époque, on disait que j’étais immature, que ça passerait. Mais ça n’est jamais passé.</span>
-    </div>
-
-    <!-- ENFANCE -->
-    <div class="dlg-stage" data-i18n="dlg.stage.enfance">Recueil des symptômes — Enfance</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.3">Comment ça se traduisait concrètement à l'école ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.3">Je perdais tout le temps mes affaires. Trousse, cahier, veste — ma mère devait racheter des fournitures tous les mois. En classe, je décrochais vite, je regardais par la fenêtre. Les enseignants disaient que j'étais intelligent mais que je ne me concentrais pas.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.4">Et à la maison, pour les devoirs ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.4">Une souffrance. Je commençais, je me levais, je faisais autre chose, je revenais. Ma mère passait des heures à côté de moi pour que je tienne en place. Je pouvais passer deux heures sur un exercice qui en aurait pris vingt. Ce n'était pas de la mauvaise volonté, c'était comme si mon cerveau refusait de rester sur la tâche.</span>
-    </div>
-
-    <!-- ADOLESCENCE -->
-    <div class="dlg-stage" data-i18n="dlg.stage.scolaire">Parcours scolaire</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.5">Et au collège, au lycée ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.5">J'ai redoublé trois fois jusqu'au bac. Pas parce que j'étais nul — les matières qui m'intéressaient je les réussissais très bien. Mais je n'arrivais pas à organiser mon travail, à réviser régulièrement. Je lisais une phrase cinq fois sans la retenir. J'attendais la veille des examens pour tout apprendre dans l'urgence. Et encore, le déclic venait seulement quand la pression devenait insoutenable.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.6">Est-ce que vous étiez agité, turbulent ? Des problèmes de discipline ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.6">Non, pas du tout. J'étais plutôt calme. Le problème, il était dans ma tête, pas dans mon corps. Je n'ai jamais été puni pour agitation, jamais renvoyé. On me disait juste «&nbsp;il est dans la lune&nbsp;», «&nbsp;il ne suit pas&nbsp;».</span>
-    </div>
-
-    <!-- ÉTUDES SUP -->
-    <div class="dlg-stage" data-i18n="dlg.stage.sup">Études supérieures</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.7">Et après le bac ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.7">J'ai commencé une formation en informatique. J'accrochais sur le contenu technique, mais le cadre — cours magistraux, projets longs, partiels — c'était impossible à suivre. Je décrochais pendant les cours, je rendais les projets en retard. J'ai interrompu, repris, abandonné à nouveau.</span>
-    </div>
-
-    <!-- VIE PRO -->
-    <div class="dlg-stage" data-i18n="dlg.stage.pro">Vie professionnelle</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.8">Et professionnellement, comment ça se passe ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.8">Je suis dans la QA et le freelance. Techniquement, je suis bon — je résous des problèmes complexes, je vois des choses que les autres ne voient pas. Mais tout ce qui est gestion, planning, priorisation, suivi… je me noie. J'ai perdu des missions parce que je n'avais pas répondu à temps, parce que j'avais oublié un rendez-vous, parce que le client estimait que je manquais de visibilité.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.9">Vous arrivez à tenir un planning ? À gérer plusieurs clients ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.9">Pas vraiment. Dès que j'ai plus de deux ou trois choses à gérer en parallèle, mon cerveau sature. Je ne sais pas par quoi commencer. Je perds un temps fou à essayer de prioriser, au lieu d'exécuter. Et finalement, je fais tout au dernier moment.</span>
-    </div>
-
-    <!-- ADMIN -->
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.10">Et l'administratif — déclarations, factures, papiers ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.10">C'est mon point noir. Je repousse, j'oublie, j'accumule. Une déclaration que je dois faire depuis des mois. Des abonnements que je n'ai pas résiliés. Des relances que je laisse traîner. Chaque tâche administrative est un mur psychologique. Je finis par payer des pénalités, ce qui rajoute de la frustration.</span>
-    </div>
-
-    <!-- VIE QUOTIDIENNE -->
-    <div class="dlg-stage" data-i18n="dlg.stage.quotidien">Impact sur le quotidien</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.11">Dans la vie de tous les jours, ça donne quoi ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.11">Je perds mes clés tous les jours, mon téléphone constamment, mon portefeuille régulièrement. J'ai un crochet pour les clés à l'entrée, mais je les pose sur le bureau, dans ma poche, sur la table de la cuisine — n'importe où. Je cherche mes affaires au moins dix minutes chaque matin.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.12">Les rendez-vous ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.12">Même problème. Je les note, je mets des rappels, mais j'oublie de vérifier. Ou je repousse la confirmation et le rendez-vous passe. Le mois dernier, j'ai loupé un rendez-vous chez le dentiste parce que j'avais noté l'heure dans ma tête et pas dans le calendrier.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.13">Est-ce que vous avez des difficultés à commencer des tâches ? Ou à les finir ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.13">Les deux. Commencer une tâche que je perçois comme ennuyeuse ou complexe, c'est un blocage. Je tourne autour, je fais autre chose, je trouve des excuses. Et si j'arrive à commencer, je n'arrive pas forcément à finir. Je commence beaucoup de projets que je termine rarement.</span>
-    </div>
-
-    <!-- MENTAL -->
-    <div class="dlg-stage" data-i18n="dlg.stage.vecu">Vécu subjectif</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.14">Comment vous vivez tout ça ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.14">C'est épuisant. Passer ma vie à compenser, à essayer de rattraper mon propre retard, à m'excuser d'avoir oublié. J'ai une anxiété permanente liée à la peur d'oublier quelque chose d'important. Et une fatigue mentale… Je pense que c'est ça qui m'a poussé à consulter, plus que tout.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.15">Est-ce que vous avez des moments où tout va bien, où vous êtes particulièrement performant ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.15">Oui, mais c'est inégal. Quand quelque chose capte vraiment mon intérêt, je peux être très concentré — pendant des heures. Mais ça ne marche que pour ce qui me passionne. Dès que c'est obligatoire mais pas stimulant, mon cerveau se rebelle.</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.16">Et l'humeur dans tout ça ?</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.16">Je ne dirais pas que je suis déprimé. Je suis frustré, fatigué, parfois découragé. Mais c'est surtout lié aux difficultés du quotidien — ce n'est pas une tristesse profonde. Quand je suis sur une mission qui m'intéresse, mon humeur va bien.</span>
-    </div>
-
-    <!-- CLÔTURE -->
-    <div class="dlg-stage" data-i18n="dlg.stage.fin">Fin de l'entretien</div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.17">D'accord. Ce que vous décrivez — l'ancienneté des symptômes, leur caractère transversal, l'absence d'hyperactivité motrice, l'échec des stratégies compensatoires — c'est un tableau qui évoque effectivement un TDAH de type inattentif. On va approfondir avec des questionnaires.</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.17">D'accord, merci. Et concrètement, qu'est-ce que ça peut donner comme prise en charge ?</span>
-    </div>
-
-    <div class="dlg-line psychiatrist">
-      <span class="dlg-speaker psy">Dr S.</span>
-      <span class="dlg-text" data-i18n="dlg.psy.18">On verra ça ensemble après le bilan complet. En fonction des résultats, plusieurs options existent — accompagnement psychologique, aménagements, et éventuellement traitement médicamenteux si c'est indiqué. On en reparle à la prochaine consultation.</span>
-    </div>
-
-    <div class="dlg-line patient">
-      <span class="dlg-speaker pat">Patient</span>
-      <span class="dlg-text" data-i18n="dlg.pat.18">D'accord, merci docteur.</span>
-    </div>
-
-  </div>
-</section>
-
-<!-- ===== 9. TESTS DE DIAGNOSTIC ===== -->
-<section id="tests">
-  <div class="section-label" data-i18n="sec.tests">Auto-évaluations</div>
-  <h2 data-i18n="h2.tests">Tests de diagnostic</h2>
-  <p data-i18n="tests.intro">Questionnaires standardisés pour évaluer différents aspects de votre santé mentale. Une question à la fois, résultat immédiat, confidentiel (tout reste sur votre appareil).</p>
-  <div class="caveat" style="margin:1rem 0 1.5rem">
-    <h3 data-i18n="tests.warning.title">⚠ Important à savoir</h3>
-    <p data-i18n="tests.warning.desc">Ces questionnaires sont des <strong>outils de dépistage et de sensibilisation</strong>, pas des outils de diagnostic. Ils ne remplacent pas une évaluation par un professionnel de santé.</p>
-  </div>
-  <div id="test-container">
-    <div id="test-grid" class="test-grid">
-      <div style="text-align:center;padding:2rem;color:var(--text-light)">
-        <p>Chargement des tests disponibles...</p>
-      </div>
-    </div>
-  </div>
-  <div id="test-results"></div>
-</section>
-
-<!-- ===== 8. VERSION 60 SECONDES ===== -->
-<section id="psychiatre">
-  <div class="section-label" data-i18n="sec.60s">Version courte</div>
-  <h2 data-i18n="h2.60s">Ce que je veux dire au psychiatre en 60 secondes</h2>
-  <div class="card">
-    <p class="sixty" data-i18n="60s.text">
-      <em>«&nbsp;Depuis l'enfance, je fonctionne en dessous de mon potentiel.
-      Trois redoublements, des études interrompues, une carrière en dents de scie
-      malgré de vraies compétences. Mon problème, c'est l'attention : je perds le
-      fil en lisant, en écoutant, en travaillant. J'oublie mes rendez-vous, mes
-      affaires, mes échéances. Mon cerveau est en permanence saturé de pensées
-      parallèles. Je remets tout au dernier moment, je commence sans finir.
-      Je ne suis pas agité, c'est dans ma tête que ça se passe. Mais il y a aussi
-      cette impulsivité — je parle sans réfléchir, j'achète sous le coup de
-      l'impulsion, j'ai du mal à attendre mon tour. L'alcool, je le contrôle
-      mal : une fois lancé, je ne m'arrête pas. L'anxiété et la fatigue se sont
-      accumulées avec l'âge. J'ai tout essayé pour m'organiser,
-      rien ne tient. Aujourd'hui je consulte parce que je n'en peux plus de
-      compenser.&nbsp;»</em>
-    </p>
-  </div>
-</section>
-
 <!-- ===== 9. TABLEAU DE SYNTHÈSE ===== -->
 <section id="synthese">
   <div class="section-label" data-i18n="sec.tableau">Tableau de synthèse</div>
@@ -1605,53 +810,6 @@ section[id]>:first-child{margin-top:0}
   </div>
 </section>
 
-<!-- ===== 12. DASHBOARD SCORES ===== -->
-<section id="dashboard">
-  <div class="section-label" data-i18n="sec.dashboard">Tableau de bord</div>
-  <h2 data-i18n="h2.dashboard">Vue d'ensemble des scores</h2>
-  <p data-i18n="dashboard.intro" style="margin-bottom:1rem;font-size:.85rem;color:var(--text-sec)">Visualise l'ensemble de tes résultats en un coup d'œil. Renseigne les scores obtenus dans chaque test pour voir apparaître le radar.</p>
-  <div id="dashboard-app"></div>
-</section>
-
-<!-- ===== 14. PDF RÉCAPITULATIF ===== -->
-<section id="pdf">
-  <div class="section-label" data-i18n="sec.pdf">Export PDF</div>
-  <h2 data-i18n="h2.pdf">Générer un récapitulatif pour le psychiatre</h2>
-  <p data-i18n="pdf.intro" style="margin-bottom:1rem;font-size:.85rem;color:var(--text-sec)">Un document A4 imprimable avec tous tes scores, les seuils, et la liste des documents à apporter en consultation.</p>
-  <div class="pdf-btn-wrap">
-    <button id="pdf-generate-btn" class="pdf-btn" data-i18n="pdf.btn">📄 Générer le PDF récapitulatif</button>
-  </div>
-</section>
-
-<!-- ===== 15. PLANIFICATEUR RDV ===== -->
-<section id="planner">
-  <div class="section-label" data-i18n="sec.planner">Planificateur</div>
-  <h2 data-i18n="h2.planner">Planifier mon parcours de soin</h2>
-  <p data-i18n="planner.intro" style="margin-bottom:1rem;font-size:.85rem;color:var(--text-sec)">Suis les étapes clés de ton parcours TDAH, coche les jalons et prépare tes documents. Les données restent sur ton appareil.</p>
-  <div id="planner-app"></div>
-</section>
-
-<!-- ===== 16. SUIVI MÉDICAMENTEUX ===== -->
-<section id="tracker">
-  <div class="section-label" data-i18n="sec.tracker">Suivi médicaments</div>
-  <h2 data-i18n="h2.tracker">Suivi médicamenteux quotidien</h2>
-  <p data-i18n="tracker.intro" style="margin-bottom:1rem;font-size:.85rem;color:var(--text-sec)">Enregistre ta prise quotidienne, les dosages et les effets ressentis. Idéal à présenter au psychiatre pour ajuster le traitement.</p>
-  <div id="tracker-app"></div>
-</section>
-
-<!-- ===== 17. COMMUNAUTÉ / FAQ ===== -->
-<section id="community">
-  <div class="section-label" data-i18n="sec.community">Communauté</div>
-  <h2 data-i18n="h2.community">FAQ TDAH + Témoignages</h2>
-  <p data-i18n="community.intro" style="margin-bottom:1rem;font-size:.85rem;color:var(--text-sec)">Des réponses aux questions fréquentes et des retours d'expérience anonymes partagés par d'autres adultes TDAH.</p>
-  <div id="faq-app"></div>
-  <div style="margin-top:1.5rem">
-    <h3 data-i18n="community.testi_title" style="font-size:1rem;font-weight:600;margin-bottom:.3rem;color:var(--text)">💬 Témoignages</h3>
-    <p data-i18n="community.testi_desc" style="font-size:.75rem;color:var(--text-sec);margin-bottom:.6rem">Partage ton expérience anonymement — ça aide d'autres personnes à se sentir moins seules.</p>
-    <div id="testimonials-app"></div>
-  </div>
-</section>
-
 <!-- ===== ACTUALITÉS TDAH ===== -->
 <section id="actualites">
   <div class="section-label" data-i18n="sec.actualites">Actualités TDAH</div>
@@ -1681,121 +839,9 @@ section[id]>:first-child{margin-top:0}
   Document préparatoire — Support de consultation psychiatrique
 </footer>
 
-   TESTS DE DIAGNOSTITESTS DE DIAGNOSTIC — INIT
-   ============================================ */
-(function(){
-  'use strict';
-
-  const container = document.getElementById('test-container');
-  const grid = document.getElementById('test-grid');
-  const resultsEl = document.getElementById('test-results');
-
-  if (!container || !grid) return;
-
-  /**
-   * Charge un fichier JSON
-   */
-  async function loadJSON(url) {
-    const resp = await fetch(url);
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    return resp.json();
-  }
-
-  /**
-   * Initialise les cartes des tests disponibles
-   */
-  async function initTestCatalog() {
-    try {
-      const manifest = await loadJSON('tests/config/manifest.json');
-      
-      grid.innerHTML = manifest.map(test => `
-        <div class="test-card" data-test-id="${test.id}">
-          <div class="test-card-top">
-            <span class="test-card-icon">${test.icon || '📋'}</span>
-            <div style="flex:1">
-              <div class="test-card-title">${test.title}</div>
-              <div class="test-card-subtitle">${test.fullName || ''}</div>
-            </div>
-          </div>
-          <div class="test-card-desc">${test.desc || test.shortDesc || ''}</div>
-          <div class="test-card-meta">
-            <span>⏱ ${test.duration || '?'}</span>
-            <span>📄 ${test.questions || '?'} questions</span>
-          </div>
-          <button class="test-card-btn" data-test-id="${test.id}">
-            Commencer le test →
-          </button>
-        </div>
-      `).join('');
-
-      // Lancer le test au clic
-      document.querySelectorAll('.test-card-btn').forEach(btn => {
-        btn.addEventListener('click', function(e) {
-          e.stopPropagation();
-          const testId = this.dataset.testId;
-          startTest(testId);
-        });
-      });
-
-      // Clic sur toute la carte
-      document.querySelectorAll('.test-card').forEach(card => {
-        card.addEventListener('click', function() {
-          const testId = this.dataset.testId;
-          startTest(testId);
-        });
-      });
-
-    } catch (err) {
-      grid.innerHTML = `
-        <div style="text-align:center;padding:2rem;color:#b85a42">
-          <p>⚠ Impossible de charger les tests : ${err.message}</p>
-        </div>
-      `;
-    }
-  }
-
-  /**
-   * Démarre un test par son ID
-   */
-  async function startTest(testId) {
-    resultsEl.innerHTML = '';
-    try {
-      const config = await loadJSON('tests/config/' + testId + '.json');
-      
-      // Créer un conteneur overlay
-      const overlayContainer = document.createElement('div');
-      overlayContainer.id = 'test-overlay-container';
-      container.appendChild(overlayContainer);
-
-      TestRunner.start(config, overlayContainer, function(result) {
-        // Callback : afficher les résultats
-        overlayContainer.innerHTML = '';
-        resultsEl.innerHTML = '';
-        resultsEl.scrollIntoView({ behavior: 'smooth' });
-        ResultsDisplay.show(result, resultsEl);
-      });
-
-    } catch (err) {
-      resultsEl.innerHTML = `
-        <div class="tq-error-msg">
-          <p>⚠ Erreur lors du chargement du test : ${err.message}</p>
-        </div>
-      `;
-    }
-  }
-
-  // Initialiser au chargement
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initTestCatalog);
-  } else {
-    initTestCatalog();
-  }
-
-})();
-</script>
-
 <script src="scripts/news-ticker.js"></script>
 
+<script>
 /* ── Scroll Spy (IntersectionObserver) ── */
 (function(){
   var navLinks = document.querySelectorAll('nav .links a');
@@ -1858,11 +904,6 @@ section[id]>:first-child{margin-top:0}
 })();
 </script>
 
-<script src="scripts/dashboard.js"></script>
-<script src="scripts/pdf-print.js"></script>
-<script src="scripts/planner.js"></script>
-<script src="scripts/tracker.js"></script>
-<script src="scripts/testimonials.js"></script>
 <script src="scripts/i18n.js"></script>
 </body>
 </html>

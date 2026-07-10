@@ -17,16 +17,8 @@ var i18n = {
     "nav.exemples": "Exemples",
     "nav.impacts": "Impacts",
     "nav.analyse": "Analyse",
-    "nav.consultation": "Consultation",
-    "nav.60s": "60s",
     "nav.synthese": "Synthèse",
-    "nav.dashboard": "Scores",
-    "nav.pdf": "PDF",
-    "nav.planner": "Rdv",
-    "nav.tracker": "Médic",
-    "nav.community": "Communauté",
     "nav.actualites": "Actualités",
-    "nav.tests": "Tests",
 
     /* ── HERO ── */
     "hero.badge": "Support de consultation psychiatrique",
@@ -45,15 +37,7 @@ var i18n = {
     "sec.exemples": "Exemples concrets",
     "sec.impacts": "Impacts fonctionnels",
     "sec.analyse": "Analyse clinique",
-    "sec.consultation": "Consultation simulée",
-    "sec.60s": "Version courte",
     "sec.tableau": "Tableau de synthèse",
-    "sec.tests": "Auto-évaluations",
-    "sec.dashboard": "Tableau de bord",
-    "sec.pdf": "Export PDF",
-    "sec.planner": "Planificateur",
-    "sec.tracker": "Suivi médicaments",
-    "sec.community": "Communauté",
     "sec.actualites": "Actualités TDAH",
 
     /* ── SECTION HEADINGS ── */
@@ -63,15 +47,7 @@ var i18n = {
     "h2.exemples": "Dans le quotidien",
     "h2.impacts": "Conséquences dans les domaines de vie",
     "h2.analyse": "Pourquoi cela évoque un TDAH inattentif",
-    "h2.consultation": "Dialogue psychiatre-patient",
-    "h2.60s": "Ce que je veux dire au psychiatre en 60 secondes",
     "h2.tableau": "Symptômes — Enfance — Adulte — Impact",
-    "h2.tests": "Tests de diagnostic",
-    "h2.dashboard": "Vue d'ensemble des scores",
-    "h2.pdf": "Générer un récapitulatif pour le psychiatre",
-    "h2.planner": "Planifier mon parcours de soin",
-    "h2.tracker": "Suivi médicamenteux quotidien",
-    "h2.community": "FAQ TDAH + Témoignages",
     "h2.actualites": "Veille quotidienne",
 
     /* ── RÉSUMÉ ── */
@@ -163,52 +139,6 @@ var i18n = {
     "an.4": "<strong>Échec des stratégies compensatoires :</strong> Listes, alarmes, to-do lists — tout a été essayé. Rien ne tient sur le long terme.",
 
     /* ── DIALOGUE (summary for EN, full FR) ── */
-    "dlg.intro": "Simulation d'un premier entretien structuré. Le Dr. S. interroge, le patient répond à la première personne. Ce dialogue illustre comment les éléments du profil peuvent être présentés en consultation.",
-    "dlg.start": "Début de l'entretien",
-    "dlg.psy.1": "Bonjour, installez-vous. Qu'est-ce qui vous amène aujourd'hui ?",
-    "dlg.pat.1": "Je consulte parce que j'ai l'impression, depuis toujours, de fonctionner en dessous de mon potentiel — comme si mon cerveau m'empêchait de faire ce que je veux.",
-    "dlg.psy.2": "« Depuis toujours »… Pouvez-vous m'en dire plus ?",
-    "dlg.pat.2": "Aussi loin que je me souvienne. En primaire, les bulletins disaient déjà « distrait », « rêveur ». On disait que j'étais immature, que ça passerait. Mais ça n'est jamais passé.",
-    "dlg.stage.enfance": "Recueil des symptômes — Enfance",
-    "dlg.psy.3": "Comment ça se traduisait à l'école ?",
-    "dlg.pat.3": "Je perdais tout le temps mes affaires. Trousse, cahier, veste — ma mère devait racheter des fournitures tous les mois. En classe je décrochais vite.",
-    "dlg.psy.4": "Et à la maison, pour les devoirs ?",
-    "dlg.pat.4": "Une souffrance. Je commençais, je me levais, je faisais autre chose. Ma mère passait des heures à côté de moi. Ce n'était pas de la mauvaise volonté.",
-    "dlg.stage.scolaire": "Parcours scolaire",
-    "dlg.psy.5": "Et au collège, au lycée ?",
-    "dlg.pat.5": "J'ai redoublé trois fois. Pas parce que j'étais nul — les matières qui m'intéressaient, je les réussissais. Mais je n'arrivais pas à organiser mon travail.",
-    "dlg.psy.6": "Est-ce que vous étiez agité, turbulent ?",
-    "dlg.pat.6": "Non, pas du tout. J'étais plutôt calme. Le problème était dans ma tête, pas dans mon corps. On me disait juste « il est dans la lune ».",
-    "dlg.stage.sup": "Études supérieures",
-    "dlg.psy.7": "Et après le bac ?",
-    "dlg.pat.7": "J'ai commencé une formation en informatique. J'accrochais sur le contenu technique, mais le cadre — cours, projets longs, partiels — impossible à suivre.",
-    "dlg.stage.pro": "Vie professionnelle",
-    "dlg.psy.8": "Et professionnellement, comment ça se passe ?",
-    "dlg.pat.8": "Je suis dans la QA et le freelance. Techniquement bon, mais tout ce qui est gestion, planning — je me noie. J'ai perdu des missions par manque de visibilité.",
-    "dlg.psy.9": "Vous arrivez à tenir un planning, gérer plusieurs clients ?",
-    "dlg.pat.9": "Pas vraiment. Dès que j'ai plus de deux ou trois choses à gérer, mon cerveau sature. Je perds un temps fou à prioriser au lieu d'exécuter.",
-    "dlg.stage.admin": "Vie administrative",
-    "dlg.psy.10": "Et l'administratif — déclarations, factures ?",
-    "dlg.pat.10": "Mon point noir. Je repousse, j'oublie, j'accumule. Chaque tâche administrative est un mur psychologique.",
-    "dlg.stage.quotidien": "Impact sur le quotidien",
-    "dlg.psy.11": "Dans la vie de tous les jours, ça donne quoi ?",
-    "dlg.pat.11": "Je perds mes clés tous les jours, mon téléphone constamment. Je cherche mes affaires au moins dix minutes chaque matin.",
-    "dlg.psy.12": "Les rendez-vous ?",
-    "dlg.pat.12": "Même problème. Je les note, je mets des rappels, mais j'oublie de vérifier. Le mois dernier, j'ai loupé un rendez-vous chez le dentiste.",
-    "dlg.psy.13": "Difficultés à commencer ou finir les tâches ?",
-    "dlg.pat.13": "Les deux. Commencer une tâche ennuyeuse ou complexe, c'est un blocage. Et si j'arrive à commencer, je n'arrive pas forcément à finir.",
-    "dlg.stage.vecu": "Vécu subjectif",
-    "dlg.psy.14": "Comment vous vivez tout ça ?",
-    "dlg.pat.14": "C'est épuisant. Passer ma vie à compenser, à rattraper mon propre retard. Une anxiété permanente liée à la peur d'oublier quelque chose d'important.",
-    "dlg.psy.15": "Des moments où tout va bien, performant ?",
-    "dlg.pat.15": "Oui, mais inégal. Quand quelque chose capte mon intérêt, je peux être très concentré — pendant des heures. Mais ça ne marche que pour ce qui me passionne.",
-    "dlg.psy.16": "Et l'humeur dans tout ça ?",
-    "dlg.pat.16": "Je ne dirais pas déprimé. Frustré, fatigué, parfois découragé. Mais c'est lié aux difficultés du quotidien — pas une tristesse profonde.",
-    "dlg.stage.fin": "Fin de l'entretien",
-    "dlg.psy.17": "Ce que vous décrivez évoque effectivement un TDAH de type inattentif. On va approfondir avec des questionnaires.",
-    "dlg.pat.17": "D'accord, merci. Et concrètement, qu'est-ce que ça peut donner comme prise en charge ?",
-    "dlg.psy.18": "On verra ensemble après le bilan complet. Plusieurs options existent — accompagnement, aménagements, et éventuellement traitement.",
-    "dlg.pat.18": "D'accord, merci docteur.",
 
     /* ── 60s ── */
     "60s.text": "<em>« Depuis l'enfance, je fonctionne en dessous de mon potentiel. Trois redoublements, des études interrompues, une carrière en dents de scie malgré de vraies compétences. Mon problème, c'est l'attention : je perds le fil en lisant, en écoutant, en travaillant. J'oublie mes rendez-vous, mes affaires, mes échéances. Mon cerveau est en permanence saturé de pensées parallèles. Je remets tout au dernier moment, je commence sans finir. Je ne suis pas agité, c'est dans ma tête que ça se passe. Mais il y a aussi cette impulsivité — je parle sans réfléchir, j'achète sous le coup de l'impulsion, j'ai du mal à attendre mon tour. L'alcool, je le contrôle mal : une fois lancé, je ne m'arrête pas. L'anxiété et la fatigue se sont accumulées avec l'âge. J'ai tout essayé pour m'organiser, rien ne tient. Aujourd'hui je consulte parce que je n'en peux plus de compenser. »</em>",
@@ -287,23 +217,16 @@ var i18n = {
     /* ── CHAT ── */
 
     /* ── PDF ── */
-    "pdf.intro": "Un document A4 imprimable avec tous tes scores, les seuils, et la liste des documents à apporter en consultation.",
-    "pdf.btn": "📄 Générer le PDF récapitulatif",
 
     /* ── PLANNER ── */
-    "planner.intro": "Suis les étapes clés de ton parcours TDAH, coche les jalons et prépare tes documents. Les données restent sur ton appareil.",
 
     /* ── TRACKER ── */
-    "tracker.intro": "Enregistre ta prise quotidienne, les dosages et les effets ressentis. Idéal à présenter au psychiatre pour ajuster le traitement.",
 
     /* ── COMMUNITY ── */
-    "community.intro": "Des réponses aux questions fréquentes et des retours d'expérience anonymes partagés par d'autres adultes TDAH.",
-    "community.testi_title": "💬 Témoignages",
-    "community.testi_desc": "Partage ton expérience anonymement — ça aide d'autres personnes à se sentir moins seules.",
 
     /* ── FOOTER ── */
     "sig.text": "Créé avec 🧠 par Tazou",
-    "footer.text": "Document préparatoire — Support de consultation psychiatrique",
+    "footer.text": "Document préparatoire — Support de consultation psychiatrique"
   },
 
   en: {
@@ -319,16 +242,8 @@ var i18n = {
     "nav.exemples": "Examples",
     "nav.impacts": "Impacts",
     "nav.analyse": "Analysis",
-    "nav.consultation": "Consultation",
-    "nav.60s": "60s",
     "nav.synthese": "Overview",
-    "nav.dashboard": "Scores",
-    "nav.pdf": "PDF",
-    "nav.planner": "Appts",
-    "nav.tracker": "Meds",
-    "nav.community": "Community",
     "nav.actualites": "News",
-    "nav.tests": "Assessments",
 
     /* ── HERO ── */
     "hero.badge": "Psychiatric Consultation Support",
@@ -347,15 +262,7 @@ var i18n = {
     "sec.exemples": "Real-Life Examples",
     "sec.impacts": "Functional Impacts",
     "sec.analyse": "Clinical Analysis",
-    "sec.consultation": "Simulated Consultation",
-    "sec.60s": "Short Version",
     "sec.tableau": "Summary Table",
-    "sec.tests": "Self-Assessments",
-    "sec.dashboard": "Dashboard",
-    "sec.pdf": "PDF Export",
-    "sec.planner": "Planner",
-    "sec.tracker": "Medication",
-    "sec.community": "Community",
     "sec.actualites": "ADHD News",
 
     /* ── SECTION HEADINGS ── */
@@ -365,15 +272,7 @@ var i18n = {
     "h2.exemples": "In everyday life",
     "h2.impacts": "Impact across life domains",
     "h2.analyse": "Why this suggests inattentive ADHD",
-    "h2.consultation": "Psychiatrist-patient dialogue",
-    "h2.60s": "What I want to tell the psychiatrist in 60 seconds",
     "h2.tableau": "Symptoms — Childhood — Adult — Impact",
-    "h2.tests": "Diagnostic Assessments",
-    "h2.dashboard": "Score Overview",
-    "h2.pdf": "Generate a Summary for Your Psychiatrist",
-    "h2.planner": "Plan Your Care Journey",
-    "h2.tracker": "Daily Medication Tracking",
-    "h2.community": "ADHD FAQ + Testimonials",
     "h2.actualites": "Daily News Watch",
 
     /* ── RÉSUMÉ ── */
@@ -464,53 +363,6 @@ var i18n = {
     "an.3": "<strong>Documented functional impact:</strong> Consequences are verifiable: grade retentions, non-renewed contracts, repeated forgetfulness, secondary anxiety.",
     "an.4": "<strong>Failed compensatory strategies:</strong> Lists, alarms, to-do apps — all tried. Nothing holds long-term, characteristic of a structural disorder.",
 
-    "dlg.intro": "Simulation of a structured first interview. Dr. S. questions the patient who answers in the first person. This dialogue illustrates how the profile elements can be presented during consultation.",
-    "dlg.start": "Beginning of the interview",
-    "dlg.psy.1": "Hello, please have a seat. What brings you here today?",
-    "dlg.pat.1": "I'm consulting because I feel I've always functioned below my potential — as if my brain prevents me from doing what I want to do.",
-    "dlg.psy.2": "'Always'… can you tell me more? Since when exactly?",
-    "dlg.pat.2": "As far back as I can remember. In elementary school, report cards said 'distracted', 'daydreamer'. They said I was immature, that it would pass. But it never did.",
-    "dlg.stage.enfance": "Symptoms — Childhood",
-    "dlg.psy.3": "How did it show at school?",
-    "dlg.pat.3": "I lost everything constantly. Pencil case, books, jacket — my mother had to buy supplies every month. I'd drift off in class.",
-    "dlg.psy.4": "And at home, for homework?",
-    "dlg.pat.4": "Torture. I'd start, get up, do something else, come back. My mother spent hours sitting beside me. It wasn't lack of effort.",
-    "dlg.stage.scolaire": "School path",
-    "dlg.psy.5": "What about middle and high school?",
-    "dlg.pat.5": "I repeated three grades. Not because I was bad — subjects I liked I excelled at. But I couldn't organize my work or study regularly.",
-    "dlg.psy.6": "Were you restless, disruptive?",
-    "dlg.pat.6": "Not at all. I was rather calm. The problem was in my head, not my body. They just said 'he's in the clouds'.",
-    "dlg.stage.sup": "Higher education",
-    "dlg.psy.7": "And after high school?",
-    "dlg.pat.7": "Started computer science training. I engaged with technical content, but lectures, long projects, exams — impossible to keep up.",
-    "dlg.stage.pro": "Professional life",
-    "dlg.psy.8": "How's work?",
-    "dlg.pat.8": "I'm in QA and freelancing. Technically good, but everything related to management and planning — I drown. I've lost missions over lack of visibility.",
-    "dlg.psy.9": "Can you maintain a schedule, manage multiple clients?",
-    "dlg.pat.9": "Not really. More than two or three things and my brain saturates. I spend ages prioritizing instead of executing.",
-    "dlg.stage.admin": "Administrative life",
-    "dlg.psy.10": "What about admin — taxes, invoices?",
-    "dlg.pat.10": "My weakness. I postpone, forget, accumulate. Every admin task is a psychological wall.",
-    "dlg.stage.quotidien": "Daily life impact",
-    "dlg.psy.11": "How does it affect daily life?",
-    "dlg.pat.11": "I lose my keys every day, my phone constantly. I search for my things at least ten minutes every morning.",
-    "dlg.psy.12": "Appointments?",
-    "dlg.pat.12": "Same issue. I note them, set reminders, but forget to check. Last month I missed a dental appointment.",
-    "dlg.psy.13": "Difficulty starting or finishing tasks?",
-    "dlg.pat.13": "Both. Starting a boring or complex task is a block. And if I manage to start, I don't necessarily finish.",
-    "dlg.stage.vecu": "Subjective experience",
-    "dlg.psy.14": "How do you experience all this?",
-    "dlg.pat.14": "Exhausting. Spending my life compensating, catching up. Constant anxiety from fear of forgetting something important.",
-    "dlg.psy.15": "Any times when everything goes well?",
-    "dlg.pat.15": "Yes, but unevenly. When something captures my interest, I hyperfocus for hours. But only for what I'm passionate about.",
-    "dlg.psy.16": "How's your mood?",
-    "dlg.pat.16": "I wouldn't say depressed. Frustrated, tired, sometimes discouraged. Linked to daily difficulties — not deep sadness.",
-    "dlg.stage.fin": "End of interview",
-    "dlg.psy.17": "What you describe indeed suggests inattentive-type ADHD. We'll explore further with questionnaires.",
-    "dlg.pat.17": "Thank you. What kind of support might be available?",
-    "dlg.psy.18": "We'll discuss after the full assessment. Several options exist — therapy, accommodations, possibly medication.",
-    "dlg.pat.18": "Thank you, doctor.",
-
     /* ── 60s ── */
     "60s.text": "<em>« Since childhood, I've functioned below my potential. Three repeated grades, interrupted studies, a jagged career despite real skills. My problem is attention: I lose the thread while reading, listening, working. I miss appointments, lose things, forget deadlines. My brain is permanently saturated with parallel thoughts. I postpone everything, start without finishing. I'm not restless, it happens in my head. But there's also this impulsivity — I speak without thinking, buy on impulse, struggle to wait my turn. Alcohol is hard to control: once I start, I can't stop. Anxiety and fatigue have accumulated with age. I've tried everything to organize, nothing sticks. Today I'm consulting because I can no longer compensate. »</em>",
 
@@ -588,22 +440,15 @@ var i18n = {
     /* ── CHAT ── */
 
     /* ── PDF ── */
-    "pdf.intro": "A printable A4 document with all your scores, thresholds, and a checklist of documents to bring to your consultation.",
-    "pdf.btn": "📄 Generate PDF Summary",
 
     /* ── PLANNER ── */
-    "planner.intro": "Track the key steps of your ADHD care journey, check milestones and prepare your documents. Data stays on your device.",
 
     /* ── TRACKER ── */
-    "tracker.intro": "Log your daily medication, dosages, and effects. Great to show your psychiatrist for treatment adjustments.",
 
     /* ── COMMUNITY ── */
-    "community.intro": "Answers to common questions and anonymous experiences shared by other adults with ADHD.",
-    "community.testi_title": "💬 Testimonials",
-    "community.testi_desc": "Share your experience anonymously — it helps others feel less alone.",
 
     /* ── FOOTER ── */
     "sig.text": "Created with 🧠 by Tazou",
-    "footer.text": "Preparatory Document — Psychiatric Consultation Support",
+    "footer.text": "Preparatory Document — Psychiatric Consultation Support"
   }
 };
