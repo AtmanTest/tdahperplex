@@ -247,9 +247,21 @@ a{color:var(--accent);text-decoration:none}
   border:1px solid rgba(90,127,186,.1);
 }
 .news-banner-ticker{
-  flex:1;overflow:hidden;
-  display:flex;align-items:center;
+  flex:1;overflow:hidden;height:2.2rem;
+  position:relative;mask-image:linear-gradient(90deg,transparent 0,#000 3%,#000 97%,transparent 100%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 3%,#000 97%,transparent 100%);
 }
+.news-track{
+  display:flex;white-space:nowrap;
+  will-change:transform;
+}
+.news-track-item{
+  display:inline-flex;flex-direction:column;align-items:flex-start;gap:.05rem;
+  padding:0 2.5rem 0 0;font-size:.7rem;line-height:1.25;opacity:.85;
+  min-width:260px;max-width:340px;
+}
+.news-track-item .news-title{color:var(--text);font-weight:600;font-size:.72rem}
+.news-track-item .news-desc{font-size:.6rem;color:var(--text-sec);opacity:.65;white-space:normal;overflow:hidden;text-overflow:ellipsis;max-width:320px;line-height:1.15}
 .news-banner-more{
   flex-shrink:0;font-size:.65rem;
   color:var(--accent);cursor:pointer;white-space:nowrap;opacity:.6;text-decoration:none;
@@ -391,7 +403,9 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
   <div class="inner">
     <span class="news-banner-label" data-i18n="news.banner.label">📡 Flash TDAH</span>
     <div class="news-banner-ticker" id="news-ticker">
-      <span data-i18n="news.loading">⏳ Chargement des actualités…</span>
+      <div class="news-track" id="news-track">
+        <span class="news-track-item" data-i18n="news.loading">⏳ Chargement des actualités…</span>
+      </div>
     </div>
     <a href="#actu...[truncated]
   </div>
@@ -411,7 +425,8 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
     <span data-i18n="hero.meta2">Secteur : Tech / QA / Freelance</span>
     <span data-i18n="hero.meta3">Plainte initiale : Brouillard mental, procrastination, épuisement</span>
   </div>
-      <span data-i18n="hero.cta">Commencer les auto-évaluations →</span>
+  <a href="#resume" class="hero-cta">
+    <span data-i18n="hero.cta">Commencer les auto-évaluations →</span>
     <br><span style="display:inline-block;margin-top:.15rem;font-size:.7rem;font-weight:400;opacity:.8" data-i18n="hero.cta2">5 tests diagnostiques standardisés</span>
   </a>
 </section>
