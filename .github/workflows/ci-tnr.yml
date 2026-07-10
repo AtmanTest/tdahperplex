@@ -1,0 +1,57 @@
+name: CI — TNR
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  tnr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tester la structure
+        run: |
+          echo "✅ index.html présent"
+          test -f index.html && echo "✅ OK" || (echo "❌ MANQUANT"; exit 1)
+
+      - name: Syntaxe JS (node)
+        run: |
+          for f in scripts/*.js translations.js; do
+            node --check "$f" && echo "✅ $f" || (echo "❌ $f"; exit 1)
+          done
+
+      - name: Vérifier version
+        run: |
+          grep -q 'v17a' index.html && echo "✅ Version v17a" || (echo "❌ Version non trouvée"; exit 1)
+
+      - name: Vérifier absence chat
+        run: |
+          ! grep -q 'chat.js' index.html && echo "✅ Chat supprimé" || (echo "❌ Chat encore présent"; exit 1)
+          ! grep -q 'nav.chat' index.html && echo "✅ nav.chat supprimé" || (echo "❌ nav.chat présent"; exit 1)
+
+      - name: Vérifier thème
+        run: |
+          grep -q 'data-theme' index.html && echo "✅ data-theme" || (echo "❌ data-theme manquant"; exit 1)
+          grep -q 'id="theme-toggle"' index.html && echo "✅ theme-toggle" || (echo "❌ theme-toggle manquant"; exit 1)
+
+      - name: Vérifier IntersectionObserver
+        run: |
+          grep -q 'IntersectionObserver' index.html && echo "✅ IntersectionObserver" || (echo "❌ IntersectionObserver manquant"; exit 1)
+
+      - name: Vérifier version
+        run: |
+          grep -q 'v17a' index.html && echo "✅ v17a" || (echo "❌ v17a manquant"; exit 1)
+
+      - name: Vérifier responsive
+        run: |
+          grep -q '@media(max-width:500px)' index.html && echo "✅ Mobile breakpoint" || (echo "❌ Breakpoint manquant"; exit 1)
+
+      - name: Vérifier GitHub Pages
+        run: |
+          test -f .nojekyll && echo "✅ .nojekyll" || (echo "❌ .nojekyll manquant"; exit 1)
+
+      - name: TNR final
+        run: echo "✅ TNR VERT — tous les checks passent"
