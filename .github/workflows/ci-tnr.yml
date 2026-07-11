@@ -49,5 +49,49 @@ jobs:
         run: |
           test -f .nojekyll && echo "✅ .nojekyll" || (echo "❌ .nojekyll manquant"; exit 1)
 
+      - name: Vérifier Carto Forum 3D — Nav link
+        run: |
+          grep -q 'href="#carto-forum-3d"' index.html && echo "✅ Nav link Carto Forum 3D" || (echo "❌ Nav link manquant"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — Section HTML
+        run: |
+          grep -q 'id="carto-forum-3d"' index.html && echo "✅ Section Carto Forum 3D" || (echo "❌ Section manquante"; exit 1)
+          grep -q 'id="globe-container"' index.html && echo "✅ globe-container" || (echo "❌ globe-container manquant"; exit 1)
+          grep -q 'id="globe-list-view"' index.html && echo "✅ globe-list-view" || (echo "❌ globe-list-view manquant"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — JS syntaxe
+        run: |
+          node --check js/carto-forum-3d.js && echo "✅ js/carto-forum-3d.js" || (echo "❌ JS erreur"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — CSS
+        run: |
+          test -f css/carto-forum-3d.css && echo "✅ css/carto-forum-3d.css" || (echo "❌ CSS manquant"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — RSS sources
+        run: |
+          test -f data/rss-sources.json && echo "✅ data/rss-sources.json" || (echo "❌ Sources RSS manquantes"; exit 1)
+          test -f data/rss-demo.json && echo "✅ data/rss-demo.json" || (echo "❌ Données démo manquantes"; exit 1)
+          node -e "const d=require('./data/rss-sources.json'); if(!Array.isArray(d)||d.length<5)process.exit(1)" && echo "✅ Sources valides" || (echo "❌ Sources invalides"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — i18n keys
+        run: |
+          grep -q 'nav.carto3d' translations.js && echo "✅ nav.carto3d i18n" || (echo "❌ nav.carto3d i18n manquant"; exit 1)
+          grep -q 'sec.carto3d\"' translations.js && echo "✅ sec.carto3d i18n" || (echo "❌ sec.carto3d i18n manquant"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — Sans WebGL fallback
+        run: |
+          grep -q 'globe-fallback' index.html && echo "✅ WebGL fallback" || (echo "❌ fallback manquant"; exit 1)
+
+      - name: Vérifier Carto Forum 3D — Accessibilité
+        run: |
+          grep -q 'aria-label' js/carto-forum-3d.js && echo "✅ ARIA labels dans JS" || (echo "⚠ ARIA dans JS non trouvé"; true)
+          grep -q 'rel=\"noopener noreferrer\"' js/carto-forum-3d.js && echo "✅ noopener noreferrer" || (echo "❌ noopener manquant"; exit 1)
+          grep -q 'escapeHtml\|escapeAttr' js/carto-forum-3d.js && echo "✅ HTML escaping" || (echo "❌ escaping manquant"; exit 1)
+
+      - name: Vérifier fetch RSS — pipeline
+        run: |
+          test -f scripts/fetch-rss.js && echo "✅ fetch-rss.js" || (echo "❌ fetch-rss.js manquant"; exit 1)
+          test -f scripts/fetch-rss-local.js && echo "✅ fetch-rss-local.js" || (echo "❌ fetch-rss-local.js manquant"; exit 1)
+
       - name: TNR final
         run: echo "✅ TNR VERT — tous les checks passent"
