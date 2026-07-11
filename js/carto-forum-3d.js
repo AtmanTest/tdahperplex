@@ -230,7 +230,6 @@
           .backgroundColor('#0c1a2e')
           .atmosphereColor('#5a7fba')
           .atmosphereAltitude(0.18)
-          .globeGlowColor('#3b5b8c')
           .pointOfView({
             lat: CONFIG.initialLat,
             lng: CONFIG.initialLng,
