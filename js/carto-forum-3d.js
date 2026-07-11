@@ -11,8 +11,8 @@
   'use strict';
 
   const CONFIG = {
-    globeImageUrl: 'https://unpkg.com/three-globe/example/img/earth-night.jpg',
-    bumpImageUrl: 'https://unpkg.com/three-globe/example/img/earth-topology.png',
+    globeImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg',
+    bumpImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png',
     pointAlt: 0.01,
     pointRadius: 0.35,
     pointResolution: 12,
@@ -115,7 +115,7 @@
     return new Promise((resolve, reject) => {
       if (typeof Globe !== 'undefined') { resolve(); return; }
       const s = document.createElement('script');
-      s.src = 'https://unpkg.com/globe.gl@2.36.1/dist/globe.gl.min.js';
+      s.src = 'https://cdn.jsdelivr.net/npm/globe.gl@2.36.1/dist/globe.gl.min.js';
       s.async = true;
       s.onload = () => {
         // Wait a tick for Globe to be fully initialized

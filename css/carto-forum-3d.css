@@ -17,16 +17,25 @@
   z-index: 2;
 }
 
+/* ── Globe wrapper (positioning parent for controls/tooltip) ── */
+.globe-wrapper{
+  position:relative;
+  width:100%;
+  border-radius:var(--radius);
+  overflow:hidden;
+  margin-bottom:var(--sp);
+}
+
 /* ── Globe container ── */
 #globe-container {
-  width: 100%;
-  height: 480px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  position: relative;
-  background: radial-gradient(ellipse at center, #0c1a2e 0%, #050810 100%);
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 30px rgba(0,0,0,.3);
+  width:100%;
+  height:480px;
+  border-radius:var(--radius);
+  overflow:hidden;
+  position:relative;
+  background:radial-gradient(ellipse at center, #0c1a2e 0%, #050810 100%);
+  border:1px solid var(--border);
+  box-shadow:0 4px 30px rgba(0,0,0,.3);
 }
 
 #globe-container canvas {
@@ -57,15 +66,15 @@
   max-width: 400px;
 }
 
-/* ── Globe controls overlay ── */
+/* ── Globe controls overlay (positioned relative to .globe-wrapper) ── */
 #globe-controls {
-  position: absolute;
-  top: .5rem;
-  right: .5rem;
-  display: flex;
-  flex-direction: column;
-  gap: .35rem;
-  z-index: 10;
+  position:absolute;
+  top:.5rem;
+  right:.5rem;
+  z-index:10;
+  display:flex;
+  flex-direction:column;
+  gap:.35rem;
 }
 #globe-controls button {
   width: 36px;

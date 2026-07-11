@@ -901,14 +901,13 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
     </div>
 
     <!-- 3D Globe -->
-    <div id="globe-container" style="display:block">
+    <div class="globe-wrapper">
       <div id="globe-loader"><div class="spinner"></div><span data-i18n="carto3d.loading">Chargement du globe…</span></div>
+      <div id="globe-container"></div>
       <div id="globe-fallback" role="alert"></div>
-      <div id="globe-tooltip" role="tooltip"></div>
-      <div id="globe-panel" role="dialog" aria-label="Articles"></div>
       <div id="globe-controls">
-        <button id="globe-btn-pause" aria-pressed="false" aria-label="Pause/Reprendre" title="Pause/Reprendre">⏸<span class="ctrl-label" data-i18n="carto3d.pause">Pause</span></button>
-        <button id="globe-btn-reset" aria-label="Réinitialiser" title="Réinitialiser">⟲<span class="ctrl-label" data-i18n="carto3d.reset">Réinitialiser</span></button>
+        <button id="globe-btn-pause" aria-pressed="false" aria-label="Pause/Reprendre" title="Pause/Reprendre">⏸</button>
+        <button id="globe-btn-reset" aria-label="Réinitialiser" title="Réinitialiser">⟲</button>
       </div>
       <div id="globe-legend">
         <div class="lg-item"><span class="lg-dot" style="background:#5a7fba"></span><span class="lg-text" data-i18n="carto3d.clinical">Clinique</span></div>
@@ -916,6 +915,8 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
         <div class="lg-item"><span class="lg-dot" style="background:#4aa86a"></span><span class="lg-text" data-i18n="carto3d.association">Association</span></div>
         <div class="lg-item"><span class="lg-dot" style="background:#b87ac4"></span><span class="lg-text" data-i18n="carto3d.news">Actualités</span></div>
       </div>
+      <div id="globe-tooltip" role="tooltip"></div>
+      <div id="globe-panel" role="dialog" aria-label="Articles"></div>
     </div>
 
     <!-- List view (accessible fallback) -->
