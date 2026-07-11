@@ -1,0 +1,134 @@
+[
+  {
+    "id": "additude",
+    "name": "ADDitude Magazine",
+    "url": "https://www.additudemag.com/feed/",
+    "lang": "EN",
+    "country": "US",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "category": "clinical",
+    "active": true
+  },
+  {
+    "id": "chadd",
+    "name": "CHADD",
+    "url": "https://chadd.org/feed/",
+    "lang": "EN",
+    "country": "US",
+    "lat": 38.9339,
+    "lng": -76.875,
+    "category": "association",
+    "active": true
+  },
+  {
+    "id": "google-news-adhd",
+    "name": "Google News ADHD",
+    "url": "https://news.google.com/rss/search?q=ADHD&hl=en-US&gl=US&ceid=US:en",
+    "lang": "EN",
+    "country": "US",
+    "lat": 37.422,
+    "lng": -122.084,
+    "category": "news",
+    "active": true
+  },
+  {
+    "id": "google-news-adhd-research",
+    "name": "Google News ADHD Research",
+    "url": "https://news.google.com/rss/search?q=ADHD+research&hl=en-US&gl=US&ceid=US:en",
+    "lang": "EN",
+    "country": "US",
+    "lat": 37.422,
+    "lng": -122.084,
+    "category": "research",
+    "active": true
+  },
+  {
+    "id": "tdah-france",
+    "name": "TDAH France / HyperSupers",
+    "url": "https://www.tdah-france.fr/spip.php?page=backend",
+    "lang": "FR",
+    "country": "FR",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "category": "association",
+    "active": true
+  },
+  {
+    "id": "google-news-tdah",
+    "name": "Google News TDAH",
+    "url": "https://news.google.com/rss/search?q=TDAH&hl=fr&gl=FR&ceid=FR:fr",
+    "lang": "FR",
+    "country": "FR",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "category": "news",
+    "active": true
+  },
+  {
+    "id": "psycom",
+    "name": "Psycom.net",
+    "url": "https://www.psycom.net/rss/adhd.xml",
+    "lang": "EN",
+    "country": "US",
+    "lat": 40.758,
+    "lng": -73.9855,
+    "category": "clinical",
+    "active": true
+  },
+  {
+    "id": "nimh-adhd",
+    "name": "NIMH ADHD",
+    "url": "https://www.nimh.nih.gov/rss/adhd.rss",
+    "lang": "EN",
+    "country": "US",
+    "lat": 38.9863,
+    "lng": -77.098,
+    "category": "research",
+    "active": true
+  },
+  {
+    "id": "nhs-adhd-uk",
+    "name": "NHS ADHD UK",
+    "url": "https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/rss/",
+    "lang": "EN",
+    "country": "UK",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "category": "clinical",
+    "active": true
+  },
+  {
+    "id": "caddra",
+    "name": "CADDRA",
+    "url": "https://www.caddra.ca/feed/",
+    "lang": "EN",
+    "country": "CA",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "category": "clinical",
+    "active": true
+  },
+  {
+    "id": "apsard",
+    "name": "APSARD",
+    "url": "https://apsard.org/feed/",
+    "lang": "EN",
+    "country": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "category": "research",
+    "active": true
+  },
+  {
+    "id": "adhdawareness",
+    "name": "ADHDAwareness",
+    "url": "https://adhdawareness.org/rss/",
+    "lang": "EN",
+    "country": "US",
+    "lat": 40.7282,
+    "lng": -73.7949,
+    "category": "association",
+    "active": true
+  }
+]
