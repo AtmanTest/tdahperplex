@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title data-i18n="meta.title">Profil TDAH inattentif — Support de consultation</title>
 <script src="translations.js"></script>
+<link rel="stylesheet" href="css/carto-forum-3d.css">
 <style>
 /* ============================================
    1. RESET & VARIABLES
@@ -432,9 +433,8 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
       <a href="#pourquoi" data-i18n="nav.analyse">Analyse</a>
 
       <a href="#synthese" data-i18n="nav.synthese">Synthèse</a>
+<a href="#carto-forum-3d" data-i18n="nav.carto3d">Forum 3D</a>
 
-
-      
       <a href="#actualites" data-i18n="nav.actualites">Actualités</a>
     </div>
   </div>
@@ -887,6 +887,49 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
   </div>
 </section>
 
+<!-- ===== CARTO FORUM 3D ===== -->
+<section id="carto-forum-3d">
+  <div class="section-inner">
+    <div class="section-label" data-i18n="sec.carto3d">🌍 Carto Forum 3D</div>
+    <h2 data-i18n="h2.carto3d">Sources et acteurs de la recherche TDAH</h2>
+    <p data-i18n="carto3d.desc">Explore les associations, cliniques et médias qui publient sur le TDAH à travers le monde. Clique sur un marqueur pour voir leurs articles.</p>
+
+    <!-- View toggle -->
+    <div id="globe-view-toggle" role="tablist" aria-label="Vue">
+      <button data-view="globe" class="active" role="tab" aria-selected="true" data-i18n="carto3d.globe">🌍 Globe 3D</button>
+      <button data-view="list" role="tab" aria-selected="false" data-i18n="carto3d.list">📋 Vue liste</button>
+    </div>
+
+    <!-- 3D Globe -->
+    <div id="globe-container" style="display:block">
+      <div id="globe-loader"><div class="spinner"></div><span data-i18n="carto3d.loading">Chargement du globe…</span></div>
+      <div id="globe-fallback" role="alert"></div>
+      <div id="globe-tooltip" role="tooltip"></div>
+      <div id="globe-panel" role="dialog" aria-label="Articles"></div>
+      <div id="globe-controls">
+        <button id="globe-btn-pause" aria-pressed="false" aria-label="Pause/Reprendre" title="Pause/Reprendre">⏸<span class="ctrl-label" data-i18n="carto3d.pause">Pause</span></button>
+        <button id="globe-btn-reset" aria-label="Réinitialiser" title="Réinitialiser">⟲<span class="ctrl-label" data-i18n="carto3d.reset">Réinitialiser</span></button>
+      </div>
+      <div id="globe-legend">
+        <div class="lg-item"><span class="lg-dot" style="background:#5a7fba"></span><span class="lg-text" data-i18n="carto3d.clinical">Clinique</span></div>
+        <div class="lg-item"><span class="lg-dot" style="background:#e8855a"></span><span class="lg-text" data-i18n="carto3d.research">Recherche</span></div>
+        <div class="lg-item"><span class="lg-dot" style="background:#4aa86a"></span><span class="lg-text" data-i18n="carto3d.association">Association</span></div>
+        <div class="lg-item"><span class="lg-dot" style="background:#b87ac4"></span><span class="lg-text" data-i18n="carto3d.news">Actualités</span></div>
+      </div>
+    </div>
+
+    <!-- List view (accessible fallback) -->
+    <div id="globe-list-view">
+      <div class="lv-header">
+        <span class="lv-count">—</span>
+        <span class="lv-updated"></span>
+      </div>
+      <div class="lv-filters" aria-label="Filtres"></div>
+      <div class="lv-articles"></div>
+    </div>
+  </div>
+</section>
+
 <div style="text-align:center;padding:1.5rem 0 .5rem;font-size:.7rem;opacity:.4;letter-spacing:.05em">
   <span style="display:inline-flex;align-items:center;gap:.4rem">
     <span>✦</span>
@@ -902,6 +945,7 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 </footer>
 
 <script src="scripts/news-ticker.js"></script>
+<script src="js/carto-forum-3d.js"></script>
 
 <script>
 /* ── Scroll Spy (IntersectionObserver) ── */

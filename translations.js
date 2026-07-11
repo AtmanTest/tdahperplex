@@ -18,6 +18,7 @@ var i18n = {
     "nav.impacts": "Impacts",
     "nav.analyse": "Analyse",
     "nav.synthese": "Synthèse",
+    "nav.carto3d": "Forum 3D",
     "nav.actualites": "Actualités",
 
     /* ── HERO ── */
@@ -211,6 +212,20 @@ var i18n = {
     "news.filter.fr": "🇫🇷 Français",
     "news.filter.en": "🇬🇧 English",
 
+    /* ── CARTO FORUM 3D ── */
+    "sec.carto3d": "🌍 Carto Forum 3D",
+    "h2.carto3d": "Sources et acteurs de la recherche TDAH",
+    "carto3d.desc": "Explore les associations, cliniques et médias qui publient sur le TDAH à travers le monde. Clique sur un marqueur pour voir leurs articles.",
+    "carto3d.globe": "🌍 Globe 3D",
+    "carto3d.list": "📋 Vue liste",
+    "carto3d.loading": "Chargement du globe…",
+    "carto3d.pause": "Pause",
+    "carto3d.reset": "Réinitialiser",
+    "carto3d.clinical": "Clinique",
+    "carto3d.research": "Recherche",
+    "carto3d.association": "Association",
+    "carto3d.news": "Actualités",
+
     /* ── DASHBOARD ── */
     "dashboard.intro": "Visualise l'ensemble de tes résultats en un coup d'œil. Renseigne les scores obtenus dans chaque test pour voir apparaître le radar.",
 
@@ -243,6 +258,7 @@ var i18n = {
     "nav.impacts": "Impacts",
     "nav.analyse": "Analysis",
     "nav.synthese": "Overview",
+    "nav.carto3d": "Forum 3D",
     "nav.actualites": "News",
 
     /* ── HERO ── */
@@ -433,6 +449,20 @@ var i18n = {
     "news.filter.all": "All",
     "news.filter.fr": "🇫🇷 French",
     "news.filter.en": "🇬🇧 English",
+
+    /* ── CARTO FORUM 3D ── */
+    "sec.carto3d": "🌍 Carto Forum 3D",
+    "h2.carto3d": "TBD",
+    "carto3d.desc": "TBD",
+    "carto3d.globe": "🌍 Globe 3D",
+    "carto3d.list": "📋 List view",
+    "carto3d.loading": "Loading globe…",
+    "carto3d.pause": "Pause",
+    "carto3d.reset": "Reset",
+    "carto3d.clinical": "Clinical",
+    "carto3d.research": "Research",
+    "carto3d.association": "Association",
+    "carto3d.news": "News",
 
     /* ── DASHBOARD ── */
     "dashboard.intro": "View all your results at a glance. Enter the scores from each test to display the radar chart.",
