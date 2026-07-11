@@ -210,8 +210,20 @@ section>*{position:relative;z-index:1}
 [data-theme="light"] #synthese::before{opacity:.03}
 
 /* Section illustration images */
+
+/* Gradient overlay on section images */
+.section-illu-wrap {
+  position:relative;display:flex;justify-content:center;
+  margin:0 auto 1.5rem;max-width:90%;width:100%;
+}
+.section-illu-wrap .section-illu{margin:0;width:100%;object-fit:cover}
+.section-illu-wrap::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:40%;
+  background:linear-gradient(to top, rgba(0,0,0,.25), transparent);
+  pointer-events:none;z-index:1;border-radius:var(--radius);
+}
 .section-illu{
-  display:block;width:90%;max-width:500px;height:auto;
+  display:block;width:100%;max-width:500px;height:auto;
   margin:0 auto 1.5rem;border-radius:var(--radius);
   box-shadow:var(--shadow);object-fit:cover;
 }
@@ -491,7 +503,7 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 <section id="chronologie">
   <div class="section-label" data-i18n="sec.parcours">Parcours de vie</div>
   <h2 data-i18n="h2.parcours">Une chronique de l'inattention</h2>
-  <img class="section-illu" src="images/tdah_chronologie.png" alt="Illustration de la chronologie de vie">
+  <div class="section-illu-wrap"><img class="section-illu" src="images/tdah_chronologie.png" alt="Illustration de la chronologie de vie"></div>
   <div class="timeline">
 
     <div class="timeline-item">
@@ -667,7 +679,7 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 <section id="exemples">
   <div class="section-label" data-i18n="sec.exemples">Exemples concrets</div>
   <h2 data-i18n="h2.exemples">Dans le quotidien</h2>
-  <img class="section-illu" src="images/tdah_exemples.png" alt="Illustration d'exemples concrets du quotidien">
+  <div class="section-illu-wrap"><img class="section-illu" src="images/tdah_exemples.png" alt="Illustration d'exemples concrets du quotidien"></div>
   <div class="card-grid">
 
     <div class="card">
@@ -707,7 +719,7 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 <section id="impacts">
   <div class="section-label" data-i18n="sec.impacts">Impacts fonctionnels</div>
   <h2 data-i18n="h2.impacts">Conséquences dans les domaines de vie</h2>
-  <img class="section-illu" src="images/tdah_impacts.png" alt="Illustration des impacts fonctionnels">
+  <div class="section-illu-wrap"><img class="section-illu" src="images/tdah_impacts.png" alt="Illustration des impacts fonctionnels"></div>
 
   <div class="card">
     <h3 data-i18n="imp.0.title">🎓 Études et formation</h3>
@@ -745,7 +757,7 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 <section id="pourquoi">
   <div class="section-label" data-i18n="sec.analyse">Analyse clinique</div>
   <h2 data-i18n="h2.analyse">Pourquoi cela évoque un TDAH inattentif</h2>
-  <img class="section-illu" src="images/tdah_analyse.png" alt="Illustration de l'analyse clinique et neurologique">
+  <div class="section-illu-wrap"><img class="section-illu" src="images/tdah_analyse.png" alt="Illustration de l'analyse clinique et neurologique"></div>
   <div class="pull">
     <p data-i18n="an.0"><strong>Présence depuis l'enfance :</strong> Les difficultés d'attention, d'organisation et d'oubli sont présentes depuis l'école primaire, confirmées par les bulletins et le discours parental.</p>
   </div>
@@ -863,7 +875,7 @@ tbody td:first-child{font-weight:600;color:var(--text);white-space:nowrap}
 <section id="actualites">
   <div class="section-label" data-i18n="sec.actualites">Actualités TDAH</div>
   <h2 data-i18n="h2.actualites">Veille quotidienne</h2>
-  <img class="section-illu" src="images/tdah_actualites.png" alt="Illustration des actualités TDAH">
+  <div class="section-illu-wrap"><img class="section-illu" src="images/tdah_actualites.png" alt="Illustration des actualités TDAH"></div>
   <p style="margin-bottom:1rem" data-i18n="news.desc">Articles récents issus de sources spécialisées (ADDitude, CHADD, Google News, TDAH France). Mise à jour automatique chaque jour via GitHub Actions.</p>
   <div class="news-filters" id="news-filters">
     <button class="news-filter-btn active" data-filter="all" data-i18n="news.filter.all">Toutes</button>
