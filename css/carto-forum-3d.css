@@ -33,7 +33,7 @@
   border-radius:var(--radius);
   overflow:hidden;
   position:relative;
-  background:radial-gradient(ellipse at center, #0c1a2e 0%, #050810 100%);
+  background:radial-gradient(ellipse at center, #132a42 0%, #0a1628 100%);
   border:1px solid var(--border);
   box-shadow:0 4px 30px rgba(0,0,0,.3);
 }

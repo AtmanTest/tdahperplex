@@ -11,14 +11,14 @@
   'use strict';
 
   const CONFIG = {
-    globeImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg',
+    globeImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg',
     bumpImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png',
     pointAlt: 0.01,
     pointRadius: 0.5,
     pointResolution: 12,
     initialLat: 30,
     initialLng: -30,
-    initialAltitude: 2.0,
+    initialAltitude: 1.8,
     rotationSpeed: 0.001,
     maxZoom: 4,
     minZoom: 1.2,
@@ -222,9 +222,10 @@
         globeWorld = Globe()
           .globeImageUrl(CONFIG.globeImageUrl)
           .bumpImageUrl(CONFIG.bumpImageUrl)
-          .backgroundColor('#050810')
-          .atmosphereColor('#3a6ea5')
-          .atmosphereAltitude(0.15)
+          .backgroundColor('#0c1a2e')
+          .atmosphereColor('#5a7fba')
+          .atmosphereAltitude(0.18)
+          .globeGlowColor('#3b5b8c')
           .pointOfView({
             lat: CONFIG.initialLat,
             lng: CONFIG.initialLng,
