@@ -114,18 +114,28 @@
   function loadGlobeGL() {
     return new Promise((resolve, reject) => {
       if (typeof Globe !== 'undefined') { resolve(); return; }
-      const s = document.createElement('script');
-      s.src = 'https://cdn.jsdelivr.net/npm/globe.gl@2.36.1/dist/globe.gl.min.js';
-      s.async = true;
-      s.onload = () => {
-        // Wait a tick for Globe to be fully initialized
-        setTimeout(() => {
-          if (typeof Globe !== 'undefined') resolve();
-          else reject(new Error('Globe.GL loaded but not found'));
-        }, 100);
-      };
-      s.onerror = () => reject(new Error('Failed to load Globe.GL'));
-      document.head.appendChild(s);
+      const urls = [
+        'https://cdn.jsdelivr.net/npm/globe.gl@2.36.1/dist/globe.gl.min.js',
+        'https://unpkg.com/globe.gl@2.36.1/dist/globe.gl.min.js'
+      ];
+      function tryLoad(i) {
+        if (i >= urls.length) { reject(new Error('All CDN URLs failed')); return; }
+        const s = document.createElement('script');
+        s.src = urls[i];
+        s.async = true;
+        s.onerror = function() {
+          console.warn('Carto 3D: CDN ' + urls[i] + ' failed, retrying…');
+          tryLoad(i + 1);
+        };
+        s.onload = function() {
+          setTimeout(function() {
+            if (typeof Globe !== 'undefined') resolve();
+            else { console.warn('Carto 3D: Globe not found after ' + urls[i] + ', retrying…'); tryLoad(i + 1); }
+          }, 200);
+        };
+        document.head.appendChild(s);
+      }
+      tryLoad(0);
     });
   }
 
@@ -203,11 +213,6 @@
 
   // ── Init globe ──
   function initGlobe() {
-    if (!hasWebGL()) {
-      showNoWebgl();
-      return;
-    }
-
     loader.style.display = 'block';
     container.style.display = 'block';
     fallbackEl.style.display = 'none';
@@ -534,15 +539,6 @@
       renderListView();
 
       if (!container) return;
-
-      // Check WebGL
-      if (!hasWebGL()) {
-        showNoWebgl();
-        toggleBtns.forEach(b => b.classList.remove('active'));
-        const listBtn = document.querySelector('#globe-view-toggle [data-view="list"]');
-        if (listBtn) listBtn.classList.add('active');
-        return;
-      }
 
       // Init globe after short delay for lazy loading
       setTimeout(() => {
