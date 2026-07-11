@@ -14,11 +14,11 @@
     globeImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg',
     bumpImageUrl: 'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png',
     pointAlt: 0.01,
-    pointRadius: 0.35,
+    pointRadius: 0.5,
     pointResolution: 12,
-    initialLat: 25,
-    initialLng: 10,
-    initialAltitude: 2.2,
+    initialLat: 30,
+    initialLng: -30,
+    initialAltitude: 2.0,
     rotationSpeed: 0.001,
     maxZoom: 4,
     minZoom: 1.2,
@@ -132,36 +132,48 @@
   // ── Fetch articles ──
   function loadArticles() {
     const feedPath = 'data/carto-feed.json';
-    return fetch(feedPath + '?_=' + Date.now())
-      .then(r => {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
-      .then(data => {
-        articles = (data.articles || []).map(a => ({
-          ...a,
-          timestamp: a.date ? new Date(a.date).getTime() : 0
-        }));
-        articles.sort((a, b) => b.timestamp - a.timestamp);
-        return articles;
-      })
-      .catch(() => {
-        // Try demo file as fallback
-        return fetch('data/rss-demo.json')
-          .then(r => r.json())
-          .then(data => {
-            articles = (data.articles || []).map(a => ({
-              ...a,
-              timestamp: a.date ? new Date(a.date).getTime() : 0
-            }));
-            articles.sort((a, b) => b.timestamp - a.timestamp);
-            return articles;
-          })
-          .catch(() => {
-            articles = [];
-            return [];
-          });
-      });
+    const landmarksPath = 'data/adhd-landmarks.json';
+    return Promise.all([
+      fetch(feedPath + '?_=' + Date.now())
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(data => data.articles || [])
+        .catch(() =>
+          fetch('data/rss-demo.json')
+            .then(r => r.json())
+            .then(data => data.articles || [])
+            .catch(() => [])
+        ),
+      fetch(landmarksPath)
+        .then(r => r.json())
+        .then(data => Array.isArray(data) ? data : [])
+        .catch(() => [])
+    ]).then(([rssArticles, landmarks]) => {
+      // Convert landmarks to article-like objects with marker flag
+      const landmarkItems = landmarks.map((l, i) => ({
+        id: 'lm-' + l.id,
+        title: l.name,
+        link: null,
+        description: l.desc || '',
+        source: l.name,
+        sourceId: l.id,
+        lang: 'EN',
+        country: l.country,
+        lat: l.lat,
+        lng: l.lng,
+        category: l.category || 'research',
+        date: null,
+        domain: null,
+        isLandmark: true,
+        timestamp: 0
+      }));
+      // Merge: landmarks first, then RSS articles
+      articles = [...landmarkItems, ...rssArticles].map(a => ({
+        ...a,
+        timestamp: a.date ? new Date(a.date).getTime() : (a.timestamp || 0)
+      }));
+      articles.sort((a, b) => b.timestamp - a.timestamp);
+      return articles;
+    });
   }
 
   // ── Group articles by source ──
@@ -298,19 +310,29 @@
     const arts = marker.articles.slice(0, 5);
     let html = '<div class="panel-header">' +
       '<span class="panel-title">' + escapeHtml(marker.source) + '</span>' +
-      '<button class="panel-close" onclick="document.getElementById(\'globe-panel\').classList.remove(\'open\')" aria-label="Fermer">&times;</button>' +
+      '<button class="panel-close" onclick="this.closest(\'#globe-panel\').classList.remove(\'open\')" aria-label="Fermer">&times;</button>' +
       '</div>';
 
-    arts.forEach(a => {
-      const d = a.description ? a.description.substring(0, 200) : '';
+    if (marker.articles[0] && marker.articles[0].isLandmark) {
+      // Landmark (no real articles) — show description
+      const lm = marker.articles[0];
       html += '<div class="panel-article">' +
-        '<h4>' + escapeHtml(a.title) + '</h4>' +
-        '<div class="pa-meta">' + formatDate(a.date) + ' · ' + _(a.category || 'news') +
-        (a.country ? ' · ' + escapeHtml(a.country) : '') + '</div>' +
-        (d ? '<div class="pa-desc">' + escapeHtml(d) + '</div>' : '') +
-        '<a class="pa-link" href="' + escapeAttr(a.link) + '" target="_blank" rel="noopener noreferrer">Lire la source →</a>' +
+        (lm.description ? '<div class="pa-desc" style="-webkit-line-clamp:inherit;max-height:none">' + escapeHtml(lm.description) + '</div>' : '') +
+        '<div class="pa-meta" style="margin-top:.4rem">📍 ' + _(lm.category || 'research') +
+        (lm.country ? ' · ' + escapeHtml(lm.country) : '') + '</div>' +
         '</div>';
-    });
+    } else {
+      arts.forEach(a => {
+        const d = a.description ? a.description.substring(0, 200) : '';
+        html += '<div class="panel-article">' +
+          '<h4>' + escapeHtml(a.title) + '</h4>' +
+          '<div class="pa-meta">' + formatDate(a.date) + ' · ' + _(a.category || 'news') +
+          (a.country ? ' · ' + escapeHtml(a.country) : '') + '</div>' +
+          (d ? '<div class="pa-desc">' + escapeHtml(d) + '</div>' : '') +
+          (a.link ? '<a class="pa-link" href="' + escapeAttr(a.link) + '" target="_blank" rel="noopener noreferrer">Lire la source →</a>' : '') +
+          '</div>';
+      });
+    }
 
     panel.innerHTML = html;
     panel.classList.add('open');

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "harvard-adhd",
+    "name": "Harvard ADHD Research — Massachusetts General Hospital",
+    "lat": 42.3629,
+    "lng": -71.0694,
+    "country": "US",
+    "category": "research",
+    "desc": "Centre de référence international pour la recherche TDAH — Dr. Joseph Biederman & Dr. Stephen Faraone"
+  },
+  {
+    "id": "kings-college",
+    "name": "King's College London — MRC Social, Genetic & Developmental Psychiatry",
+    "lat": 51.5103,
+    "lng": -0.1167,
+    "country": "UK",
+    "category": "research",
+    "desc": "Études longitudinales TDAH — Dr. Philip Asherson, génétique du TDAH"
+  },
+  {
+    "id": "radboud-nijmegen",
+    "name": "Radboud University — Donders Institute for Brain, Cognition and Behaviour",
+    "lat": 51.8192,
+    "lng": 5.8593,
+    "country": "NL",
+    "category": "research",
+    "desc": "Neurosciences cognitives du TDAH, imagerie cérébrale"
+  },
+  {
+    "id": "charite-berlin",
+    "name": "Charité Berlin — ADHS Forschung",
+    "lat": 52.5251,
+    "lng": 13.3759,
+    "country": "DE",
+    "category": "clinical",
+    "desc": "Clinique et recherche TDAH adulte — Pr. Michael Colla, Dr. Sarah Kittel-Schneider"
+  },
+  {
+    "id": "karolinska-adhd",
+    "name": "Karolinska Institutet — ADHD Research",
+    "lat": 59.3478,
+    "lng": 18.0239,
+    "country": "SE",
+    "category": "research",
+    "desc": "Génétique et épidémiologie du TDAH — Dr. Henrik Larsson"
+  },
+  {
+    "id": "uva-amsterdam",
+    "name": "Amsterdam UMC — Afdeling ADHD bij Volwassenen",
+    "lat": 52.3327,
+    "lng": 4.9155,
+    "country": "NL",
+    "category": "clinical",
+    "desc": "Clinique TDAH adulte de référence aux Pays-Bas"
+  },
+  {
+    "id": "hopital-pitie",
+    "name": "Hôpital Pitié-Salpêtrière — Centre TDAH Adulte",
+    "lat": 48.8372,
+    "lng": 2.3649,
+    "country": "FR",
+    "category": "clinical",
+    "desc": "Centre expert TDAH adulte — Paris, Dr. D. Purper-Ouakil"
+  },
+  {
+    "id": "hopital-ste-anne",
+    "name": "GHU Paris Psychiatrie & Neurosciences — Centre TDAH",
+    "lat": 48.8348,
+    "lng": 2.3296,
+    "country": "FR",
+    "category": "clinical",
+    "desc": "Pôle TDAH adulte — Hôpital Sainte-Anne, Paris"
+  },
+  {
+    "id": "hopital-robert-debre",
+    "name": "Hôpital Robert-Debré — Centre expert TDAH enfant",
+    "lat": 48.8767,
+    "lng": 2.4034,
+    "country": "FR",
+    "category": "clinical",
+    "desc": "Centre expert TDAH enfant et adolescent — AP-HP Paris"
+  },
+  {
+    "id": "chuv-lausanne",
+    "name": "CHUV — Unité TDAH Adulte (SUPEA)",
+    "lat": 46.5248,
+    "lng": 6.6427,
+    "country": "CH",
+    "category": "clinical",
+    "desc": "Consultation TDAH adulte — Lausanne, Suisse"
+  },
+  {
+    "id": "hopital-montreal",
+    "name": "Hôpital Rivière-des-Prairies — CIUSSS du Nord-de-l'Île-de-Montréal",
+    "lat": 45.5760,
+    "lng": -73.6617,
+    "country": "CA",
+    "category": "clinical",
+    "desc": "Centre TDAH adulte — Montréal, Québec"
+  },
+  {
+    "id": "toronto-adhd",
+    "name": "Centre for Addiction and Mental Health — Adult ADHD Clinic",
+    "lat": 43.6577,
+    "lng": -79.4043,
+    "country": "CA",
+    "category": "clinical",
+    "desc": "Clinique TDAH adulte — CAMH, Toronto"
+  },
+  {
+    "id": "yale-adhd",
+    "name": "Yale University — Child Study Center ADHD Program",
+    "lat": 41.3161,
+    "lng": -72.9225,
+    "country": "US",
+    "category": "research",
+    "desc": "Programme de recherche TDAH de référence — Dr. James Leckman"
+  },
+  {
+    "id": "oregon-health",
+    "name": "Oregon Health & Science University — ADHD Research",
+    "lat": 45.5259,
+    "lng": -122.6826,
+    "country": "US",
+    "category": "research",
+    "desc": "Centre de recherche comportementale TDAH — Dr. Joel Nigg"
+  },
+  {
+    "id": "ucla-adhd",
+    "name": "UCLA — Semel Institute ADHD Research",
+    "lat": 34.0695,
+    "lng": -118.4427,
+    "country": "US",
+    "category": "research",
+    "desc": "Neurosciences TDAH — Dr. Sandra Loo, électrophysiologie"
+  },
+  {
+    "id": "nki-new-york",
+    "name": "NYU Child Study Center — ADHD Institute",
+    "lat": 40.7416,
+    "lng": -73.9735,
+    "country": "US",
+    "category": "clinical",
+    "desc": "Institut TDAH de référence — New York"
+  },
+  {
+    "id": "edinburgh-adhd",
+    "name": "University of Edinburgh — ADHD Research",
+    "lat": 55.9523,
+    "lng": -3.1874,
+    "country": "UK",
+    "category": "research",
+    "desc": "Génétique et psychiatrie développementale TDAH"
+  },
+  {
+    "id": "barcelona-adhd",
+    "name": "Hospital Universitari Vall d'Hebron — TDAH Adulte",
+    "lat": 41.4227,
+    "lng": 2.1451,
+    "country": "ES",
+    "category": "clinical",
+    "desc": "Unité TDAH adulte — Barcelone, Dr. J. Antoni Ramos-Quiroga"
+  },
+  {
+    "id": "sao-paulo-adhd",
+    "name": "Universidade Federal do Rio Grande do Sul — ADHD Research",
+    "lat": -30.0347,
+    "lng": -51.2311,
+    "country": "BR",
+    "category": "research",
+    "desc": "Programme TDAH Brésil — Dr. Luis Rohde"
+  },
+  {
+    "id": "tel-aviv-adhd",
+    "name": "Tel Aviv University — ADHD Research Program",
+    "lat": 32.1125,
+    "lng": 34.8036,
+    "country": "IL",
+    "category": "research",
+    "desc": "Recherche TDAH — cognition, génétique et imagerie"
+  },
+  {
+    "id": "sydney-adhd",
+    "name": "University of Sydney — Child and Adolescent ADHD Clinic",
+    "lat": -33.8883,
+    "lng": 151.1878,
+    "country": "AU",
+    "category": "clinical",
+    "desc": "Clinique TDAH enfant et adolescent — Australie"
+  },
+  {
+    "id": "tokyo-adhd",
+    "name": "National Center of Neurology and Psychiatry — ADHD Research",
+    "lat": 35.7098,
+    "lng": 139.4811,
+    "country": "JP",
+    "category": "research",
+    "desc": "Centre national de recherche TDAH — Tokyo"
+  },
+  {
+    "id": "copenhagen-adhd",
+    "name": "University of Copenhagen — ADHD Research Unit",
+    "lat": 55.6791,
+    "lng": 12.5696,
+    "country": "DK",
+    "category": "research",
+    "desc": "Épidémiologie et psychiatrie TDAH — Dr. Søren Dalsgaard"
+  },
+  {
+    "id": "hebrew-university",
+    "name": "The Hebrew University — ADHD and Executive Functions Lab",
+    "lat": 31.7689,
+    "lng": 35.1963,
+    "country": "IL",
+    "category": "research",
+    "desc": "Laboratoire TDAH et fonctions exécutives — Dr. Yehuda Pollak"
+  },
+  {
+    "id": "inserm-france",
+    "name": "INSERM UMR-S 1270 — Neuroimagerie TDAH Paris",
+    "lat": 48.8377,
+    "lng": 2.3635,
+    "country": "FR",
+    "category": "research",
+    "desc": "Neuroimagerie du TDAH — Institut du Cerveau (ICM), Paris"
+  },
+  {
+    "id": "zurich-adhd",
+    "name": "Universität Zürich — ADHS Erwachsenensprechstunde",
+    "lat": 47.3768,
+    "lng": 8.5489,
+    "country": "CH",
+    "category": "clinical",
+    "desc": "Consultation TDAH adulte — Zurich, Pr. Susanne Walitza"
+  },
+  {
+    "id": "cadth-canada",
+    "name": "CADTH — Canadian ADHD Research",
+    "lat": 45.4047,
+    "lng": -75.6986,
+    "country": "CA",
+    "category": "research",
+    "desc": "Agence canadienne des médicaments et technologies de la santé — recherches TDAH"
+  },
+  {
+    "id": "queen-s-university",
+    "name": "Queen's University — ADHD & Executive Function Lab",
+    "lat": 44.2268,
+    "lng": -76.4981,
+    "country": "CA",
+    "category": "research",
+    "desc": "Fonctions exécutives et TDAH — Ontario"
+  },
+  {
+    "id": "university-of-helsinki",
+    "name": "University of Helsinki — ADHD Research",
+    "lat": 60.1699,
+    "lng": 24.9465,
+    "country": "FI",
+    "category": "research",
+    "desc": "Épidémiologie génétique du TDAH en Finlande"
+  },
+  {
+    "id": "iowa-adhd",
+    "name": "University of Iowa — Division of Child & Adolescent Psychiatry",
+    "lat": 41.6611,
+    "lng": -91.5172,
+    "country": "US",
+    "category": "clinical",
+    "desc": "Centre TDAH enfant et adolescent — Dr. Mark Stein"
+  },
+  {
+    "id": "dresden-adhd",
+    "name": "Universitätsklinikum Dresden — ADHS Ambulanz",
+    "lat": 51.0508,
+    "lng": 13.7627,
+    "country": "DE",
+    "category": "clinical",
+    "desc": "Ambulance TDAH adulte — Dresde"
+  },
+  {
+    "id": "milan-adhd",
+    "name": "Ospedale San Raffaele — ADHD Research Centre",
+    "lat": 45.4912,
+    "lng": 9.2296,
+    "country": "IT",
+    "category": "clinical",
+    "desc": "Centre de recherche et clinique TDAH — Milan"
+  },
+  {
+    "id": "stockholm-psychiatry",
+    "name": "Stockholm Psychiatry Northwest — ADHD Unit",
+    "lat": 59.3448,
+    "lng": 18.0516,
+    "country": "SE",
+    "category": "clinical",
+    "desc": "Unité TDAH — Stockholm"
+  }
+]
