@@ -1,21 +1,98 @@
 {
-  "fetchedAt": "2026-07-16T10:04:40.935Z",
+  "fetchedAt": "2026-07-17T09:53:12.884Z",
   "totalSources": 6,
   "sourceErrors": 0,
   "articles": [
     {
       "id": 1,
-      "title": "Neuro-inclusion Article One: The Research Project That Led to My ADHD Diagnosis - FE News",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQThMdk5VX3B1c1NzaGx4cGVjdS01Y0k2aGlnMXg5NmlpUGYtQTZ4cURNY3RDUE5oYjM0a3NaRlRfN1JzY1NFM3B0WWdaRGVtTExtazVxZVNnakxEMVBvUzg1bmI5LUx3ZElEOTJxWlEydkZwVm9iWjd1QWRnejJQQy1UVEw3em1BVXY3a0h5cDlYRVR2OTNqdThaUnhOUE85Mk5yaGRLWTVhdVl3N2JEMllMYW0?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPQThMdk5VX3B1c1NzaGx4cGVjdS01Y0k2aGlnMXg5NmlpUGYtQTZ4cURNY3RDUE5oYjM0a3NaRlRfN1JzY1NFM3B0WWdaRGVtTExtazVxZVNnakxEMVBvUzg1bmI5LUx3ZElEOTJxWlEydkZwVm9iWjd1QWRnejJQQy1UVEw3em1BVXY3a0h5cDlYRVR2OTNqdThaUnhOUE85Mk5yaGRLWTVhdVl3N2JEMllMYW0?oc=5\" ",
-      "source": "Google News — ADHD Research",
+      "title": "Can ADHD contribute to divorce? How ADHD symptoms affect marriage, child custody, and divorce - KVIA",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTjdiQzRjT3h3bzBoYVFKZEE5RW5EQWhIYnJNZk1zMGNBY0RsU1d6RXJkakwtMWhWNmQ4WDZMTGpUR3l5b1JDdjl4aVhSTW51ejJCU0szcXVCYUY4dF81bHFRSVl1c1hXSDhLV1c5cThSSS1YR3VlcG5vempBYUg1OFJkczZ6OWxEbkYwNjE3THR0X0M0dEdkbml5NERLM1BJRzdXT0x5dW9pYWZVUE5oNS1GVkV6cC0wUkhkQmd4M1BnZlBpTmE1Q2d4NzhNMU5mZDBkU3ktcnh0TVlw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTjdiQzRjT3h3bzBoYVFKZEE5RW5EQWhIYnJNZk1zMGNBY0RsU1d6RXJkakwtMWhWNmQ4WDZMTGpUR3l5b1JDdjl4aVhSTW51ejJCU0szcXVCYUY4dF81bHFRSVl1c1hXSDhLV1c5cThSSS1YR3VlcG5vempBYUg1OFJkczZ6OWxEbkYwNjE3THR0X0M0dEdkbml5NERLM1BJRzdXT0x5dW9pYWZVUE5oNS1GVkV6cC0wUk",
+      "source": "Google News — ADHD",
       "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-07-16T04:18:59.000Z",
+      "icon": "🔍",
+      "date": "2026-07-17T09:16:02.000Z",
       "domain": "news.google.com"
     },
     {
       "id": 2,
+      "title": "Dexamphetamine and methylphenidate work similarly for ADHD but differ in weight effects - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOelloeHl0TFY5bjRZa2ppT3NaUWdnckpScTlkeExUbmdyTTMyX0x1OE0ycnY2TDVyS3kyeGRFY0ZoN1ZWQ1RKZGhBcGs0c1IzY05SVDZZQVliWmtXNnlDc2h4S1FudkhySFF0OEZ5c3hiMWg5ZWhZV05ZdHpOaHpZdTh6MDRKNXM2akZjTHc2blJKRXRBRjZVVlY5V0JLbkcyb1Fqc2IwaTl2azQ1dFJ3VUNtWTZMRlBMamRqeDc1N2ZCUldpLXZUV2NSYWU5bV91?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOelloeHl0TFY5bjRZa2ppT3NaUWdnckpScTlkeExUbmdyTTMyX0x1OE0ycnY2TDVyS3kyeGRFY0ZoN1ZWQ1RKZGhBcGs0c1IzY05SVDZZQVliWmtXNnlDc2h4S1FudkhySFF0OEZ5c3hiMWg5ZWhZV05ZdHpOaHpZdTh6MDRKNXM2akZjTHc2blJKRXRBRjZVVlY5V0JLbkcyb1Fqc2IwaTl2azQ1dFJ3VUNtWTZMRlBMam",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-07-17T08:54:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 3,
+      "title": "When Traditional Career Advice Doesn't Fit Your Brain: ADHD at Work - UC Davis Alumni Association",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR2hrMGVZVnpBX1Z0S0pqa29WcVlWd1ZWZEdMUk9uazl1UEIxYS1ReHhLRjhjWHFVMEtRQVFNaVREbjdzR2VMYUhLdVRMbkpINVZJeWQ5Z1E1RzVjbDJiWVByZ18tcnVpaExRZFIxTjctemY1QThWNGZSTmpXd1QtR2JUdUhIMTVFUnRIRnREX3ZpQ1dfS0NVc3NWazI?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQR2hrMGVZVnpBX1Z0S0pqa29WcVlWd1ZWZEdMUk9uazl1UEIxYS1ReHhLRjhjWHFVMEtRQVFNaVREbjdzR2VMYUhLdVRMbkpINVZJeWQ5Z1E1RzVjbDJiWVByZ18tcnVpaExRZFIxTjctemY1QThWNGZSTmpXd1QtR2JUdUhIMTVFUnRIRnREX3ZpQ1dfS0NVc3NWazI?oc=5\" target=\"_blank\">When Traditional",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-07-17T01:14:12.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 4,
+      "title": "CHADD Receives 2026 Power of Associations Gold Award for the National Resource Center on ADHD",
+      "link": "https://chadd.org/chadd-receives-2026-power-of-associations-gold-award-for-the-national-resource-center-on-adhd/",
+      "description": "LANHAM, MD — CHADD has been honored with a 2026 ASAE Power of Associations Gold Award by the American Society of Association Executives (ASAE) in recognition of the National Resource Center on ADHD, an outstanding initiative that demonstrates the powerful role associations play in solving challenges",
+      "source": "CHADD",
+      "lang": "EN",
+      "icon": "🏛️",
+      "date": "2026-07-16T19:51:40.000Z",
+      "domain": "chadd.org"
+    },
+    {
+      "id": 5,
+      "title": "Adults with ADHD who struggle to manage emotions face a higher insomnia risk - PsyPost",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczJpN1laeVpKWXVfZm9TM3dMWmtKcU1qY1p6YlZCOGcwS3p0c1JOT0hfaWRwN184aGRiaHJyenVNN2ZSam93a05HTGJxTTJVRTZNczhhblVpcTdQMFdiS2E5RDhiTklCZjY5ZVpZbGx2R2ppLVlMSzMxVmt1d3FyUUpLMUFuQ1RuRDJfNHZGTEtqZE5XRTFzTWhjRl9hUkJJcHVR?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPczJpN1laeVpKWXVfZm9TM3dMWmtKcU1qY1p6YlZCOGcwS3p0c1JOT0hfaWRwN184aGRiaHJyenVNN2ZSam93a05HTGJxTTJVRTZNczhhblVpcTdQMFdiS2E5RDhiTklCZjY5ZVpZbGx2R2ppLVlMSzMxVmt1d3FyUUpLMUFuQ1RuRDJfNHZGTEtqZE5XRTFzTWhjRl9hUkJJcHVR?oc=5\" target=\"_blank\">Adults ",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-07-16T12:16:52.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 6,
+      "title": "Can Psychedelics Help Treat Adult ADHD? - Technology Networks",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmRUb2o1Zy15MGduV1p2QW51X1RQX2ZnUTZpck4xZkswd2VqRk5CaF9WZXJvR3ZwUTN6QW5UeXpZa1pEZ2N1VDAyTVk3Sk5RTGFDWDdKalluVzFjWE9GalRQWWxZNnYxbmhhczN6bXpJRHBEMmJlSzdyWTlNc192TmNKcTB0WGc5cTFqYjNDZjc2Zw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmRUb2o1Zy15MGduV1p2QW51X1RQX2ZnUTZpck4xZkswd2VqRk5CaF9WZXJvR3ZwUTN6QW5UeXpZa1pEZ2N1VDAyTVk3Sk5RTGFDWDdKalluVzFjWE9GalRQWWxZNnYxbmhhczN6bXpJRHBEMmJlSzdyWTlNc192TmNKcTB0WGc5cTFqYjNDZjc2Zw?oc=5\" target=\"_blank\">Can Psychedelics Help Treat A",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-07-16T10:20:06.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 7,
+      "title": "“Are You Guilty of Ableism Toward Your ADHD Loved Ones?”",
+      "link": "https://www.additudemag.com/ableism-adhd-disability-bias/",
+      "description": null,
+      "source": "ADDitude Magazine",
+      "lang": "EN",
+      "icon": "📰",
+      "date": "2026-07-16T09:59:33.000Z",
+      "domain": "additudemag.com"
+    },
+    {
+      "id": 8,
+      "title": "“Are You Guilty of Ableism Toward Your ADHD Loved Ones?” - ADDitude",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qbHVhSlkxcGI3Yk9hUVAyc1YxeGFQc3l4bTNjQVk5bDBiWFFyc3YyR1YwcEkxOU4yVElEWjVFcEhsTHpSWk5fUXdONnZRR2pLTWZkcGhKQ21zaUd6eWYtNFB5YzMwM3Vj?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qbHVhSlkxcGI3Yk9hUVAyc1YxeGFQc3l4bTNjQVk5bDBiWFFyc3YyR1YwcEkxOU4yVElEWjVFcEhsTHpSWk5fUXdONnZRR2pLTWZkcGhKQ21zaUd6eWYtNFB5YzMwM3Vj?oc=5\" target=\"_blank\">“Are You Guilty of Ableism Toward Your ADHD Loved Ones?”</a>&nbsp;&nbsp;<font color=\"#6",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-07-16T09:59:33.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 9,
       "title": "What ADHD Does to Your Body Could Be Just as Important as What It Does to Your Brain - inc.com",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOajJtNGdkbUF0WTZCVGI4T2llTmQwd2szc1NmTUdUSVJDYmVpbVlBTkNpaVBlVWJMZWdUNFF2MVdHRE5rTzhWUUpxZ2YzcTRlRzJMOU1ydTRvVnBOVi16Sk5sdmMxRTlkR0N4SUt6Um02NFRMRXh2ZmJMSDU2UU1pa3liQ0tSb0pBM1d4YTA5eG1mTWdMbGRoU254Z1BWRDA4dHZQdmhJZ0NiLXV0OTluUm01WjBtSDYyQVBtRlUxTDF5Q0U1QlVR?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOajJtNGdkbUF0WTZCVGI4T2llTmQwd2szc1NmTUdUSVJDYmVpbVlBTkNpaVBlVWJMZWdUNFF2MVdHRE5rTzhWUUpxZ2YzcTRlRzJMOU1ydTRvVnBOVi16Sk5sdmMxRTlkR0N4SUt6Um02NFRMRXh2ZmJMSDU2UU1pa3liQ0tSb0pBM1d4YTA5eG1mTWdMbGRoU254Z1BWRDA4dHZQdmhJZ0NiLXV0OTluUm01WjBtSDYyQV",
@@ -26,18 +103,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 3,
-      "title": "Haute-Saône : TDAH, TSA et troubles DYS, une nouvelle association de soutien - Les Affiches de la Haute-Saône",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZmNDWWRkWWc5VWNLMXk3N21iOTNsNGdXc1lqSUUxazhyRGdzaG1zbkZ3b0RaeTBUWjY1WlMyVW9xZFYwR2xXMzBBRHFXaTd2SllVNkxsNE1PUkFBOElSeXd0NURqMW9XQklhdzRHaWRzSTVWN0d2R3dmNDI4SlluVUFxeWd5STVBTVU3OFp0YVNkMW5RUVgyZ3N3dnZWOXA1RVloakVKWHJNTTlwcExLMTFOc1Q?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOZmNDWWRkWWc5VWNLMXk3N21iOTNsNGdXc1lqSUUxazhyRGdzaG1zbkZ3b0RaeTBUWjY1WlMyVW9xZFYwR2xXMzBBRHFXaTd2SllVNkxsNE1PUkFBOElSeXd0NURqMW9XQklhdzRHaWRzSTVWN0d2R3dmNDI4SlluVUFxeWd5STVBTVU3OFp0YVNkMW5RUVgyZ3N3dnZWOXA1RVloakVKWHJNTTlwcExLMTFOc1Q?oc=5\" ",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-07-15T22:03:26.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 4,
+      "id": 10,
       "title": "ADHD traits more common in runners, new research suggests - Canadian Running Magazine",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTlFPR2FibjllT0pOYjYtTUthYzg5aVdyakJFRlNDUzdlU1ZIWU14ZlczR3JPYnkydDZKdi1qT3JfZUVfNE5EM2o5UjZTMnpLOWxkZVFsOVZxdWR3cXRoOTNxTlJFdmcxb2U4RHVwbjdTOUVIeGVvTGxDRkJaaWJvakRIOVg1OWZhaUg4eEhLVk1Cd0R0LWR5NkJxZTZGOVFkVnc?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNTlFPR2FibjllT0pOYjYtTUthYzg5aVdyakJFRlNDUzdlU1ZIWU14ZlczR3JPYnkydDZKdi1qT3JfZUVfNE5EM2o5UjZTMnpLOWxkZVFsOVZxdWR3cXRoOTNxTlJFdmcxb2U4RHVwbjdTOUVIeGVvTGxDRkJaaWJvakRIOVg1OWZhaUg4eEhLVk1Cd0R0LWR5NkJxZTZGOVFkVnc?oc=5\" target=\"_blank\">ADHD tra",
@@ -48,7 +114,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 5,
+      "id": 11,
       "title": "Inside the Brain’s Control Center",
       "link": "https://www.additudemag.com/executive-functions-adhd-school/",
       "description": null,
@@ -59,62 +125,29 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 6,
-      "title": "Inside the Brain’s Control Center - ADDitude",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZUWhEdVpyaXBncHdKWVFmaDJodVozaWpQSjgyXzBoNjBwcEJmS3ZXOHBmTVoxcy0zSWtPT0F4c3EzMm0xcTBmZUFvbUprMzJOT1I5YzdZY0VXNUROaTJQWmZWMjNudnBEYXpkeg?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZUWhEdVpyaXBncHdKWVFmaDJodVozaWpQSjgyXzBoNjBwcEJmS3ZXOHBmTVoxcy0zSWtPT0F4c3EzMm0xcTBmZUFvbUprMzJOT1I5YzdZY0VXNUROaTJQWmZWMjNudnBEYXpkeg?oc=5\" target=\"_blank\">Inside the Brain’s Control Center</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ADDitude</",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-15T18:56:50.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 7,
-      "title": "FDA's Psychedelic Guidance; Mass Shootings and Car Crashes; ADHD Drug Misuse Down - MedPage Today",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8waTV1ZDY3MWt6WHNjQU54ZUw1VXNhSmtOV0RGN3FvOXRaVWxDeDBseUlQTHVnN3RDM3hwcDJDVFBXdTRyb1NDZkQyX20xTC1XTUdxYTlQY0hCTjRHbFhuNGVrX1BhTlF2T2lLS1I2clBQQQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE8waTV1ZDY3MWt6WHNjQU54ZUw1VXNhSmtOV0RGN3FvOXRaVWxDeDBseUlQTHVnN3RDM3hwcDJDVFBXdTRyb1NDZkQyX20xTC1XTUdxYTlQY0hCTjRHbFhuNGVrX1BhTlF2T2lLS1I2clBQQQ?oc=5\" target=\"_blank\">FDA's Psychedelic Guidance; Mass Shootings and Car Crashes; ADHD Drug Mis",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-15T18:31:44.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 8,
+      "id": 12,
       "title": "The Science Behind Finding the Optimal ADHD Medication Dose - Psychology Today",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbXRIRmgxNTJIUkljaHBGR0JfVTZMZ2ZTcC1OVG80N3RrNE1wUVYzcW9RMEl0WU45R0h2MUlfZmd5NzFMZTBRVnFTcmxXdGZxZmg3T2VSWmVTZXV3V09Hc0c5T0dyWEgxZDRvcTV2VGw1UVVQQTRZM1lKX0lDQXNxRlVLc3QwdXNLSUpTSmxiSFlyWmZHMXhGT2QxYm0wd1JPdmkxZGRWYnNYSlNvUktNdEdVMFdBMzBwcmVjQ3hsQlRORFE3U1dqeHVGVQ?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPbXRIRmgxNTJIUkljaHBGR0JfVTZMZ2ZTcC1OVG80N3RrNE1wUVYzcW9RMEl0WU45R0h2MUlfZmd5NzFMZTBRVnFTcmxXdGZxZmg3T2VSWmVTZXV3V09Hc0c5T0dyWEgxZDRvcTV2VGw1UVVQQTRZM1lKX0lDQXNxRlVLc3QwdXNLSUpTSmxiSFlyWmZHMXhGT2QxYm0wd1JPdmkxZGRWYnNYSlNvUktNdEdVMFdBMzBwcm",
-      "source": "Google News — ADHD Research",
+      "source": "Google News — ADHD",
       "lang": "EN",
-      "icon": "🔬",
+      "icon": "🔍",
       "date": "2026-07-15T18:19:24.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 9,
-      "title": "Can ADHD contribute to divorce? How ADHD symptoms affect marriage, child custody, and divorce - WSB-TV",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xZkFRMVlTY1pOUVZuMjZpX3hhVDVSdVdfYzIyWjZ5NlpvRW1HTGZfUWZNYjZDQURWSEs3OFYxeG4zUVhwVWJvYjZYRWx6dF93NWNOeFlpVG0zZWc2MjhzMThIWVA1amgwN0JSdm5ZOGZ6dUtxcW84c3BaMGliS0XSAZMBQVVfeXFMUHRnazFHSGdncnhsUnppdzg0V0dPSU51bEdsUUswM052MXItWVZvVTN2eUg2NExLdnk2dmhhak1QUng0V2xiV3Y2ejJrSFpocGxmRFR2b3FmdG4wc0F0c05mdmd4aDRrRF9Sd0F0UVFnNm9hZEgwWWVxOFJnVkhMTDJsRUVXcEgyX3gzaEFPdWtMZU00?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5xZkFRMVlTY1pOUVZuMjZpX3hhVDVSdVdfYzIyWjZ5NlpvRW1HTGZfUWZNYjZDQURWSEs3OFYxeG4zUVhwVWJvYjZYRWx6dF93NWNOeFlpVG0zZWc2MjhzMThIWVA1amgwN0JSdm5ZOGZ6dUtxcW84c3BaMGliS0XSAZMBQVVfeXFMUHRnazFHSGdncnhsUnppdzg0V0dPSU51bEdsUUswM052MXItWVZvVTN2eUg2NExLdn",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-15T14:00:05.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 10,
+      "id": 13,
       "title": "Got ADHD? A Lot of Runners Might - RUN | Powered by Outside",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QblhVXzc0ZU9IX1ZZWUVoZGFlblRrUmd4Wl9JWHN2TFFPRXFKVjhUZVFwbTJ3dnY2MDNWajlBQTZMem91c1IxZGhUa2pkckE4N0NaQzFvNUllamEzTHM1U3ZGMjRVZk9hSTZ6cDN4OUU3dw?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9QblhVXzc0ZU9IX1ZZWUVoZGFlblRrUmd4Wl9JWHN2TFFPRXFKVjhUZVFwbTJ3dnY2MDNWajlBQTZMem91c1IxZGhUa2pkckE4N0NaQzFvNUllamEzTHM1U3ZGMjRVZk9hSTZ6cDN4OUU3dw?oc=5\" target=\"_blank\">Got ADHD? A Lot of Runners Might</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RUN",
-      "source": "Google News — ADHD",
+      "source": "Google News — ADHD Research",
       "lang": "EN",
-      "icon": "🔍",
+      "icon": "🔬",
       "date": "2026-07-15T13:07:04.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 11,
+      "id": 14,
       "title": "Atteinte d'un TDAH et de TOC, Natalie Imbruglia alerte les femmes sur les effets méconnus de la périménopause - Marie Claire",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPb0pOdm9ZVGl1S2JmSWtnSDN6ZTJWSEp2ak9SaEU4cjRXRTgzZTkzTXFUUTJNMnJ0dmVUNjZqTGlYakk0V3FDaHdxeFRLRnBRVk43Q1RkSDNJUUI2S0VQSlFTWDNqb0JHTmRWbmRSTUtydnJ5a3d6N3E3eUJoUVZNTmVoOGJ4S0ZSMl9mNDNFcDU5TERvZE9ibEgwemd0U2ZSbFNuZUwwMDJ5Umt2M09IUzRDRGtRV2dQZ1dxdWhNd0tka1lrbFlLTG9iS0dRSmpqNkw5cnJQTGtKdC1JUnJhWA?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPb0pOdm9ZVGl1S2JmSWtnSDN6ZTJWSEp2ak9SaEU4cjRXRTgzZTkzTXFUUTJNMnJ0dmVUNjZqTGlYakk0V3FDaHdxeFRLRnBRVk43Q1RkSDNJUUI2S0VQSlFTWDNqb0JHTmRWbmRSTUtydnJ5a3d6N3E3eUJoUVZNTmVoOGJ4S0ZSMl9mNDNFcDU5TERvZE9ibEgwemd0U2ZSbFNuZUwwMDJ5Umt2M09IUzRDRGtRV2dQZ1",
@@ -125,7 +158,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 12,
+      "id": 15,
       "title": "Atteint d'autisme et de TDAH, ce garçon de 5 ans se retrouve attaché en laisse à son école: \"Personne ne mérite ça\", exclame sa mère - L'Avenir",
       "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOOU5Hal9OMmp2WXdqZVZJU1NMaEhPUDJ2LV8xUnNIeWUwc29oZmR4YVpiZUpERkE0MXJWcUF2aGg2a0c0NjNKcVcwUmF2aWhqUDY0QV9BaUpLcVNTbzFJY05qdFdZQkxwalo3UjdoamY3dHdLRmM5dVRkbk12cmR5ZngzSC1uUklRY3NNcFRQblZHRVRNcGtzSmR6OFlHUE5qUkpQTE92dmVuMFNyZHQ1X3NNZGU0aFoxZzNidzBJeVdyTGFHcklrcXV2Q3k0a1NiNC1KeGQ2ZnY5N3pKQWJ5OEZEVTRYVFgybUxkOUZCeFIwQ05hcTFMdkVtdUEycnJIUm10TV9pOXk5MFhvTmtSeWNreGdZRlIzMGZCT1BGUWM2dUE?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiowJBVV95cUxOOU5Hal9OMmp2WXdqZVZJU1NMaEhPUDJ2LV8xUnNIeWUwc29oZmR4YVpiZUpERkE0MXJWcUF2aGg2a0c0NjNKcVcwUmF2aWhqUDY0QV9BaUpLcVNTbzFJY05qdFdZQkxwalo3UjdoamY3dHdLRmM5dVRkbk12cmR5ZngzSC1uUklRY3NNcFRQblZHRVRNcGtzSmR6OFlHUE5qUkpQTE92dmVuMFNyZHQ1X3NNZGU0aFoxZz",
@@ -136,10 +169,10 @@
       "domain": "news.google.com"
     },
     {
-      "id": 13,
+      "id": 16,
       "title": "Radié de son école après des troubles liés à son handicap, un élève de CE1 réintégré par la justice à Paris - Actu.fr",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZHBXcUtOaDlxZGtWc2JrZk9GaDBlbDNha0RUN3pOZGhBNnhOODFtU21HWktkb05LWFNYX1BETk5PSDJyX1pGYVhTa2dPdzJiZmNrNHRMb0hsa0p6TEdJOGl1Tmo5OXI4d2RxTzN3SWJtSmhjWFhFOHBwUHJUeEliWVBBZnExYkNpTmxuWUNiZVdRVlhXSkdUSWtudzFFWldCWksxYndVR3EzdFM5OW9wQXcxRnpUc1dhdHlqUTE5QVZYVXAxMGI4b01HbC1xVUIzdUZtdEhoMzNoclZfSzN6cWRKQjZIbGU2RmNYaUJjNDBPQTNh?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZHBXcUtOaDlxZGtWc2JrZk9GaDBlbDNha0RUN3pOZGhBNnhOODFtU21HWktkb05LWFNYX1BETk5PSDJyX1pGYVhTa2dPdzJiZmNrNHRMb0hsa0p6TEdJOGl1Tmo5OXI4d2RxTzN3SWJtSmhjWFhFOHBwUHJUeEliWVBBZnExYkNpTmxuWUNiZVdRVlhXSkdUSWtudzFFWldCWksxYndVR3EzdFM5OW9wQXcxRnpUc1dhdH",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOQlFLMkNaZzQwLXZySmdCb0w1djFISFl4VXFxc1FobEhaekpsLUZVblU5X3FWTFlkT1F5ZjVEbE56bDk5Q3NjaVpRT2liYXd3Q3pvUE5mVjd2V0VweGJYT3REQnE1eEFWUjNrMkM2TW51Z0x0QVJydVFxa094d0lfQmFOUWU5Uk9YMTVpM3daM0VmcG1yUGROdVBNZ01MS056dXg1MmRJLXVJQmdVTU5fY2xrbkNuLVNMc0NPbFJwR1ZZV3E1YWlucmZiX2lCRG5RRUd1WGJOdzNzRk1Dc3VXbkFHYzQydjdOYk1fS2Vpa2h1bGVoa2ZkZkJXMTd5VnRQX1duM0JJZng?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxOQlFLMkNaZzQwLXZySmdCb0w1djFISFl4VXFxc1FobEhaekpsLUZVblU5X3FWTFlkT1F5ZjVEbE56bDk5Q3NjaVpRT2liYXd3Q3pvUE5mVjd2V0VweGJYT3REQnE1eEFWUjNrMkM2TW51Z0x0QVJydVFxa094d0lfQmFOUWU5Uk9YMTVpM3daM0VmcG1yUGROdVBNZ01MS056dXg1MmRJLXVJQmdVTU5fY2xrbkNuLVNMc0",
       "source": "Google News — TDAH",
       "lang": "FR",
       "icon": "🇫🇷",
@@ -147,7 +180,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 14,
+      "id": 17,
       "title": "Research shows women with ADHD often see symptom severity track estrogen levels so tightly across the menstrual cycle that luteal-phase scores can resemble those of untreated patients — even when they",
       "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNVWZtcXF1XzVtOFBwbEVNZFAtaUFEMGxidHF0V0w3NHl6Y0pDNnotclkzaGc4LUhVUU1WTUIwbVJyTUhCYWxUZ09VM2VXd0o0TFdNTUVDSTQ2X0hvYlpEcGw5c3J0YzFzb1NvLWpyVmdWWnJwenhkZUlLQXFsRkdJMkNCckUtYkVjTzk5ZUhuOENLLThESTFZRjVXWDBFMS1zcEVuX3RwQWxDaXNUMGFqeUdXQnF4TGU4QkE1ZFBzNUpCUV9MblppUkg0eXFkWVpoVXNOMkVCVG41Zno3Sl82OGEtNE93c1hkc3JhZ1ZURDN6MmRRMV81TENtMDF5M3AwU0hUN1E5RHJ6dGpYaU9LN3p4clJoTnNkbDdsLWlnX0I3RWxKUTdlWndXa2lOdU5GUmFmeEtJRjZaOU5uNlFmSjRNSDUtVjA?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMixwJBVV95cUxNVWZtcXF1XzVtOFBwbEVNZFAtaUFEMGxidHF0V0w3NHl6Y0pDNnotclkzaGc4LUhVUU1WTUIwbVJyTUhCYWxUZ09VM2VXd0o0TFdNTUVDSTQ2X0hvYlpEcGw5c3J0YzFzb1NvLWpyVmdWWnJwenhkZUlLQXFsRkdJMkNCckUtYkVjTzk5ZUhuOENLLThESTFZRjVXWDBFMS1zcEVuX3RwQWxDaXNUMGFqeUdXQnF4TGU4Qk",
@@ -158,7 +191,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 15,
+      "id": 18,
       "title": "Ole Miss, Southern Miss research highlights concussion challenges for athletes with ADHD - Northeast Mississippi Daily Journal",
       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa2tFZExYUnJfcnZrTGtzYlU3OGNyUGEyMVExZWZNT0xkcHBicUZNMUNjWTR1d29XYWVlanFFM1Y1TXNGeUlnU0ljenlLTUlIODVyRmFqMGQxSmVEejB4cGtSOW5QOWlVTzlxMFRTOUxVVFFvM3MteHVFYXBNQ0YwTU40aUsyWXY3THZxeHVjRXF1SXh5SXVtZnBGZ3R4OWloVk1pVHc0SHRlYnF5QmNBZjlQdGQ0cVdQZGJHdjBTTGkxS0YtM2hwaTdpUGNXYmxXUUtycnprUy1kVFJyTnNaLWdhRC1QbzlpOV8yUXBTd0hVZVM4aWNoUllyMnBKampBMElRUGhsVHU?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxPa2tFZExYUnJfcnZrTGtzYlU3OGNyUGEyMVExZWZNT0xkcHBicUZNMUNjWTR1d29XYWVlanFFM1Y1TXNGeUlnU0ljenlLTUlIODVyRmFqMGQxSmVEejB4cGtSOW5QOWlVTzlxMFRTOUxVVFFvM3MteHVFYXBNQ0YwTU40aUsyWXY3THZxeHVjRXF1SXh5SXVtZnBGZ3R4OWloVk1pVHc0SHRlYnF5QmNBZjlQdGQ0cVdQZG",
@@ -169,7 +202,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 16,
+      "id": 19,
       "title": "Prenatal Antidepressant Use Not Linked to ADHD in Kids: New Study",
       "link": "https://www.additudemag.com/can-you-take-antidepressants-while-pregnant/",
       "description": null,
@@ -180,7 +213,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 17,
+      "id": 20,
       "title": "Natalie Imbruglia Says Perimenopause Made Her ADHD, OCD Symptoms ‘Worse’: ‘I Fell Off a Cliff’ - People.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY1o4ODh2dENJT0oxYXdHeTZ0N2lDXzM3dVk2YWk0V2FzU2VQRllQaEFZRnFobGM4U1BKbktKUWhFek52TDNBWmVPYm9QMXAwbVdPTUVUOGhHbFhjRHM2Mm81ajRQX1lhVmYzai1pczNTTFpjbnZXZTFndlg5d0owUUJoNDdWdEJ5MU9aV2hySUhmdw?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPY1o4ODh2dENJT0oxYXdHeTZ0N2lDXzM3dVk2YWk0V2FzU2VQRllQaEFZRnFobGM4U1BKbktKUWhFek52TDNBWmVPYm9QMXAwbVdPTUVUOGhHbFhjRHM2Mm81ajRQX1lhVmYzai1pczNTTFpjbnZXZTFndlg5d0owUUJoNDdWdEJ5MU9aV2hySUhmdw?oc=5\" target=\"_blank\">Natalie Imbruglia Says Perime",
@@ -191,7 +224,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 18,
+      "id": 21,
       "title": "A Common Struggle for Women With ADHD - Psychology Today",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnJFNWFYcVExQlNGTWE5T1l2OTZTLU5ScWhEWlp6VXRWSlJuZXBkLWJrcTFDbVYtaXJfRlNsMjhsN0RuRFA2THZFeTl3bkdsbnY0VXVUajhQS3RQQzRFa09EdEY2NVVZTmVKX01Hd2dYYmZPd01Uc05lQ2JmcGVDLUFOaHBGN2RrT3RDQ1VvZ1FYTktDZlFMNURkRVBPSmlCZHN4QkhsdWU1Ymt1SVRROW5UaV8tZw?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnJFNWFYcVExQlNGTWE5T1l2OTZTLU5ScWhEWlp6VXRWSlJuZXBkLWJrcTFDbVYtaXJfRlNsMjhsN0RuRFA2THZFeTl3bkdsbnY0VXVUajhQS3RQQzRFa09EdEY2NVVZTmVKX01Hd2dYYmZPd01Uc05lQ2JmcGVDLUFOaHBGN2RrT3RDQ1VvZ1FYTktDZlFMNURkRVBPSmlCZHN4QkhsdWU1Ymt1SVRROW5UaV8tZw?oc=",
@@ -202,7 +235,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 19,
+      "id": 22,
       "title": "College Application Timeline: A Grade-by-Grade Guide",
       "link": "https://www.additudemag.com/college-application-timeline/",
       "description": null,
@@ -213,7 +246,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 20,
+      "id": 23,
       "title": "Study Reveals No Link Between Prenatal Acetaminophen and Autism or ADHD in Offspring - Optometry Advisor",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ0F1cHp6SEhkc3ZISXNVeUpheHU3d0QtLUNDb0w0c0pFS1lBekJrVHNaejhZcmxscnZhMlJTSjVXSjlGbWVUaXZiZWw2UlhQWjRnOVhfREp2cnF5MVZVRFNIQUJTVXNKZHkzNkxXcEU0MDZfZWxJem9QNDlUQjVObG1adGlpOUZMc01PVHFUQVhBNURMR1paVHVkc0RCbF9kaWNIZ01uLTI5NGxfamVkZXo4d0U1MDdBbFllbWt0Q1A?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ0F1cHp6SEhkc3ZISXNVeUpheHU3d0QtLUNDb0w0c0pFS1lBekJrVHNaejhZcmxscnZhMlJTSjVXSjlGbWVUaXZiZWw2UlhQWjRnOVhfREp2cnF5MVZVRFNIQUJTVXNKZHkzNkxXcEU0MDZfZWxJem9QNDlUQjVObG1adGlpOUZMc01PVHFUQVhBNURMR1paVHVkc0RCbF9kaWNIZ01uLTI5NGxfamVkZXo4d0U1MDdBbF",
@@ -224,47 +257,14 @@
       "domain": "news.google.com"
     },
     {
-      "id": 21,
-      "title": "ADHD and periods: Are my hormones making my symptoms worse? - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5RDFtcUpoc2E0aGI4Nm1QaXlkVzN5blhrQVQ4RllLSnNGbXlweDh6YU1QcGhfd3JTZUp6QWJ0ZnlBdlFScHdFYktrMmduMTROMWxaXzdHR3Z6Zw?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5RDFtcUpoc2E0aGI4Nm1QaXlkVzN5blhrQVQ4RllLSnNGbXlweDh6YU1QcGhfd3JTZUp6QWJ0ZnlBdlFScHdFYktrMmduMTROMWxaXzdHR3Z6Zw?oc=5\" target=\"_blank\">ADHD and periods: Are my hormones making my symptoms worse?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</fon",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-13T23:00:58.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 22,
-      "title": "Appeals court revives lawsuits claiming link between acetaminophen, ADHD and autism - The Hill",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVhHUnV2aGo1N1Q2bEVzbm9pVEh6SGJlYXlMbVRHRzhtTzVWU2w4a2pNVkZ0LU1VbE5ZLXdGaVBWeDQ0YWJsLXRzOE5Ld2JHUmo1cTBSNlM3allSQ3pBYzJMRUVUb0NiUmxhOWpJcmFPdXBscmI3aEJMRm9tQ3JvUUZDUnROakluM1hXR1hPSWLSAZYBQVVfeXFMT2JfLU9WYVFyZFJfTG1ITldDNWNRQnFldDB4X0JmQ0k0U0hycTl1SDFTaG93OVc2MEE1bjVMejhWQTY2WlJ5dzFGeDRxWFNRQk40Nml1MEg4eG9ibDlCNDNEOUZYU0dpaXZ6RDZNbHZiak9QeXlFQ05oNmdRam1wMkRYOEFvS2luU0VHVDZoMlhHaWRzbnBB?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVhHUnV2aGo1N1Q2bEVzbm9pVEh6SGJlYXlMbVRHRzhtTzVWU2w4a2pNVkZ0LU1VbE5ZLXdGaVBWeDQ0YWJsLXRzOE5Ld2JHUmo1cTBSNlM3allSQ3pBYzJMRUVUb0NiUmxhOWpJcmFPdXBscmI3aEJMRm9tQ3JvUUZDUnROakluM1hXR1hPSWLSAZYBQVVfeXFMT2JfLU9WYVFyZFJfTG1ITldDNWNRQnFldDB4X0JmQ0",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-13T21:52:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 23,
-      "title": "Appeals Court Revives Lawsuits Alleging Tylenol Causes Autism and ADHD - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWVN1ZHJBalVSeTZXS3BINHh3TlNad3lWeUh3WWZpWEdqdHZMTVl1NTMweEZEaEVHN3FNREp5MjJqUFVkWmsyRFFieTNCQUl5NW9TRGVzZ1J1bTQ3NndCSDRRa21rU2YxVU53S3M4aXpnY01tX09abWphSVhyQnVMRG5FVE9HZnNLTnE1QVhqb3RzNmM2c2s2OUlrblZxaWJCXzBJWWRLa1F3QXNoYlU1TA?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQWVN1ZHJBalVSeTZXS3BINHh3TlNad3lWeUh3WWZpWEdqdHZMTVl1NTMweEZEaEVHN3FNREp5MjJqUFVkWmsyRFFieTNCQUl5NW9TRGVzZ1J1bTQ3NndCSDRRa21rU2YxVU53S3M4aXpnY01tX09abWphSVhyQnVMRG5FVE9HZnNLTnE1QVhqb3RzNmM2c2s2OUlrblZxaWJCXzBJWWRLa1F3QXNoYlU1TA?oc=5\" targe",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-13T18:10:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
       "id": 24,
-      "title": "Appeals Court Revives Lawsuits Tying Tylenol Use in Pregnancy to Autism and A.D.H.D. - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYkpxWGlPTHI3Y3pEcFVJd204SlRtbmhPV0dfcDlkVW9JZnNRcFVuTHlTN25Mb2ZtbW1uRFk5YVdhTmE4cXV3NlZsSjN4Wm1pUUhOaGlNRjB2cHpGbnZOOTFhVnpZVTNBX1NOZ0tlOFRUZHV4bm9KU29FYmEyMmQ3MW9VbmF0cVU?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQYkpxWGlPTHI3Y3pEcFVJd204SlRtbmhPV0dfcDlkVW9JZnNRcFVuTHlTN25Mb2ZtbW1uRFk5YVdhTmE4cXV3NlZsSjN4Wm1pUUhOaGlNRjB2cHpGbnZOOTFhVnpZVTNBX1NOZ0tlOFRUZHV4bm9KU29FYmEyMmQ3MW9VbmF0cVU?oc=5\" target=\"_blank\">Appeals Court Revives Lawsuits Tying Tylenol",
+      "title": "ADHD and periods: Are my hormones making my symptoms worse? - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wM25UZndESEdyNHVFaTE2NWo0VktPdURqb2R5OHN3dUhOWVlJYUtvS2VlTkR1aTJ6VEp5RHVwZmdmLUhCcnpiNTlmT18xVldiM0dtTURtWHZrWjRU?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wM25UZndESEdyNHVFaTE2NWo0VktPdURqb2R5OHN3dUhOWVlJYUtvS2VlTkR1aTJ6VEp5RHVwZmdmLUhCcnpiNTlmT18xVldiM0dtTURtWHZrWjRU?oc=5\" target=\"_blank\">ADHD and periods: Are my hormones making my symptoms worse?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</f",
       "source": "Google News — ADHD",
       "lang": "EN",
       "icon": "🔍",
-      "date": "2026-07-13T16:22:02.000Z",
+      "date": "2026-07-13T23:05:55.000Z",
       "domain": "news.google.com"
     },
     {
