@@ -1,10 +1,120 @@
 {
-  "fetchedAt": "2026-08-04T10:41:49.503Z",
+  "fetchedAt": "2026-08-05T10:37:21.906Z",
   "totalSources": 6,
   "sourceErrors": 0,
   "articles": [
     {
       "id": 1,
+      "title": "Adults with ADHD Twice as Likely to Develop Keratoconus - Review of Optometry",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU3AteDRCckkwWmpBZG9jdU4wSG9mM1J1anJwZnYtZUxWQjV4OU93cElPVGJvSmp6Nk9ZbGpJelduaGNiZXpFVGNCUVU2YkVITWN1cV8yQjRIQ1dvb3hnWk1pdW9ocXVPb2FrMWhEeFU2WkNoc3pndlpvRXBvSjR4Wkx0MXpsRkFDeDlCa1hFNlgtS2U5cU4yQVc3R3pqY2xuVHo0TA?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQU3AteDRCckkwWmpBZG9jdU4wSG9mM1J1anJwZnYtZUxWQjV4OU93cElPVGJvSmp6Nk9ZbGpJelduaGNiZXpFVGNCUVU2YkVITWN1cV8yQjRIQ1dvb3hnWk1pdW9ocXVPb2FrMWhEeFU2WkNoc3pndlpvRXBvSjR4Wkx0MXpsRkFDeDlCa1hFNlgtS2U5cU4yQVc3R3pqY2xuVHo0TA?oc=5\" target=\"_blank\">Adult",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-08-05T10:04:22.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 2,
+      "title": "ADHD CBD Gummies Research Studies Evidence - View XeGf53XHB - fcbayern.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQWpmLUJCUzdoLXJnb1hiaU50RFFPMF9RYUdqNVNiRXFiUDYtbWgteHNxOWE3QVlITGQ3blRDaFk2X054c1hwR0JsY3FwREhQMWF6TFRaeUtZU0l6QVEyaExTRWFyOXhLeTJXckt2bTJOdHp3N1UyZnB1UzZWUkhja0V0aVZSSWlJUjlQZzgzNk1MZ1FMZXlHYWJzRzVPdGNaMTBIakMtQUtyMW9BUnBsWmxBSHJ6Y2g5VXY1U3BsdzRzMTVxakxsN3FWcVY5TlZCcU1XU3FxQlRDQ2pRcVF1aDl3?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQWpmLUJCUzdoLXJnb1hiaU50RFFPMF9RYUdqNVNiRXFiUDYtbWgteHNxOWE3QVlITGQ3blRDaFk2X054c1hwR0JsY3FwREhQMWF6TFRaeUtZU0l6QVEyaExTRWFyOXhLeTJXckt2bTJOdHp3N1UyZnB1UzZWUkhja0V0aVZSSWlJUjlQZzgzNk1MZ1FMZXlHYWJzRzVPdGNaMTBIakMtQUtyMW9BUnBsWmxBSHJ6Y2g5VX",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-08-05T03:08:21.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 3,
+      "title": "NIH funds smartphone platform to improve driving safety for teens - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0UtamF6ZHdWYWl4VVpUaXFIeGFhcjdXeDByNllET0JHb2tZVkpSVVpqcGNmRUFpbEtQN2d6eHZFYnBZOGF1NmpzZ1dubF9ZUGZoZkx1UEZpdy1fbWNIT3p4RWhnUEpnZ2JYMkxXRGh2dEdURjRxX2l4ZWhXZVhQM3YxYVMzVEpVTGJfYkxIZG5tSXpPNXRFbV9CQ1hvR0xHZTBhVy1qa2NkT2Rha3pONUxGTQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0UtamF6ZHdWYWl4VVpUaXFIeGFhcjdXeDByNllET0JHb2tZVkpSVVpqcGNmRUFpbEtQN2d6eHZFYnBZOGF1NmpzZ1dubF9ZUGZoZkx1UEZpdy1fbWNIT3p4RWhnUEpnZ2JYMkxXRGh2dEdURjRxX2l4ZWhXZVhQM3YxYVMzVEpVTGJfYkxIZG5tSXpPNXRFbV9CQ1hvR0xHZTBhVy1qa2NkT2Rha3pONUxGTQ?oc=5\" t",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-08-05T02:30:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Neurodiversity linked to violence-related emergency department visits - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLVFmVGVOdVY4SXI2RkpEbk5UOXR2YTAxN3NDT1BfOF9NY25hR0E0aG5NT1FnU2FOYi1WNXpJQkFyWlhSUlVCSlk0RDlEVm81NFFZVHFtZEVUaTJKVXRfWmJPVFgzUmM2ZEtqN29oaUNvSTdiT2JDZHhQM19wSmNhTmxsaWJTZlN6Mml0eTRNSXV6dlRxQXFQOVJFVQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPLVFmVGVOdVY4SXI2RkpEbk5UOXR2YTAxN3NDT1BfOF9NY25hR0E0aG5NT1FnU2FOYi1WNXpJQkFyWlhSUlVCSlk0RDlEVm81NFFZVHFtZEVUaTJKVXRfWmJPVFgzUmM2ZEtqN29oaUNvSTdiT2JDZHhQM19wSmNhTmxsaWJTZlN6Mml0eTRNSXV6dlRxQXFQOVJFVQ?oc=5\" target=\"_blank\">Neurodiversity li",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-08-05T01:00:03.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 5,
+      "title": "BlinkLab ADHD study delivers strong results and opens pathway beyond autism - proactiveinvestors.com.au",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNUFySWRwYllNblRjc1k4VWNzZnBUQjNiVnVvTTNiLUdGOXJLZV91cUtZbTQtSEtOeDlIWk9tZVBSZWIwUjdySGZXNnloUjdmRkNjS3ZRZWxUOTBtelpxRXU5UElfNlhQbXFSUjFyTHJHcWJ6eTZhNnlLYjFXcE80VU5NcnpFRkdadlpvYk81VnJKX2d0andqTXhPem1vUVpPSEZ6aW1uMmlLWWRXSTBJdDlQTk9makl1YW85T0xBTmJGRmlzQlUzd281SXQtS2JUVkdDWWdILTU0eUJTNFVpMWpwbw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNUFySWRwYllNblRjc1k4VWNzZnBUQjNiVnVvTTNiLUdGOXJLZV91cUtZbTQtSEtOeDlIWk9tZVBSZWIwUjdySGZXNnloUjdmRkNjS3ZRZWxUOTBtelpxRXU5UElfNlhQbXFSUjFyTHJHcWJ6eTZhNnlLYjFXcE80VU5NcnpFRkdadlpvYk81VnJKX2d0andqTXhPem1vUVpPSEZ6aW1uMmlLWWRXSTBJdDlQTk9makl1YW",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-08-05T00:43:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 6,
+      "title": "best cbd gummies for adhd 2025 2026 reviews - View HRtpULwu2 - fcbayern.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM1BUdnI4c1A1ODBsY2R1MXhLelZIN1FQRlBxLUxHWWRDVnQyNUJMVzJlT19fMDJraEczaVlwa1ZZLUxJWHdYYkpKREo0LV81Y0VST3RLc3JXMTJwb2JiMEVWMkJJaVpsV1o0Q3czVXM3UzFaZjVfeS0teXhfT1hLaFZ4YmlJbWRCcGFza3czSm93QVFWbGJRSEd4VWFIQ1JSSW94Yk1pdHFuUGtrTU1vdzh2cUZoOTBvRG9UYW1zZHo4NS1BalI0VGpsc2RpdDkyN2hFUV9ySDVXT2NtNXZhWnhR?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM1BUdnI4c1A1ODBsY2R1MXhLelZIN1FQRlBxLUxHWWRDVnQyNUJMVzJlT19fMDJraEczaVlwa1ZZLUxJWHdYYkpKREo0LV81Y0VST3RLc3JXMTJwb2JiMEVWMkJJaVpsV1o0Q3czVXM3UzFaZjVfeS0teXhfT1hLaFZ4YmlJbWRCcGFza3czSm93QVFWbGJRSEd4VWFIQ1JSSW94Yk1pdHFuUGtrTU1vdzh2cUZoOTBvRG",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-08-04T17:01:25.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 7,
+      "title": "How Hand Gestures Can Support Communication for Those With Autism and ADHD, and/or Language Impairments - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQTDMyRzItYmNmSm5IYktNbmQ2Q0EwQWZwZmxMNkItbHBVc1U1UWpGVjE1NHV4dXFMdTVSVzF6aHRNNzBKSmJ2aWtRSzFhNnNsYjlELU5LaEhISDF1cTk5cGg1ZjhVelQ0N2ZZWVdLSjJkUllhU3JZaXRLbzFVZ0QtalpYUGlGTGFKNEpkakhudVlnWV84MTM1N0RRZW9ySkdxdWFjMWlVekhWZmhheVR6aFRZWVA5UXlfUVhEaU1aUEF6amlENURXX2FmZ1FDcHZyVXQ4S01hTlNpZ21MOXlNbWNVWjNzOC1zdEJXQ1llbjViU0stVmJBWk9EUzZtTHhaNFhoNg?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxQTDMyRzItYmNmSm5IYktNbmQ2Q0EwQWZwZmxMNkItbHBVc1U1UWpGVjE1NHV4dXFMdTVSVzF6aHRNNzBKSmJ2aWtRSzFhNnNsYjlELU5LaEhISDF1cTk5cGg1ZjhVelQ0N2ZZWVdLSjJkUllhU3JZaXRLbzFVZ0QtalpYUGlGTGFKNEpkakhudVlnWV84MTM1N0RRZW9ySkdxdWFjMWlVekhWZmhheVR6aFRZWVA5UXlfUV",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-08-04T15:17:09.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 8,
+      "title": "CBD Gummies for ADHD in Children Research Studies Evidence - View 3HmKHkaFf - fcbayern.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXdNQUtaR0lYdVE2Tlo1QzYxaUMwWFBGU0JqNGxqbmtRRzJjWVZEOGhDcjlkdzZqVC1YZUZTckJyN0Y3Wno2Z1J5MEZNbDlRanctTUVYcV9uTHlYZXpYR2ZudkhmWHBkMWNDV0dfeGZ4d1lKSTQyX09QWHpzNjNhdER4cFBOcy0wdmNPb3hDTHBWSmpBRi1PQUdZWHA0czdvdm5SVUdhVnBZZjg3QXRwREJhdWdhZjJpRVUyVGk0N01pVzk4RHB0MnllRnRoS1oyQ3lFRnlNc1VsTlZsWWpheHJR?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXdNQUtaR0lYdVE2Tlo1QzYxaUMwWFBGU0JqNGxqbmtRRzJjWVZEOGhDcjlkdzZqVC1YZUZTckJyN0Y3Wno2Z1J5MEZNbDlRanctTUVYcV9uTHlYZXpYR2ZudkhmWHBkMWNDV0dfeGZ4d1lKSTQyX09QWHpzNjNhdER4cFBOcy0wdmNPb3hDTHBWSmpBRi1PQUdZWHA0czdvdm5SVUdhVnBZZjg3QXRwREJhdWdhZjJpRV",
+      "source": "Google News — ADHD Research",
+      "lang": "EN",
+      "icon": "🔬",
+      "date": "2026-08-04T11:26:55.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 9,
+      "title": "TDAH : ce nouveau traitement approuvé aux États-Unis promet des résultats dès la première semaine - Marie Claire",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CcS1XM0ZoZXNSdjAyeWl4dmpMNFJJVGR1bHl3WmVuUXFUa1pKVnhQZmJIUTZuRFgzOWtHSTFCVFd0WS1zSEZXOXZsVGYteVNUQ1JRZXY1eUdUOW16Q2d3c0QzOHNMSTVRUi13WnZpX2drWXFWYVFwWEw0TQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9CcS1XM0ZoZXNSdjAyeWl4dmpMNFJJVGR1bHl3WmVuUXFUa1pKVnhQZmJIUTZuRFgzOWtHSTFCVFd0WS1zSEZXOXZsVGYteVNUQ1JRZXY1eUdUOW16Q2d3c0QzOHNMSTVRUi13WnZpX2drWXFWYVFwWEw0TQ?oc=5\" target=\"_blank\">TDAH : ce nouveau traitement approuvé aux États-Unis promet d",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-08-04T11:00:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 10,
+      "title": "Black ADHD Content Creator Accuses A White Woman of Copying Her Video - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONVFfd29OUXNJekl4NF90aUgtazdOX0VuQzFLZElqeDZGTUNkRnlmRlBySlVHVHVkemdSYWR4RW1QRGtEYXM4UVhEeW9HbE5aRk1UUUJwWEhJOTdISDluam5vdE14NzhwLTNvT3R4QTdZZ1BzYTJvY05sOXo1YmFqX0hqcTloVm9RSk52Y05NQWY2dXRRTDhIYVg5aXRPVDEwdUpLbHpzcw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxONVFfd29OUXNJekl4NF90aUgtazdOX0VuQzFLZElqeDZGTUNkRnlmRlBySlVHVHVkemdSYWR4RW1QRGtEYXM4UVhEeW9HbE5aRk1UUUJwWEhJOTdISDluam5vdE14NzhwLTNvT3R4QTdZZ1BzYTJvY05sOXo1YmFqX0hqcTloVm9RSk52Y05NQWY2dXRRTDhIYVg5aXRPVDEwdUpLbHpzcw?oc=5\" target=\"_blank\">B",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-08-04T10:22:24.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 11,
       "title": "FDA Psychiatry Roundup: July 2026 - Medscape",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVm53STFkMUtWTDFUUE5jOUtURk1EWXViWDZYaHNLb2FEcFBNNkU2MXhHZ3UyZU5CYzBoVnZWSkRCYkFoUWRJOU5JRG5ManhxSFNiUXZfTzlJSHVuR1htMFNwdFJobHRHYlh0MFZPdGRHWElTYTNkMXdRXzFMRDFDd3RYYmROSnpNRXc?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNVm53STFkMUtWTDFUUE5jOUtURk1EWXViWDZYaHNLb2FEcFBNNkU2MXhHZ3UyZU5CYzBoVnZWSkRCYkFoUWRJOU5JRG5ManhxSFNiUXZfTzlJSHVuR1htMFNwdFJobHRHYlh0MFZPdGRHWElTYTNkMXdRXzFMRDFDd3RYYmROSnpNRXc?oc=5\" target=\"_blank\">FDA Psychiatry Roundup: July 2026</a>&nb",
@@ -15,7 +125,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 2,
+      "id": 12,
       "title": "A College Admissions Game Plan for ADHD Students",
       "link": "https://www.additudemag.com/college-admissions-process-adhd/",
       "description": null,
@@ -26,51 +136,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 3,
-      "title": "Does Cbd Gummies Help With Adhd? A Comprehensive Guide For Adults And Children [p7W0eOgcNe0] - fcbayern.com",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWG9wTTA3ZU4wVDRBNG4wWlpYRm5BR3E0Y05PVEUzbktydWFLNkZCcmFVMFFlMnBJQ2VBZElzcDBLVUVfMWU4aTZBNFM1SkZuLU01VWFjUlRwSE9aSnVUenlNcy1SOFBDdjdfdElKQVZCQWxUR2JOaF9mNVR6OFVSaEFSOFhFalBwMHZXeS1OODdESWZXbGlnVW53RklpX3pma3FCT2NhX0ZpWTdyT2JNMXhZc29lbW01TDI1Q0wzdHA2WUxXRDBPclNXQU9BUXlmZ2ZyNEgwWDlJSktDZ05uN3FCZUhESUJzOERmdzdB?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWG9wTTA3ZU4wVDRBNG4wWlpYRm5BR3E0Y05PVEUzbktydWFLNkZCcmFVMFFlMnBJQ2VBZElzcDBLVUVfMWU4aTZBNFM1SkZuLU01VWFjUlRwSE9aSnVUenlNcy1SOFBDdjdfdElKQVZCQWxUR2JOaF9mNVR6OFVSaEFSOFhFalBwMHZXeS1OODdESWZXbGlnVW53RklpX3pma3FCT2NhX0ZpWTdyT2JNMXhZc29lbW01TD",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-04T07:38:55.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 4,
-      "title": "Anyone can have autism now, says research pioneer - The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNk5qTkRxcmM3MlpGaU51ME1zZGZHRFdrTkRXemtfbXN3SkVPN0pPVUItbVhXeUxLMHlMN01tRldnRWI0OTlNWGNib0FLaE9ZSk5UZE1OY282dDZwYXFPZXNCa0UzbS1mTmRCTkN4SUQ0MXZId2lWdUh1VnBWTkxHYVJNbVZhMlRTbjBKWWhLaU1RTEtWdFdITVNn?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQNk5qTkRxcmM3MlpGaU51ME1zZGZHRFdrTkRXemtfbXN3SkVPN0pPVUItbVhXeUxLMHlMN01tRldnRWI0OTlNWGNib0FLaE9ZSk5UZE1OY282dDZwYXFPZXNCa0UzbS1mTmRCTkN4SUQ0MXZId2lWdUh1VnBWTkxHYVJNbVZhMlRTbjBKWWhLaU1RTEtWdFdITVNn?oc=5\" target=\"_blank\">Anyone can have aut",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-04T05:20:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 5,
-      "title": "CBD Gummies for ADHD Teens - View r5lTrCigG - fcbayern.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRndoWVVxWDV3ZVFXRHI2RXgyYk8wVXdUTG1aQ3FManhXYUUzbHZiTmc2TWc1dGFkM1FtT1pORHh1dmtrUHNTN1lzU3JGbWNXSGdhTVdjVUtjV2xFNmZyU1p4MFB4OHp5LUxsYUc2VEZ0T1U5VEdYWENxcDB2aUxqUTlBUlhGRVVYMnNyTXlvN1pkUVAxelIzMmpwU1BJdlJGUkVKUE52WnBfTWI4VTJ2NmFTc2xMQ05lSG9nWXlPQzFBU1FnVVpsWXJBMDVaLXlCRlB5Y196RW9FRGh5UkNsbVV3?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRndoWVVxWDV3ZVFXRHI2RXgyYk8wVXdUTG1aQ3FManhXYUUzbHZiTmc2TWc1dGFkM1FtT1pORHh1dmtrUHNTN1lzU3JGbWNXSGdhTVdjVUtjV2xFNmZyU1p4MFB4OHp5LUxsYUc2VEZ0T1U5VEdYWENxcDB2aUxqUTlBUlhGRVVYMnNyTXlvN1pkUVAxelIzMmpwU1BJdlJGUkVKUE52WnBfTWI4VTJ2NmFTc2xMQ05lSG",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-04T04:47:08.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 6,
-      "title": "Sensitive parenting buffers against child ADHD risks from pregnancy - News-Medical",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEdLdzhtNlUxWlFfVmtuOGo4OUtvR1J0NERneHlDMmo1YWduQTBYTHFHMnNyMkdhT3hLQmt2QnNzSTltYXdKMlFPQW56VWNyZ0gxbDlrX2l3M1dPZjlZYVBlcXpSY3NlcXVYMUFhTGdUX2lULXNqdTlfUG1FRk02Sl92ZEVkRmhKUFdQbkRYSjlyeHVOcmQzQTVTdWU4UmNnTnQxNG11Q0VoMkFTTzdETzRHdkhiUQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxObEdLdzhtNlUxWlFfVmtuOGo4OUtvR1J0NERneHlDMmo1YWduQTBYTHFHMnNyMkdhT3hLQmt2QnNzSTltYXdKMlFPQW56VWNyZ0gxbDlrX2l3M1dPZjlZYVBlcXpSY3NlcXVYMUFhTGdUX2lULXNqdTlfUG1FRk02Sl92ZEVkRmhKUFdQbkRYSjlyeHVOcmQzQTVTdWU4UmNnTnQxNG11Q0VoMkFTTzdETzRHdkhiUQ?oc=",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-03T19:48:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 7,
+      "id": 13,
       "title": "Centanafadine in ADHD: Clinical Significance of the First Triple Reuptake Inhibitor for ADHD - Psychiatric Times",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYWVoS1c0LWVQYkx4bjQzS29JZnNVaGMxRGgzSEotRVJWaU12SWxZb09Yc3gwNmNPREVWMlA5NUV6VGYzMW43R2dMUzA3NEtRZ2RJcDFlWEwtblZ6SUNoS0syYUh6M1RjRmhqTEF1dUhtbnEyRTNRbjN0NE1zWjBpNWVSV1BOTzZZcDYyM1FOMzM1dThUSlFXSl9xdU16RG4zR2oyWUJaNjBncF8tR3RFS0NqMmhjYnVSWFZmV0lXbXYwb1VUY3ZJVg?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYWVoS1c0LWVQYkx4bjQzS29JZnNVaGMxRGgzSEotRVJWaU12SWxZb09Yc3gwNmNPREVWMlA5NUV6VGYzMW43R2dMUzA3NEtRZ2RJcDFlWEwtblZ6SUNoS0syYUh6M1RjRmhqTEF1dUhtbnEyRTNRbjN0NE1zWjBpNWVSV1BOTzZZcDYyM1FOMzM1dThUSlFXSl9xdU16RG4zR2oyWUJaNjBncF8tR3RFS0NqMmhjYnVSWF",
@@ -81,18 +147,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 8,
-      "title": "Atomoxetine Weight Loss: What Research Shows and Real-World Results - View WK7DsyxfH - fcbayern.com",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbFh5QTVnaUlMNTBuamlyLXdvcUN4Z2JTODR3ZG0xQzlsRVpNazcxeXN2Q3R5WU1LY3B6RldlSjVxV2RlOWdGYzRwUEFrSlBRZFNvUVBuNnFMSGxOcU1EcTJGbUhMb29fLW5kWktzY1BKdXNxelVZTEVVZnlBbkY1UU5fLXpUYXhQdE56XzZvaGIxVkdLUFJlVmJ1Nl9ncEw3Q2dwcHlXcGVPRDRENTdvU1lsNDJqZVAtRDAwNnhsZXdPV1czdWtMLU1SbzRRN2lSSjBueUFfRGVuQ0l0cS1CMQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbFh5QTVnaUlMNTBuamlyLXdvcUN4Z2JTODR3ZG0xQzlsRVpNazcxeXN2Q3R5WU1LY3B6RldlSjVxV2RlOWdGYzRwUEFrSlBRZFNvUVBuNnFMSGxOcU1EcTJGbUhMb29fLW5kWktzY1BKdXNxelVZTEVVZnlBbkY1UU5fLXpUYXhQdE56XzZvaGIxVkdLUFJlVmJ1Nl9ncEw3Q2dwcHlXcGVPRDRENTdvU1lsNDJqZVAtRD",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-03T16:43:46.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 9,
+      "id": 14,
       "title": "Diagnostiqué TDAH à 39 ans : « Pour la première fois de ma vie, je me suis dit : C’est ça, être normal ! » - Actu.fr",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTE54d1hHaDBEcTByNTBQdUhVZTF5OXl4bVpqbTgzNU5aVzRMdUpnZ2E3SEVZTm4tTjN3OFVsV1EzbmpROU5ycHVzU1JIMVozNXNLTmEwVnIzM2U0THZsUS1UWGRwUHNBUkZ3U1E3dEhNY1VqOE05N0JHWHFJUklmV0lVUWZYRzctYUMzTEx2RVc3UkNGLWxTMzBpeE9XbW1PYXRHTmNVMGZKWUFrWWVDLTBYTDlXNVYzUnpMdUxMbFV1TWdaUDFDZWx4UnFXeWt4bm94U09fc0ZGZlR0TGE3dFZVbkZTWVZuTTRz?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTE54d1hHaDBEcTByNTBQdUhVZTF5OXl4bVpqbTgzNU5aVzRMdUpnZ2E3SEVZTm4tTjN3OFVsV1EzbmpROU5ycHVzU1JIMVozNXNLTmEwVnIzM2U0THZsUS1UWGRwUHNBUkZ3U1E3dEhNY1VqOE05N0JHWHFJUklmV0lVUWZYRzctYUMzTEx2RVc3UkNGLWxTMzBpeE9XbW1PYXRHTmNVMGZKWUFrWWVDLTBYTDlXNVYzUn",
@@ -103,7 +158,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 10,
+      "id": 15,
       "title": "FDA Approves First-in-Class Centanafadine for ADHD in Adults and Pediatric Patients - Pharmacy Times",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS21hQldka2NqeVcwZEVfdnRHbXB4U2VlcHVkakYxRnFMU2VJaktEOXNuMzl6NGgxN280UHRGSHowa2RFczN5S2ZHS3Bic0RZS2lWTEdYRmxCMjBrOXo3V2dtbTZZQ1FWZGk1bGZLazhvNjVoY2VRcTNqYkpyS0dHdjBLaGd2eDYwaEI4bldZMTVWZGtBTm92OWlmQ2tDZWtqcHhSd1BFb21rMm1nT0NOaWVYT0VxS18ydFE?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOS21hQldka2NqeVcwZEVfdnRHbXB4U2VlcHVkakYxRnFMU2VJaktEOXNuMzl6NGgxN280UHRGSHowa2RFczN5S2ZHS3Bic0RZS2lWTEdYRmxCMjBrOXo3V2dtbTZZQ1FWZGk1bGZLazhvNjVoY2VRcTNqYkpyS0dHdjBLaGd2eDYwaEI4bldZMTVWZGtBTm92OWlmQ2tDZWtqcHhSd1BFb21rMm1nT0NOaWVYT0VxS18ydF",
@@ -114,7 +169,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 11,
+      "id": 16,
       "title": "All Brains Are Beautiful",
       "link": "https://www.additudemag.com/cognitive-empathy-emotional-awareness-how-to-unmask/",
       "description": null,
@@ -125,7 +180,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 12,
+      "id": 17,
       "title": "Tentin, une nouvelle option dans le TDAH de l’enfant - Le Moniteur des pharmacies",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2pCVXF6ejZ3alFhamJKc0hCaXNvM2xocml1dThYTmVQQ2xaM3h1dDBlN1RHcHQ1MkprNlhmdmRQa3h2bnVaRU9KMkFJdDRjWkkxOGlnVzdqNW9BTFlmUkxHNkItbmZ1cWFhVWhiRHJ5NkRYQ2d3Z1NLV1l0TFpwbXA2cUtRZ3h0RFByXzMzbGhrcmMwcGV2NEVjZTAxTWxveDQ2QjZCUU81RUk0WXVEUnpVRVBlaEVsUHhaR2VNQUs0QV8wRkM4S3N1dkJkR1E?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2pCVXF6ejZ3alFhamJKc0hCaXNvM2xocml1dThYTmVQQ2xaM3h1dDBlN1RHcHQ1MkprNlhmdmRQa3h2bnVaRU9KMkFJdDRjWkkxOGlnVzdqNW9BTFlmUkxHNkItbmZ1cWFhVWhiRHJ5NkRYQ2d3Z1NLV1l0TFpwbXA2cUtRZ3h0RFByXzMzbGhrcmMwcGV2NEVjZTAxTWxveDQ2QjZCUU81RUk0WXVEUnpVRVBlaEVsUH",
@@ -136,7 +191,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 13,
+      "id": 18,
       "title": "Are People With ADHD Symptoms More Likely to Be Left-Handed? - Psychology Today",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWG5oUWRzYTR5U2tLWHotU2RxR1lIQ2dHQ3JVVVNFTldJYmNuWWxROC1iYjhZSEpyQ1pjZTVGdWpsZzN5TFhDVlVhWDczSTJJUEFtWXJpV2haS21KRUh2bE94dDFiYk5tMGVUTkNOSk52SzVvWVJuZXRjYV9SaDRaWVRFX3MxcXF6TUtLU2pMYkloYmxDTzNhY1U1bGhaLTk0TmNzX0VxQXpqaVJXdEQzU0ZSemZSSWh6c0J5MEJIXzRxWHlKSWc?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQWG5oUWRzYTR5U2tLWHotU2RxR1lIQ2dHQ3JVVVNFTldJYmNuWWxROC1iYjhZSEpyQ1pjZTVGdWpsZzN5TFhDVlVhWDczSTJJUEFtWXJpV2haS21KRUh2bE94dDFiYk5tMGVUTkNOSk52SzVvWVJuZXRjYV9SaDRaWVRFX3MxcXF6TUtLU2pMYkloYmxDTzNhY1U1bGhaLTk0TmNzX0VxQXpqaVJXdEQzU0ZSemZSSWh6c0",
@@ -147,7 +202,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 14,
+      "id": 19,
       "title": "Symptoms improved within first week: FDA approves new ADHD drug for children, adults - Ynetnews",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KQUZwYTRVbklQUW84RVBWSGF6UHJqZFpLY1JhdUxXSXhNakxJRUZlbEhYUGFUZVFQMENaVjhyLVdGcUF0MHpsajBJTDRNSGhzREJVTEpYVUc0RjRMV3BISUtGcTR4blZzZ3c?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9KQUZwYTRVbklQUW84RVBWSGF6UHJqZFpLY1JhdUxXSXhNakxJRUZlbEhYUGFUZVFQMENaVjhyLVdGcUF0MHpsajBJTDRNSGhzREJVTEpYVUc0RjRMV3BISUtGcTR4blZzZ3c?oc=5\" target=\"_blank\">Symptoms improved within first week: FDA approves new ADHD drug for children, adults",
@@ -158,7 +213,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 15,
+      "id": 20,
       "title": "« Le TDAH est un handicap invisible » : le combat d’une mère charentaise pour son fils - Charente Libre",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3o3ODU3azJLbUYxcHpndDhaZnJhajJPWUoybWJJa1FMa3kxdjB0YTVXVlYwN3p6b1M3UlZ1ZjE2RVE3cklMTG91NG5Gd25DZVBzWjNlZ0dzYVVWbG1LZXBLY1RTU05PU2FRZVdrUS16MXE1Yy1EeHVyaFVqMlhoaHNDb0JSUWtSSndDeHFja25sanJNbUdhSjdKSEkwZkpNSGNfNDFNNmE4MXRrV0JyYjkxZUZqajM3c3hBRlBnaXltbXJhQVpzVWNmZw?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3o3ODU3azJLbUYxcHpndDhaZnJhajJPWUoybWJJa1FMa3kxdjB0YTVXVlYwN3p6b1M3UlZ1ZjE2RVE3cklMTG91NG5Gd25DZVBzWjNlZ0dzYVVWbG1LZXBLY1RTU05PU2FRZVdrUS16MXE1Yy1EeHVyaFVqMlhoaHNDb0JSUWtSSndDeHFja25sanJNbUdhSjdKSEkwZkpNSGNfNDFNNmE4MXRrV0JyYjkxZUZqajM3c3",
@@ -169,7 +224,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 16,
+      "id": 21,
       "title": "« TDAAAAAAH » d’Olivier Laude : 90 minutes dans la tête d’un « TDAH » - Benzine Magazine",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcDFESE5fYTFSaGk4VVlYN1JfSG85ZXRLdzI0UURZamxOVjAwRHdwYWtSOVZqU1VZZTN6RklrbUtsaS1mTVR3WUw4bmZSdmNmNmNORGxWZ1BHZnRtNWwzTkRadVRJdmUwYWcwc2RtMzJNNGNiSXZlQ01pVncyLXBDN3R6bmRrZFItS3M3c0I4ajNReHlsdTZwR0VoazY?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPcDFESE5fYTFSaGk4VVlYN1JfSG85ZXRLdzI0UURZamxOVjAwRHdwYWtSOVZqU1VZZTN6RklrbUtsaS1mTVR3WUw4bmZSdmNmNmNORGxWZ1BHZnRtNWwzTkRadVRJdmUwYWcwc2RtMzJNNGNiSXZlQ01pVncyLXBDN3R6bmRrZFItS3M3c0I4ajNReHlsdTZwR0VoazY?oc=5\" target=\"_blank\">« TDAAAAAAH » d’",
@@ -180,73 +235,29 @@
       "domain": "news.google.com"
     },
     {
-      "id": 17,
-      "title": "‘When my ADHD diagnosis was removed, it was a relief’ - The Times",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFRKV19ETENmckxDY0R1Y2FveDduSnB0ZjFYdVJRRWZyUklyS1hfcUpla0k5U0tIR2ZkNzBmVm45SE8tNTdRZndOVURQTDlHZU1fV0xYWHNibDE2bFBhQ0tQUXJfSDA3TGo4M1JyWmlpZElqbWh3b2oteXhuS0dxOV9xSjEta3pVWllrdmd3VTNXYnEwM3dMM3lULThCUkNDUzZnYVF6V21Xc05BVFVyTnE5a2RCOWFf?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFRKV19ETENmckxDY0R1Y2FveDduSnB0ZjFYdVJRRWZyUklyS1hfcUpla0k5U0tIR2ZkNzBmVm45SE8tNTdRZndOVURQTDlHZU1fV0xYWHNibDE2bFBhQ0tQUXJfSDA3TGo4M1JyWmlpZElqbWh3b2oteXhuS0dxOV9xSjEta3pVWllrdmd3VTNXYnEwM3dMM3lULThCUkNDUzZnYVF6V21Xc05BVFVyTnE5a2RCOWFf?o",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-01T18:30:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 18,
+      "id": 22,
       "title": "The \"ADHD advantage\" in entrepreneurship applies mostly to intelligent men, study finds - PsyPost",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTUJpNjJWMnQ3dkV3amI4QjNuMW9FYmpiOEwwTk4wYW0ySE5sN0NnN29xaVZUU0lCSDA2YnJQR1ZCODRpY2RiY3plNm9uTjk5dlpRVTRSNWtXR2FjRjBJMEctaDk5Y3hLb3RQTE1KOTFHZVhFT3V3S05NYU9TSS1LWjVTVVdQS1VVRWtUNlRGWXNiRTgyeFNLQXhUNFp2RDhkZXhDUjZ5NUIxdEdWTVE?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOTUJpNjJWMnQ3dkV3amI4QjNuMW9FYmpiOEwwTk4wYW0ySE5sN0NnN29xaVZUU0lCSDA2YnJQR1ZCODRpY2RiY3plNm9uTjk5dlpRVTRSNWtXR2FjRjBJMEctaDk5Y3hLb3RQTE1KOTFHZVhFT3V3S05NYU9TSS1LWjVTVVdQS1VVRWtUNlRGWXNiRTgyeFNLQXhUNFp2RDhkZXhDUjZ5NUIxdEdWTVE?oc=5\" target=\"",
-      "source": "Google News — ADHD",
+      "source": "Google News — ADHD Research",
       "lang": "EN",
-      "icon": "🔍",
+      "icon": "🔬",
       "date": "2026-08-01T10:18:30.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 19,
-      "title": "Channel 4 Orders The Doc ‘The Great ADHD Myth?’ - forbes.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lVRVFqMVBrMGJSYXVhTGx6aHBvenNhdXBnR1Y4V3VnbDJiTmVGVGtaTDBDenIxR0NsTWgwMGtvTURGRmp2RDlMSndQbUdSNjc4Rk11SGJ5WFVXR1d3VmpXSnVOcjBNTm9ONnNxckdVNDNsc1VIS3U5bXhiZ3J6UkNINkFQX3IwdmFHa1dlRmVRcWZtNzdIMUdJTQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2lVRVFqMVBrMGJSYXVhTGx6aHBvenNhdXBnR1Y4V3VnbDJiTmVGVGtaTDBDenIxR0NsTWgwMGtvTURGRmp2RDlMSndQbUdSNjc4Rk11SGJ5WFVXR1d3VmpXSnVOcjBNTm9ONnNxckdVNDNsc1VIS3U5bXhiZ3J6UkNINkFQX3IwdmFHa1dlRmVRcWZtNzdIMUdJTQ?oc=5\" target=\"_blank\">Channel 4 Orders ",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-07-31T23:26:47.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 20,
-      "title": "A New Mechanism for ADHD: Raman Baweja, MD, on Centanafadine's FDA Approval - Psychiatric Times",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFM3X29oRzVTMEJfNklUZ2ZldTRyWnBxMXVmQkN6UVVaNVdkaHpJWFBnTHBoalJkNkNsTnBYOWg3S2YwVjlTT2pKTy16WTVVWFY1RGJRUGNnRjFLU0hkaUg5M1JmMmZOdGRDLXhfWGJJYmVVamloTjg1X3ZWS3lmQ1NsdW00QmMtb1UwTkZZVERVb093RzlKcGw3TC04OS13aW9CUUZ6S1NtYTRXQklr?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFM3X29oRzVTMEJfNklUZ2ZldTRyWnBxMXVmQkN6UVVaNVdkaHpJWFBnTHBoalJkNkNsTnBYOWg3S2YwVjlTT2pKTy16WTVVWFY1RGJRUGNnRjFLU0hkaUg5M1JmMmZOdGRDLXhfWGJJYmVVamloTjg1X3ZWS3lmQ1NsdW00QmMtb1UwTkZZVERVb093RzlKcGw3TC04OS13aW9CUUZ6S1NtYTRXQklr?oc=5\" target=",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-07-31T16:39:39.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 21,
+      "id": 23,
       "title": "OHSU study identifies link between caregiver-child relationship, ADHD symptoms - OHSU News",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVRTMEhoSF9ONll3d2FqekVfR251UUFhYmtiWnF4ZWdRS0VlYUVmcTRiVEJFNHV6Q1VTR1pEWUJMYzc0cEcxb2RyOXpJeHA4UTBXWGMtSnR3SU1pRmNQLWdxZ0lqbEU2dnZOdS12U2ZFREdUdmd5WXZoMjVQZ1RfSnlKRmNZRWZkMWFEREpVREJrUTdIUGhQS1M1b1NQajR4Tk9QdGc0NlNMWk9kVFB3?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVRTMEhoSF9ONll3d2FqekVfR251UUFhYmtiWnF4ZWdRS0VlYUVmcTRiVEJFNHV6Q1VTR1pEWUJMYzc0cEcxb2RyOXpJeHA4UTBXWGMtSnR3SU1pRmNQLWdxZ0lqbEU2dnZOdS12U2ZFREdUdmd5WXZoMjVQZ1RfSnlKRmNZRWZkMWFEREpVREJrUTdIUGhQS1M1b1NQajR4Tk9QdGc0NlNMWk9kVFB3?oc=5\" target=",
-      "source": "Google News — ADHD",
+      "source": "Google News — ADHD Research",
       "lang": "EN",
-      "icon": "🔍",
+      "icon": "🔬",
       "date": "2026-07-31T16:35:21.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 22,
-      "title": "Studies Highlight Rapid Expansion of ADHD Drug Prescribing - Mad In America",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa1N1eGlWejgxelJUM0pTQWs1alIzRFZaOE1xRGtkNjhrMmhHYS1raVc4MFdtVk52VTU2a3pIUG81a082WVcyankyMHZwbUZCMjVtWnFtZDVDNDVnQm0ySnFmWGpYaDhPM3dPaWpqMm03TXRxeUpPYVBudGlKWHpKc29RMDZ4VEFYeWtnOC1KQzVNUE1XMTFrY3ZvZnM?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPa1N1eGlWejgxelJUM0pTQWs1alIzRFZaOE1xRGtkNjhrMmhHYS1raVc4MFdtVk52VTU2a3pIUG81a082WVcyankyMHZwbUZCMjVtWnFtZDVDNDVnQm0ySnFmWGpYaDhPM3dPaWpqMm03TXRxeUpPYVBudGlKWHpKc29RMDZ4VEFYeWtnOC1KQzVNUE1XMTFrY3ZvZnM?oc=5\" target=\"_blank\">Studies Highligh",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-07-31T10:00:49.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 23,
+      "id": 24,
       "title": "“3 Ways I Slow the Emotional Spirals of RSD”",
       "link": "https://www.additudemag.com/emotional-spiral-rsd-strategies/",
       "description": null,
@@ -257,7 +268,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 24,
+      "id": 25,
       "title": "When Emotions Hijack Learning",
       "link": "https://www.additudemag.com/supportive-learning-environment-adhd/",
       "description": null,
@@ -266,17 +277,6 @@
       "icon": "📰",
       "date": "2026-07-31T09:22:20.000Z",
       "domain": "additudemag.com"
-    },
-    {
-      "id": 25,
-      "title": "How Hand Gestures Can Support Communication for Those With Autism and ADHD, and/or Language Impairments - Brain & Behavior Research Foundation",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSl8wbzZYWmxqVHhmYXgyeVBTRW9kNGhDbGczanNoa3VRc0ZfdS1SN0s3cWZTWElQQ1lDNXBOLXZKUDhiTTE1aGRNTTh0VnFUUkpvZEt5VHB0aE5leXBrNWZiY2lpYmgyWUJMamlqVWRIcTAyeDFTR3k2bm1oaXB5Z25fcjc1RXBSVDRNc1Rtb1JLQnZCc2VMQzFscy1BMHBOTUlXTEhmMzMtM25XVzNCSlptb2FFNFBLTHh3enZ4b2Y3QQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSl8wbzZYWmxqVHhmYXgyeVBTRW9kNGhDbGczanNoa3VRc0ZfdS1SN0s3cWZTWElQQ1lDNXBOLXZKUDhiTTE1aGRNTTh0VnFUUkpvZEt5VHB0aE5leXBrNWZiY2lpYmgyWUJMamlqVWRIcTAyeDFTR3k2bm1oaXB5Z25fcjc1RXBSVDRNc1Rtb1JLQnZCc2VMQzFscy1BMHBOTUlXTEhmMzMtM25XVzNCSlptb2FFNFBLTH",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-07-30T14:20:26.000Z",
-      "domain": "news.google.com"
     },
     {
       "id": 26,
@@ -302,17 +302,6 @@
     },
     {
       "id": 28,
-      "title": "ADHD in Women Looks Different — As Do The Long-Term Health Risks - MindSite News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3hjMmFINDF3RTg4aFgwQmh2TTYtUHNqeFFjemMxUjVMUzR0QWdRbmszd2Z6RnJnOV81VnlDUWpVaUlIdzM0N0p0YURmRDFvQmhZbjF2bktxWTBlWFpJcHRIaGtCdG90VWlUZm91WHNYTmtUXy1IR1Nvb1ZlTWFvZlVqTnFzSGtNY081ZHhnX0pSSmlmUjJOOW9wYVZSaGdE?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3hjMmFINDF3RTg4aFgwQmh2TTYtUHNqeFFjemMxUjVMUzR0QWdRbmszd2Z6RnJnOV81VnlDUWpVaUlIdzM0N0p0YURmRDFvQmhZbjF2bktxWTBlWFpJcHRIaGtCdG90VWlUZm91WHNYTmtUXy1IR1Nvb1ZlTWFvZlVqTnFzSGtNY081ZHhnX0pSSmlmUjJOOW9wYVZSaGdE?oc=5\" target=\"_blank\">ADHD in Wom",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-07-29T20:08:23.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 29,
       "title": "Centanafadine Receives FDA Approval for the Treatment of ADHD",
       "link": "https://www.additudemag.com/centanafadine-simtriyo-approved-adhd-medication/",
       "description": null,
@@ -323,7 +312,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "Reading, Writing, and Cognitive Overload",
       "link": "https://www.additudemag.com/cognitive-overload-processing-speed/",
       "description": null,
@@ -331,6 +320,17 @@
       "lang": "EN",
       "icon": "📰",
       "date": "2026-07-29T09:29:55.000Z",
+      "domain": "additudemag.com"
+    },
+    {
+      "id": 30,
+      "title": "Why Women and Older Adults with ADHD Are Still Suffering",
+      "link": "https://www.additudemag.com/signs-of-adhd-women-seniors/",
+      "description": null,
+      "source": "ADDitude Magazine",
+      "lang": "EN",
+      "icon": "📰",
+      "date": "2026-07-28T21:27:29.000Z",
       "domain": "additudemag.com"
     }
   ]
