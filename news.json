@@ -1,21 +1,54 @@
 {
-  "fetchedAt": "2026-08-23T08:32:04.265Z",
+  "fetchedAt": "2026-08-24T08:50:05.695Z",
   "totalSources": 6,
   "sourceErrors": 0,
   "articles": [
     {
       "id": 1,
-      "title": "Pourquoi ce médicament pour le TDAH inquiète des chercheurs - Radio-Canada",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3pJdV9oX2p0TEhLRmI5bkhMYzR5NXpPZG1qMFRyNy00dWFhaTEwQklVZ0p3NEJwenc2dl9jZnFjZ2VaSmJhNUdieFZ1N1NaY21KZXI1eHRuMGNWbnZVOWxqRThPTEg5ZHNubktHU1NLLUg0ZWpTaG16RjZNbmpxcmNyTnQtWEU?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3pJdV9oX2p0TEhLRmI5bkhMYzR5NXpPZG1qMFRyNy00dWFhaTEwQklVZ0p3NEJwenc2dl9jZnFjZ2VaSmJhNUdieFZ1N1NaY21KZXI1eHRuMGNWbnZVOWxqRThPTEg5ZHNubktHU1NLLUg0ZWpTaG16RjZNbmpxcmNyTnQtWEU?oc=5\" target=\"_blank\">Pourquoi ce médicament pour le TDAH inquiète",
+      "title": "Une étude établit un lien entre le microbiote intestinal, l’autisme, l’anorexie et le TDAH - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdTZ6dEg1SVlsSS04NE9XQjJZUXhaT3ZmTEJzRnNRUUsyNkxVUWpPVDJQRFdtck5rdHEwU0Fia1Yta0prY083dkU0Vkh2VjJEZVp6NWRURXA4cm5vbmR6TXEzR1UxMUFoWEFMOVFhLUJXM1pmZWpSODRoeEZWMnNpNGU4OUxfcmpCR2oxbXI5WGdIem1LNDBicmkwc2hpeUR2R3dfd2VoeU5vR0psdFRhTmd4dHhkSjBxOEtWSTlKbEJscy12NGZ1dC1GdnNhcU02X1pXV3hQVVg?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdTZ6dEg1SVlsSS04NE9XQjJZUXhaT3ZmTEJzRnNRUUsyNkxVUWpPVDJQRFdtck5rdHEwU0Fia1Yta0prY083dkU0Vkh2VjJEZVp6NWRURXA4cm5vbmR6TXEzR1UxMUFoWEFMOVFhLUJXM1pmZWpSODRoeEZWMnNpNGU4OUxfcmpCR2oxbXI5WGdIem1LNDBicmkwc2hpeUR2R3dfd2VoeU5vR0psdFRhTmd4dHhkSjBxOE",
       "source": "Google News — TDAH",
       "lang": "FR",
       "icon": "🇫🇷",
-      "date": "2026-08-22T23:55:20.000Z",
+      "date": "2026-08-24T07:30:11.000Z",
       "domain": "news.google.com"
     },
     {
       "id": 2,
+      "title": "TDAH : un nouveau médicament autorisé aux Etats-Unis, qui pourrait servir d’alternative à la Ritaline - Libération",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQQkZIQjJ5c2tCRzlNR1I1VVpTb1gydmZQQ3Vtd08tSE9lUVFsb2FQVW5ZdTdIcEVCU3BGNFFLbmVfRU9fMVpnOWJ5YWwwOVZxOHJxdWllUE01SFo0UGFUVTI0Z0hHbGY0U2RHcDBTRllYX3JUS3lmMTRnTEpIQjh5aDZBZm8tRWVza0RPcVVFUThmbnpBbVpzclJwVF9LSU9Cdy05aW5HMlM1eWctc1NFWkR2S0FXZDh2VG9aT0xaVEhxV0s5a0szRGxMVzBySi1MU0g2aWpHV09XZjRXbjlKMDQzLWZ4eVJ0TXE4ak5uTzdHOWFyTTZyc2ZVRUZSTUZuNWIwYg?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxQQkZIQjJ5c2tCRzlNR1I1VVpTb1gydmZQQ3Vtd08tSE9lUVFsb2FQVW5ZdTdIcEVCU3BGNFFLbmVfRU9fMVpnOWJ5YWwwOVZxOHJxdWllUE01SFo0UGFUVTI0Z0hHbGY0U2RHcDBTRllYX3JUS3lmMTRnTEpIQjh5aDZBZm8tRWVza0RPcVVFUThmbnpBbVpzclJwVF9LSU9Cdy05aW5HMlM1eWctc1NFWkR2S0FXZDh2VG",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-08-24T05:47:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 3,
+      "title": "“It’s Probably Just Stress:” When Doctors Dismiss ADHD Symptoms",
+      "link": "https://www.additudemag.com/medical-gaslighting-adhd-self-doubt/",
+      "description": null,
+      "source": "ADDitude Magazine",
+      "lang": "EN",
+      "icon": "📰",
+      "date": "2026-08-23T15:11:45.000Z",
+      "domain": "additudemag.com"
+    },
+    {
+      "id": 4,
+      "title": "People with ADHD and those who have difficulty starting tasks swear by the 'Home Shoes' hack - Upworthy",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnRQdlF0UGUzXy1IRmtJVkFWZWxpeW81SkgzY2hocHViZXc2c093c1M5SnY0TncwaUZDX3RZSk9ndUFjbW5HZUtORmRmYVFPa2RRdGdOYkYyWnFqSThkYlF0UnFtbHVaTkUxcmQzdVROY0FqX2hPNFlMeTlyb2M5eDAyODRWZXZmNUp5c2pfeXhjOGtqamJzS2ctckU3U2MtR0VCMW5oSEtmaEhNeTU1NkMtUmtMU0E?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNNnRQdlF0UGUzXy1IRmtJVkFWZWxpeW81SkgzY2hocHViZXc2c093c1M5SnY0TncwaUZDX3RZSk9ndUFjbW5HZUtORmRmYVFPa2RRdGdOYkYyWnFqSThkYlF0UnFtbHVaTkUxcmQzdVROY0FqX2hPNFlMeTlyb2M5eDAyODRWZXZmNUp5c2pfeXhjOGtqamJzS2ctckU3U2MtR0VCMW5oSEtmaEhNeTU1NkMtUmtMU0E?oc",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-08-22T15:54:14.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 5,
       "title": "Global data shows a sharp rise in adult ADHD diagnoses and medication prescriptions - PsyPost",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUxsdGo2YkNIczFKbE82UXY0SW1Dc21KbnBPWXJoMGE2WjlUb0ZBUTAzVlEwQ1hEY21HbVhCczRUcG54MTZFMU04ZTdfZjNoT0hTTllNRjdzWEtMSkF1VUpGRDU1VFN3MlNXRnR1NW1SbTNFVlVVVVRPc08xRFZiRDk0SV9kdENlcHlzTHNYZFlFRU1Kd1l5Yk9FVWcyZzdMX2ZSVWdBQllnZ1BU?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUxsdGo2YkNIczFKbE82UXY0SW1Dc21KbnBPWXJoMGE2WjlUb0ZBUTAzVlEwQ1hEY21HbVhCczRUcG54MTZFMU04ZTdfZjNoT0hTTllNRjdzWEtMSkF1VUpGRDU1VFN3MlNXRnR1NW1SbTNFVlVVVVRPc08xRFZiRDk0SV9kdENlcHlzTHNYZFlFRU1Kd1l5Yk9FVWcyZzdMX2ZSVWdBQllnZ1BU?oc=5\" target=\"_bl",
@@ -26,18 +59,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 3,
-      "title": "ADHD masking at work is quietly fuelling employee burnout, study finds - Canadian Occupational Safety",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNFBaM3ZLU2JwT0dEa01ROUdYQzc5WmlhV0N2dWloWVJRbE4yeVFQejlGNS15OHotNGowQ0E5a1JtUGdmbk1SbnlfWHVfeHU4X2ZoRC1yS0JiN0s4NnRURC1rcTRmdDJhZnYyblpRRlFDNWVmOGdXZng5MkZ3bUZKWDJiSkRkSlRHcG54eHJ6X3VHNm1xQmNiNXpRSGFUOXhsRUpMV0F4SVo5dklkT1B4OHdSd1JsanFDdzRGR3V3?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPNFBaM3ZLU2JwT0dEa01ROUdYQzc5WmlhV0N2dWloWVJRbE4yeVFQejlGNS15OHotNGowQ0E5a1JtUGdmbk1SbnlfWHVfeHU4X2ZoRC1yS0JiN0s4NnRURC1rcTRmdDJhZnYyblpRRlFDNWVmOGdXZng5MkZ3bUZKWDJiSkRkSlRHcG54eHJ6X3VHNm1xQmNiNXpRSGFUOXhsRUpMV0F4SVo5dklkT1B4OHdSd1JsanFDdz",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-22T10:04:53.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 4,
+      "id": 6,
       "title": "‘My ability to cope was unravelling’: how I navigated ADHD and childbirth – and seven things I learned - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc3VjWS1mMXkzeElJOGNfOHFMN3QxbVN6SXEyS2w4Tlk5TjRYZUxEMDdQdHhJNVJxbUJadUw1SUc5X0w0amlHTXhsN3hKWWEyTGZZcVV3TW5YQXBvU3VJMGxoT2U2T0JFSGE1VHhSWWJVcVk2cVRDN0JLYzZsbUpkV2hRTnNEbUdvb1lqOG9HVGctQTRWOW5CVTZSZkhmWmZiOG9FbzBuZFFURUd3R1RDUTVXamJUX2lLaTh5TDZ1WmR0TER2dzJxV0pxdldINEpBZk4tWDBmeGhva1E3RGc?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc3VjWS1mMXkzeElJOGNfOHFMN3QxbVN6SXEyS2w4Tlk5TjRYZUxEMDdQdHhJNVJxbUJadUw1SUc5X0w0amlHTXhsN3hKWWEyTGZZcVV3TW5YQXBvU3VJMGxoT2U2T0JFSGE1VHhSWWJVcVk2cVRDN0JLYzZsbUpkV2hRTnNEbUdvb1lqOG9HVGctQTRWOW5CVTZSZkhmWmZiOG9FbzBuZFFURUd3R1RDUTVXamJUX2lLaT",
@@ -48,18 +70,29 @@
       "domain": "news.google.com"
     },
     {
-      "id": 5,
-      "title": "Japon. TDAH : un jeu vidéo approuvé pour traiter le trouble de l'attention chez l'enfant - Le Dauphiné Libéré",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObkVCZ2NSZUx2NTVOZGpsdE53Q0dSTU96VTM4OXJkY19CbTFRRF9GTWVWU1I2NDhDQ09DbC1xcTV6NkVHSWdYekNSbHdfaUpabGZxcDk0YlktSDRaUTFiU0x5LURUUFczekhwNElxcnFNbTJMM2tYSmpPb0RVQmtWZDNBdUxvM3Vza190VVk0Y3dWdFVCU3p3YlY1cjZIQ2w0T0dlamUxN1Mxd2ZZR3lIcXd3cVF1QnZvUGNkR2NpSlk?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxObkVCZ2NSZUx2NTVOZGpsdE53Q0dSTU96VTM4OXJkY19CbTFRRF9GTWVWU1I2NDhDQ09DbC1xcTV6NkVHSWdYekNSbHdfaUpabGZxcDk0YlktSDRaUTFiU0x5LURUUFczekhwNElxcnFNbTJMM2tYSmpPb0RVQmtWZDNBdUxvM3Vza190VVk0Y3dWdFVCU3p3YlY1cjZIQ2w0T0dlamUxN1Mxd2ZZR3lIcXd3cVF1QnZvUG",
+      "id": 7,
+      "title": "Japon. TDAH : un jeu vidéo approuvé pour traiter le trouble de l'attention chez l'enfant - L'Est Républicain",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWFYVlRBTTVsMmVjLUFJenJ4WXZxY3BlTWJ3bzNpaWRMVGp3S0xBWTg4U3RqZWl4OXNmbDhuRU1YeWh5WTB0cTJzczVyQTVhclpGTWhNWW1jTVQydU1sSWI4U0hFeWgtNkctX09jcGdZdW00NGtHNHR1UFdBdWd3WktNWUswaExvbXQzNDVoXzZJekVTcWxibFVDNlJiYUJaZm1nQkR1RlFLaUMxOGtBVW9jUTQ2bTRCSVBnZ0RiRVdmcFZq?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWFYVlRBTTVsMmVjLUFJenJ4WXZxY3BlTWJ3bzNpaWRMVGp3S0xBWTg4U3RqZWl4OXNmbDhuRU1YeWh5WTB0cTJzczVyQTVhclpGTWhNWW1jTVQydU1sSWI4U0hFeWgtNkctX09jcGdZdW00NGtHNHR1UFdBdWd3WktNWUswaExvbXQzNDVoXzZJekVTcWxibFVDNlJiYUJaZm1nQkR1RlFLaUMxOGtBVW9jUTQ2bTRCSV",
       "source": "Google News — TDAH",
       "lang": "FR",
       "icon": "🇫🇷",
-      "date": "2026-08-21T14:34:56.000Z",
+      "date": "2026-08-21T14:34:00.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 6,
+      "id": 8,
+      "title": "Yeovil MP criticises Channel 4 documentary about ADHD - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNcmM0RkFZc0N6Qlh2YjRfWGhPbUZPRnVId1B0VXM1SVh5czJoZlZjWVhnTl9zV2RJcUpXMHd3VkRkRjdiVDVUT2lnOFc1alZROU4wck9QU2JTQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNcmM0RkFZc0N6Qlh2YjRfWGhPbUZPRnVId1B0VXM1SVh5czJoZlZjWVhnTl9zV2RJcUpXMHd3VkRkRjdiVDVUT2lnOFc1alZROU4wck9QU2JTQQ?oc=5\" target=\"_blank\">Yeovil MP criticises Channel 4 documentary about ADHD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-08-21T11:50:19.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 9,
       "title": "8 ways to treat ADHD that aren't medication - KVIA",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0tuakdXWGpOYXI3NzJQeGR2U0w4aGxGSnJZbFBrTXh2UjlhaURaOW1OUWllQmZCZWxGalZ2RENwN2tlTDUwZVpCM01yUlFDTl80ZUllRmRQenFzZS1NOG1FRWhSMzlESzhKaVVYcUg3VjBubkN6NEtVd0ZCU0llR0t4Qk1LZjlhczk5SldDYm5Pamc5NUlQYQ?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0tuakdXWGpOYXI3NzJQeGR2U0w4aGxGSnJZbFBrTXh2UjlhaURaOW1OUWllQmZCZWxGalZ2RENwN2tlTDUwZVpCM01yUlFDTl80ZUllRmRQenFzZS1NOG1FRWhSMzlESzhKaVVYcUg3VjBubkN6NEtVd0ZCU0llR0t4Qk1LZjlhczk5SldDYm5Pamc5NUlQYQ?oc=5\" target=\"_blank\">8 ways to treat ADHD ",
@@ -70,7 +103,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 7,
+      "id": 10,
       "title": "“My Teen Won’t Wake Up on Her Own!”",
       "link": "https://www.additudemag.com/how-to-wake-yourself-up-adhd-teen/",
       "description": null,
@@ -81,29 +114,18 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 8,
+      "id": 11,
       "title": "There is nothing scientific about The Great ADHD Myth? ‘documentary’ | Gina Rippon - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZUhxRUZ0RmZ4T0p0LUE0UHN3VXdkanlfRHFDSlpieXFpbFlMTFdsUF9JT212UkJaMHBKOEJwYS00ZmtTUl9fT0NvN1k2Zll3RDREeUVDWGNQOHZzejlfUWMtVlQxQ0UzQ0NDdzUzLS1sNlh2a0pQU3dJazNvN2hIWWZTMDlBQk1QWTdvMC01d0U4R2FROXZvY3JmNlB0SkpNQjMyQjdoUVo0RWIzYkpWVUgzQ1dHOGF2dXlJ?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZUhxRUZ0RmZ4T0p0LUE0UHN3VXdkanlfRHFDSlpieXFpbFlMTFdsUF9JT212UkJaMHBKOEJwYS00ZmtTUl9fT0NvN1k2Zll3RDREeUVDWGNQOHZzejlfUWMtVlQxQ0UzQ0NDdzUzLS1sNlh2a0pQU3dJazNvN2hIWWZTMDlBQk1QWTdvMC01d0U4R2FROXZvY3JmNlB0SkpNQjMyQjdoUVo0RWIzYkpWVUgzQ1dHOGF2dX",
-      "source": "Google News — ADHD Research",
+      "source": "Google News — ADHD",
       "lang": "EN",
-      "icon": "🔬",
+      "icon": "🔍",
       "date": "2026-08-21T07:53:00.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 9,
-      "title": "ADHD skepticism carries unequal costs for certain communities. - Psychology Today",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTHlaYnpsck5SODhKbnR4bE5DMWZNTzNTR1dRamNRWkVPc3c0YXFGSEJWQ0VvRU1GdXBuWWMzSXNwR0NiTm1SS2cxOXFWc2gtUDJSd1VLNlRubzZDdHF3ZHJhT2h6MWVKbUREYlhyZGltbUxDdEwyOVkyR0ctR2xuNnRqZjVzMzVWMHFUdXFhZDM0TzZEYkJvMXVzUFVrVlFrcWdTTjNZMFR1Z3MySFYtS2owS01QNmI5M09PVG1n0gHDAUFVX3lxTE9HZVhQUzhDbWpXSWxyZU5KYnZjLWZUQjFhcG1icFJjVU9iRl9aVXdyVmh2NmVVX2JCVzVMZUZUdG5wUDRkWWI5YXZpWWQyTDRraFJRb0Nwcm1LVGxuc0czNDZKSEJhalJZY0ZuelBJU3pybUc5RFp5QlZUbDUtS0NjYllua1dXSmdqV3c3aVZCUEtmUncwUFA2Vkk5cUJTd2xIS3dLTm16UmZobTFBMW9RTnFDQjR0X1hqTWZRRzVqdlIyZw?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQTHlaYnpsck5SODhKbnR4bE5DMWZNTzNTR1dRamNRWkVPc3c0YXFGSEJWQ0VvRU1GdXBuWWMzSXNwR0NiTm1SS2cxOXFWc2gtUDJSd1VLNlRubzZDdHF3ZHJhT2h6MWVKbUREYlhyZGltbUxDdEwyOVkyR0ctR2xuNnRqZjVzMzVWMHFUdXFhZDM0TzZEYkJvMXVzUFVrVlFrcWdTTjNZMFR1Z3MySFYtS2owS01QNmI5M0",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-20T19:09:21.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 10,
+      "id": 12,
       "title": "Centanafadine Receives FDA Approval for the Treatment of ADHD - ADDitude",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeC16azNkTS1JV3lLdElDcTlQN1BsN0lWTlFjOTNZaGdkYmdxVTFFbnRTVTQtZWFxdFNTZ1c4OXZCS0JzU05yMU9IaFRob1piNW1iUkhoZXc1TGdPWmNRSVdiX1FGVTdLRzl5Y0YzcUFjUEMyc2VDd2k3ZHBhbkUzTW1n?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQeC16azNkTS1JV3lLdElDcTlQN1BsN0lWTlFjOTNZaGdkYmdxVTFFbnRTVTQtZWFxdFNTZ1c4OXZCS0JzU05yMU9IaFRob1piNW1iUkhoZXc1TGdPWmNRSVdiX1FGVTdLRzl5Y0YzcUFjUEMyc2VDd2k3ZHBhbkUzTW1n?oc=5\" target=\"_blank\">Centanafadine Receives FDA Approval for the Treatme",
@@ -114,7 +136,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 11,
+      "id": 13,
       "title": "Helping kids with ADHD thrive in school - Michigan Medicine",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTDlWZ1E3eVZWdFF1c0xkR0pZMFBRT1BYVml1am1WQnY1X0gxUDdUS0RJZk5HdDZId3J2a2lPM3hQXzFJcEJaUm0wNEFuZHBSTXlZcUk2Nlowd0hveUt2U1dTU0lSV3dldzZjckluQlV3Wm92UDBrR2Fvc1hUNFlrbg?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNTDlWZ1E3eVZWdFF1c0xkR0pZMFBRT1BYVml1am1WQnY1X0gxUDdUS0RJZk5HdDZId3J2a2lPM3hQXzFJcEJaUm0wNEFuZHBSTXlZcUk2Nlowd0hveUt2U1dTU0lSV3dldzZjckluQlV3Wm92UDBrR2Fvc1hUNFlrbg?oc=5\" target=\"_blank\">Helping kids with ADHD thrive in school</a>&nbsp;&nbs",
@@ -125,36 +147,14 @@
       "domain": "news.google.com"
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Scientists Reveal How ADHD Could Fuel Creative Thinking - SciTechDaily",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHVLbFFqN08tcFJfWnFfSVdzMG03R3hHeWpLczBLZmFZWUFkdDdvZWVMM2FYdUtxX1IwdjJnd2ZWU2o3STlNajJQN0tWTGgwY1VJdmdPUUlaZnROZFg4OWZTV1Frb3hfTHVKSHVyazhoVktqM0p2WGxiM2QxeGx3alR2emp6dVZJ?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHVLbFFqN08tcFJfWnFfSVdzMG03R3hHeWpLczBLZmFZWUFkdDdvZWVMM2FYdUtxX1IwdjJnd2ZWU2o3STlNajJQN0tWTGgwY1VJdmdPUUlaZnROZFg4OWZTV1Frb3hfTHVKSHVyazhoVktqM0p2WGxiM2QxeGx3alR2emp6dVZJ?oc=5\" target=\"_blank\">Scientists Reveal How ADHD Could Fuel Creat",
-      "source": "Google News — ADHD",
+      "source": "Google News — ADHD Research",
       "lang": "EN",
-      "icon": "🔍",
+      "icon": "🔬",
       "date": "2026-08-20T11:09:58.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 13,
-      "title": "Channel 4’s The Great ADHD Myth ignores a key group of people, and it’s so disappointing - The Tab",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSWI0XzNPZEM4bzZ6bHJpNE10MUNQLW1mN1FNZlQwekxIYW5uNFppdWgtbG1pVV81TEtoeXRHbjhFSWI4RUJXWE56RHU4NXhUalRLSkljU19NTGNrX25XY2owNjBMaDZZbXIzcnhkb0xONXE5d2EyOHZuSnlfWEYyYy1IUDJBVjFpRVB6YVBnSlNZMVNCaFVrSldiSFMwTEk5cFFDMW0ybENWRHZSTE9mLVF1UjBodw?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPSWI0XzNPZEM4bzZ6bHJpNE10MUNQLW1mN1FNZlQwekxIYW5uNFppdWgtbG1pVV81TEtoeXRHbjhFSWI4RUJXWE56RHU4NXhUalRLSkljU19NTGNrX25XY2owNjBMaDZZbXIzcnhkb0xONXE5d2EyOHZuSnlfWEYyYy1IUDJBVjFpRVB6YVBnSlNZMVNCaFVrSldiSFMwTEk5cFFDMW0ybENWRHZSTE9mLVF1UjBodw?oc=",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-20T10:36:19.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 14,
-      "title": "The meds that can make the heat harder to handle - BBC",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYjJDcjlQOW5Pbk5rWkNYYXBtVWVkSXBNNkxRb0hHTUh1aHN6SVpaTmdYS0dmbkNuYUFBd1VRUmNvVHJIeW4takhPTXBfVnVIMHQtckZ6ajJuN3paektIbWZKY3RpemJJT0YtblBVOHFWQXA0XzlhZ2ZRQVZQeFROYXNxX0p3MnVPYTNwZGZKS2tvVlgyei1vc0ozVHNKY0dM?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQYjJDcjlQOW5Pbk5rWkNYYXBtVWVkSXBNNkxRb0hHTUh1aHN6SVpaTmdYS0dmbkNuYUFBd1VRUmNvVHJIeW4takhPTXBfVnVIMHQtckZ6ajJuN3paektIbWZKY3RpemJJT0YtblBVOHFWQXA0XzlhZ2ZRQVZQeFROYXNxX0p3MnVPYTNwZGZKS2tvVlgyei1vc0ozVHNKY0dM?oc=5\" target=\"_blank\">The meds th",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-20T10:00:00.000Z",
       "domain": "news.google.com"
     },
     {
@@ -183,7 +183,7 @@
       "id": 17,
       "title": "ADHD charity complains about Channel 4 documentary - BBC",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94NG1Gb1BBZ1h5M1dRaFdvdXdwSWVlMHUtY1pDRWxxUUNOR3ZoaHg1Tm5PZVNEV0pBTzNPcFNLZVBfUWdid2stQXUwWFRMQXZ4aTVXX1FxRUk2Nm9B?oc=5",
-      "description": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE94NG1Gb1BBZ1h5M1dRaFdvdXdwSWVlMHUtY1pDRWxxUUNOR3ZoaHg1Tm5PZVNEV0pBTzNPcFNLZVBfUWdid2stQXUwWFRMQXZ4aTVXX1FxRUk2Nm9B?oc=5\" target=\"_blank\">ADHD charity complains about Channel 4 documentary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</fo",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE94NG1Gb1BBZ1h5M1dRaFdvdXdwSWVlMHUtY1pDRWxxUUNOR3ZoaHg1Tm5PZVNEV0pBTzNPcFNLZVBfUWdid2stQXUwWFRMQXZ4aTVXX1FxRUk2Nm9B?oc=5\" target=\"_blank\">ADHD charity complains about Channel 4 documentary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
       "source": "Google News — ADHD",
       "lang": "EN",
       "icon": "🔍",
@@ -214,9 +214,9 @@
     },
     {
       "id": 20,
-      "title": "The Great ADHD Myth? review — a provocative film against overdiagnosing - The Times",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTEhRZUN0WnppN3dvbl9Wb3JiWUIzbUxteEpyakdja0JxNHRwODIzRDViamhZRjR3LThmYUFTbEpueU9tSldPVVlQd19FUHd2Q2FpZDZhSDVLYlFfVm1kaTR1a0tOZUp0UWdGSHh1WlNaZEVrV0JFbGZBb0dmdHliTEJfZTRBRmo4N1lqWWdqcw?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOTEhRZUN0WnppN3dvbl9Wb3JiWUIzbUxteEpyakdja0JxNHRwODIzRDViamhZRjR3LThmYUFTbEpueU9tSldPVVlQd19FUHd2Q2FpZDZhSDVLYlFfVm1kaTR1a0tOZUp0UWdGSHh1WlNaZEVrV0JFbGZBb0dmdHliTEJfZTRBRmo4N1lqWWdqcw?oc=5\" target=\"_blank\">The Great ADHD Myth? review — a p",
+      "title": "The Great ADHD Myth? review – the most controversial show of the year is here - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMmJMVHRiaFZYYnlFeDl1VG8xVms1bGt3bndPS29wVllLUGpSQTd3S1ZsX0VvLW5tZzRNc1lCbUktMXlZdEx3dENQYld6VUdXbnRoMzRleDE2a2UxNkljSkRMTVNKZk02YXdXS1hGanBUV29yRlhwY2hoYXlQSDhKYmJUUm5FY1BtRHphSkZTY0dFRTRlU0xmX0NfT2FYM0dWTVdWZXNtUjY4R1cyUEZvUmdmNFV3ckhfS3FfU3VsRXZrRU0?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMmJMVHRiaFZYYnlFeDl1VG8xVms1bGt3bndPS29wVllLUGpSQTd3S1ZsX0VvLW5tZzRNc1lCbUktMXlZdEx3dENQYld6VUdXbnRoMzRleDE2a2UxNkljSkRMTVNKZk02YXdXS1hGanBUV29yRlhwY2hoYXlQSDhKYmJUUm5FY1BtRHphSkZTY0dFRTRlU0xmX0NfT2FYM0dWTVdWZXNtUjY4R1cyUEZvUmdmNFV3ckhfS3",
       "source": "Google News — ADHD",
       "lang": "EN",
       "icon": "🔍",
@@ -247,13 +247,13 @@
     },
     {
       "id": 23,
-      "title": "Digital screening tool distinguishes autism from ADHD - Princeton Engineering",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbXU5UHBZN0tfTTdscjlTNFRFejViUk42RWFQRjFwU3pqVklpOGtMd2d1Z1lVUHhEb0w0UFI1QkZWNFR1Z1BaOEhONTB3NWQ2bXYyQjk4UUFuSHVNMmhwa3gwVnY0dno2NzlQNEQxNXhoTVQ4eC1sRG1oVFN3NVMwMmFRb3E3cDZuMmlTV0tmYnlpX3lIQW1xWjNjZGxldmc?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNbXU5UHBZN0tfTTdscjlTNFRFejViUk42RWFQRjFwU3pqVklpOGtMd2d1Z1lVUHhEb0w0UFI1QkZWNFR1Z1BaOEhONTB3NWQ2bXYyQjk4UUFuSHVNMmhwa3gwVnY0dno2NzlQNEQxNXhoTVQ4eC1sRG1oVFN3NVMwMmFRb3E3cDZuMmlTV0tmYnlpX3lIQW1xWjNjZGxldmc?oc=5\" target=\"_blank\">Digital scre",
-      "source": "Google News — ADHD Research",
+      "title": "Watch The Great ADHD Myth? - Channel 4",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45R18wWGtBZWtueG95N2ROVTFHY292VzVlUGE4ZUd5TEs1SEYycVc1RDl3clJIYzRqbEFQalZzc2xPUVpmbk1OaUdhQ0lpWWN5UUN0bnpVNzdudC1lZzZaaHplWURFUQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE45R18wWGtBZWtueG95N2ROVTFHY292VzVlUGE4ZUd5TEs1SEYycVc1RDl3clJIYzRqbEFQalZzc2xPUVpmbk1OaUdhQ0lpWWN5UUN0bnpVNzdudC1lZzZaaHplWURFUQ?oc=5\" target=\"_blank\">Watch The Great ADHD Myth?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Channel 4</font>",
+      "source": "Google News — ADHD",
       "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-17T19:44:52.000Z",
+      "icon": "🔍",
+      "date": "2026-08-18T07:00:00.000Z",
       "domain": "news.google.com"
     },
     {
