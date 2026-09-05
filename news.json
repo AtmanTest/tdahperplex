@@ -1,10 +1,142 @@
 {
-  "fetchedAt": "2026-09-04T12:34:10.548Z",
+  "fetchedAt": "2026-09-05T11:42:30.275Z",
   "totalSources": 6,
   "sourceErrors": 0,
   "articles": [
     {
       "id": 1,
+      "title": "The ADHD Brain isn't broken; it's built for creativity - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdUh2UThnWlBZc0xRWDZxVW1WdmNpa1d3V3hYT25tTVpHLXAyUWpOaDZBR1lJVktBM05YZ3B3YXB5OGxTNy1Eb3UySTZEWmozQVM3bUhhUWJrbmlVdVpXOVNxckRMVWt3Tnd5aGFnYTlGYkNVTkRCWFRFUWJyeXJLT2IxUWFNRlMwejRyMEFQNGotcmtIQllNNHBZRElmdEdCZFczUnRQeEpIWXE3QWlXbks1cHZOYld6OHRjMGpXOFJPRUpNdnZPSNIBzgFBVV95cUxQc3VrLXF5MndvS3hEejRXV0t5ejZXbkFScjQ0R0ZSblBfSjdmVG9HSHpPTFlWTFcwdUg0bmFKZC10el9PVkdGZF9yZkhHUUl6N05CcHBEZTdmREVOMUVSVlJ5WUZYRFZsNVl5bWZFY3FfQWtIMDlJR005cUJFcS1zaVZsLWJDZE9WanI2ZEp6cVRsVk1RUDdZZ3pEYTBWVGdHWUlxUF8tQnNIVmJxVldpSlQ2a19QODJJSnhDMUNnNkNJbXdNQWQ3QU4yNFMwdw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdUh2UThnWlBZc0xRWDZxVW1WdmNpa1d3V3hYT25tTVpHLXAyUWpOaDZBR1lJVktBM05YZ3B3YXB5OGxTNy1Eb3UySTZEWmozQVM3bUhhUWJrbmlVdVpXOVNxckRMVWt3Tnd5aGFnYTlGYkNVTkRCWFRFUWJyeXJLT2IxUWFNRlMwejRyMEFQNGotcmtIQllNNHBZRElmdEdCZFczUnRQeEpIWXE3QWlXbks1cHZOYld6OH",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-09-05T10:59:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 2,
+      "title": "ADHD UK Cannot Hide the Flawed Science Behind the Diagnosis and Its Treatment - Mad In America",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcTJ3S012WTFVVmJKaXNJN2Q3VEJWbDMzcXJ1S3VZeWVrZkhGcG9lNGVDUVF0Y2lkcWFxTEQzNmR4bTZ5SmtVVm4xZ25abGRCSzJHcjdYT0RjTUltT3hZREtWZTd1QzE5MWNTZjhLelJIVmthb0NQeHBBVjJ1SVdJUTB6azBabW8tLVJCU2lSNU9QUzBxYVdydmVPZ19vMUs1bzlUUDJ1aFIzUkZGbUdrdEJkeFJZQQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQcTJ3S012WTFVVmJKaXNJN2Q3VEJWbDMzcXJ1S3VZeWVrZkhGcG9lNGVDUVF0Y2lkcWFxTEQzNmR4bTZ5SmtVVm4xZ25abGRCSzJHcjdYT0RjTUltT3hZREtWZTd1QzE5MWNTZjhLelJIVmthb0NQeHBBVjJ1SVdJUTB6azBabW8tLVJCU2lSNU9QUzBxYVdydmVPZ19vMUs1bzlUUDJ1aFIzUkZGbUdrdEJkeFJZQQ?oc=",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-09-05T10:00:44.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 3,
+      "title": "À Sainte-Suzanne, une journée pour comprendre et diagnostiquer le trouble déficit de l’attention avec ou sans hyperactivité, ou TDAH - Outre-mer La 1ère",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxONE9TcXJXd3E0T21jM0JDSXZnREUwZ1ozcXdkTUIxdENFWHA2cENXWnc3WDlyNXVJdWhiQkFuMGRRWWxWVDZDOXBrdFBYNmFteTA5SUw4STl5b3ZsYnA0OWdHNm1YWHZTTXFuSUg5Y1NZc205ZUFibHpMTWJWRmRxVDVnUDNSZkFUR2NDcGdUOTlzRWUza0s4NFhoZ1FqRDg5dXJMb1k2UU5ZcFdteS1tRE1jbG9QM1RCblpLbEZ3UDFLRDVJa2dib2plS2hDZDdfWHZDYV82NENDNHczeWxiaGJtQTZvbHZlNzF5Unh1R3J6d2R2djhhOVdfcl95RTFsOWNWQ1AxOThTUjBW?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxONE9TcXJXd3E0T21jM0JDSXZnREUwZ1ozcXdkTUIxdENFWHA2cENXWnc3WDlyNXVJdWhiQkFuMGRRWWxWVDZDOXBrdFBYNmFteTA5SUw4STl5b3ZsYnA0OWdHNm1YWHZTTXFuSUg5Y1NZc205ZUFibHpMTWJWRmRxVDVnUDNSZkFUR2NDcGdUOTlzRWUza0s4NFhoZ1FqRDg5dXJMb1k2UU5ZcFdteS1tRE1jbG9QM1RCbl",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-09-05T09:19:06.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 4,
+      "title": "Improvement in Domestic Violence and Aggression in Comorbid ADHD and Conduct Disorder Following Methylphenidate Initiation: A Case Report - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeTR2dDgyUl9fUEJrR21hbXdCNHpuWUlZN2s3Yjg4cHhXckFmbjFLSFFxbTR2MmlzWkdET25WOFl6aThaQjJGdjFkRnAwSTVIRjkwdmRqdnRZRkR6dy0tdG1ESDNmV1VPMzNSamlsMTJoaExDWnJkQ3lPX2VuLUx5MkoxYWdtZ19kRUhmLXZzcnl0NXVBOEpYV3FTNE1JNTJaMDl2VXhpX3dQZVRRUzdGME45cERzTzhPZXFETkZaeWIxZkV3WjdNZ2o3SjlZWXBDakd1ZW40WlBaeFg3cW9Oa2pwOTk3OFZWZ1F5elMyTVo1RUFXMmFwZ1hmTFVIeUszdnF2d2tB?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxOeTR2dDgyUl9fUEJrR21hbXdCNHpuWUlZN2s3Yjg4cHhXckFmbjFLSFFxbTR2MmlzWkdET25WOFl6aThaQjJGdjFkRnAwSTVIRjkwdmRqdnRZRkR6dy0tdG1ESDNmV1VPMzNSamlsMTJoaExDWnJkQ3lPX2VuLUx5MkoxYWdtZ19kRUhmLXZzcnl0NXVBOEpYV3FTNE1JNTJaMDl2VXhpX3dQZVRRUzdGME45cERzTzhPZX",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-09-05T08:29:59.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 5,
+      "title": "Se découvrir TDAH, TSA, dys... à l'âge adulte, c'est possible - Yahoo Life France",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSlp5NzgzMEM3TEhlbUl4dWhEcllQTlRMWWIzdWtuQllqRmhnZU9qMTlqNTZKZHRWaTlrck5mUjM0Q2VRT3I2QWwzT2F3MkF5WFNMOFBDazNzdHFCMHBacFJoOTdzSEhHT0JydjdwXzVQMHloaWJUemhJX2F4eTBTRUVn?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOSlp5NzgzMEM3TEhlbUl4dWhEcllQTlRMWWIzdWtuQllqRmhnZU9qMTlqNTZKZHRWaTlrck5mUjM0Q2VRT3I2QWwzT2F3MkF5WFNMOFBDazNzdHFCMHBacFJoOTdzSEhHT0JydjdwXzVQMHloaWJUemhJX2F4eTBTRUVn?oc=5\" target=\"_blank\">Se découvrir TDAH, TSA, dys... à l'âge adulte, c'es",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-09-05T08:00:02.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 6,
+      "title": "TDAH : un neuropsy dévoile la question cruciale qui permet d’éviter l’erreur que beaucoup font au moment du diagnostic - Psychologies.com",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTXg4UGtCQzZBRllvVmdydllFSE1FbTVId2d2UHcyMENIY19wamhGdHhvV0dtVDNTVTNuMi11V05QNV9SRFU3WE5kZTZicEdrZXJZWDVrNm01Z2Q4NEhrZmZja3hDbHoxXzNURDFvVkNId05ndnRWM214T3Q4MlJVT0NsRFN2RWp2amVYM0tTS2RTN0RDNkdCM1pWUDJDQWl6d2syOGpLUVg4Ukd6azZEQ3NwT3RXYUNXUHJRUUN1MkhLc1FKQlpFTG9kLWUyRTJMaHlSQW1FZUVaV1N1Vy1JSDI1Vk9pblF4NHlzdzFGRDZCOUhLSTVoOFRn?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTXg4UGtCQzZBRllvVmdydllFSE1FbTVId2d2UHcyMENIY19wamhGdHhvV0dtVDNTVTNuMi11V05QNV9SRFU3WE5kZTZicEdrZXJZWDVrNm01Z2Q4NEhrZmZja3hDbHoxXzNURDFvVkNId05ndnRWM214T3Q4MlJVT0NsRFN2RWp2amVYM0tTS2RTN0RDNkdCM1pWUDJDQWl6d2syOGpLUVg4Ukd6azZEQ3NwT3RXYUNXUH",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-09-05T01:08:39.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 7,
+      "title": "ADHD diagnosis and how it affects the Black community - The Charlotte Post",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaThMSlZBMVE0Z2hYRko2bG9lSXZ2TGpKRjV0VnlHVTRpT245WHlOZWplNTFKUHMtNjZWbDF5WDhId09MUld3ZmdPeXBJTF9Dc1Z1eGtmSlhXdm1PWHk4elRWLWF3T2RudHk4TkFPVkJQNUJDYUdCbGg4WDNqVTA0anlpYkFlclBRRENmVGdhazY4MERFbl9EOHBwU2F5anNiajR5OXFHLXFBZy0tU1RV?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaThMSlZBMVE0Z2hYRko2bG9lSXZ2TGpKRjV0VnlHVTRpT245WHlOZWplNTFKUHMtNjZWbDF5WDhId09MUld3ZmdPeXBJTF9Dc1Z1eGtmSlhXdm1PWHk4elRWLWF3T2RudHk4TkFPVkJQNUJDYUdCbGg4WDNqVTA0anlpYkFlclBRRENmVGdhazY4MERFbl9EOHBwU2F5anNiajR5OXFHLXFBZy0tU1RV?oc=5\" target=",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-09-05T00:53:49.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 8,
+      "title": "ADHD in children: Why girls are often underlooked - WRAL",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdWdqWURvSFA1OUtMb3pSZ2tDZERkTFlZZnJnaEd5dkJURVlUa2RTc041T1cyMS1mUTd4VHFJdmhqZXBDaHY4YVFQdFJqaGVZeTB3WUF0TEpCZzVfaDMzcTQxbXJzSU1RajhHNkpsNFA0U0ZWcnBTYVNvNUQ2UnZiTDJzbUdQMjk0ckFV?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdWdqWURvSFA1OUtMb3pSZ2tDZERkTFlZZnJnaEd5dkJURVlUa2RTc041T1cyMS1mUTd4VHFJdmhqZXBDaHY4YVFQdFJqaGVZeTB3WUF0TEpCZzVfaDMzcTQxbXJzSU1RajhHNkpsNFA0U0ZWcnBTYVNvNUQ2UnZiTDJzbUdQMjk0ckFV?oc=5\" target=\"_blank\">ADHD in children: Why girls are often u",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-09-04T17:37:47.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 9,
+      "title": "TSA, TDAH, Dys : Occibulle réunit familles et professionnels à Vias - Echo des Tribunes",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXFGazY5dDBmU3hxQWk3d19JUU5PamZ0ZUd1eHh0RGdMeDVsOV91MXFVTXE1THF2eGN5dHdPcC1SZHF3SXExWkNoa2NYUkZiVGxVTllrUWJIZ3JCM01PbjBHOTNzWGpvSjFPRVRrYzg0OHZuSjl4LTJDN1FOYzd0ZlQ4Y3NuajhKZGU2bWxEelRlYVpQYW0xS29aSHExTVVLWVpLaG9nVXNWWEV3TmNSS05XaGF0c3JGeVE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXFGazY5dDBmU3hxQWk3d19JUU5PamZ0ZUd1eHh0RGdMeDVsOV91MXFVTXE1THF2eGN5dHdPcC1SZHF3SXExWkNoa2NYUkZiVGxVTllrUWJIZ3JCM01PbjBHOTNzWGpvSjFPRVRrYzg0OHZuSjl4LTJDN1FOYzd0ZlQ4Y3NuajhKZGU2bWxEelRlYVpQYW0xS29aSHExTVVLWVpLaG9nVXNWWEV3TmNSS05XaGF0c3JGeV",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-09-04T15:02:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 10,
+      "title": "Autisme, Dys, TDAH : Macron a un plan pour les troubles du neurodéveloppement - ma-sante.news",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLWVQbEhJQzliaWdzUHQ1Wl8tVUVjVjIyR2llTUVWY2Z3TWhwR1FTLXoza2NFQ0xNYVVqbkk1aXphVF9Famx1dm5oLV9zZ0g5cVJwa0JiWXRDa0hlZDdVMVI2d3hMSXhGQlFSbl9PWUNQdFlYVVhFOUQ2YXZWa0ctU2llWHFWaG9wN1YzakU2cTN3d0VKeXM0RXhUWWtuampINkZYdQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPLWVQbEhJQzliaWdzUHQ1Wl8tVUVjVjIyR2llTUVWY2Z3TWhwR1FTLXoza2NFQ0xNYVVqbkk1aXphVF9Famx1dm5oLV9zZ0g5cVJwa0JiWXRDa0hlZDdVMVI2d3hMSXhGQlFSbl9PWUNQdFlYVVhFOUQ2YXZWa0ctU2llWHFWaG9wN1YzakU2cTN3d0VKeXM0RXhUWWtuampINkZYdQ?oc=5\" target=\"_blank\">Autis",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-09-04T14:44:28.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 11,
+      "title": "“The Lindsay Clancy Case Should Alarm ADHD Moms”",
+      "link": "https://www.additudemag.com/lindsay-clancy-postpartum-adhd/",
+      "description": null,
+      "source": "ADDitude Magazine",
+      "lang": "EN",
+      "icon": "📰",
+      "date": "2026-09-04T13:50:12.000Z",
+      "domain": "additudemag.com"
+    },
+    {
+      "id": 12,
+      "title": "“The Lindsay Clancy Case Should Alarm ADHD Moms” - ADDitude",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tZjBYc3YweW84WWNtd2J3ZmxUc1piYVBlV3FFczRLYUVwTEd3TTdtdVJKNDFvaC00cy1RV29jRW04ZUVsRVBUS2xvaUdEdHNUeU54ZHBEWjc1NXlIYl93ajBKd3laUmdsMExN?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9tZjBYc3YweW84WWNtd2J3ZmxUc1piYVBlV3FFczRLYUVwTEd3TTdtdVJKNDFvaC00cy1RV29jRW04ZUVsRVBUS2xvaUdEdHNUeU54ZHBEWjc1NXlIYl93ajBKd3laUmdsMExN?oc=5\" target=\"_blank\">“The Lindsay Clancy Case Should Alarm ADHD Moms”</a>&nbsp;&nbsp;<font color=\"#6f6f6",
+      "source": "Google News — ADHD",
+      "lang": "EN",
+      "icon": "🔍",
+      "date": "2026-09-04T13:50:12.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 13,
       "title": "“Some Days I’m Unstoppable. Other Days I Can’t Start. Which One Is the Real Me?”",
       "link": "https://www.additudemag.com/energy-levels-unpredictable-audhd/",
       "description": null,
@@ -15,29 +147,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 2,
-      "title": "TDAH : pourquoi cet arbre décisionnel de la HAS est une véritable boussole pour les parents d'enfants diagnostiqués - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPQ3p1ZGlwVTZ0VVlWQlB2SlY4QzRJeWk4ZE45X05LWnU0dDR6VDktS0VPalJ3WHBRNVd3YThic2lxSk1PZVV0R1VXR1FYamRMbURuUFhDRDV1ZGxsYUhVaWlXN1c5TE9TdzBTLW9qU2t4bFl4QkhKVVVLNmI4bkhhR1Y1NEI0U0dhalBKZ01xNkNFSDlRTWIyM0hSUDBoaEJNRFMtTTVMOGJhRDZqdUh6RFVHYjZRWHNlRm0wcnN0UVU3ZDA0V3FRS095b0RuYllSUFVhLXJCRTBXd0p6TERNMlMyQ0hkNnd0N2t0TFl2Zmxtck1sMldjb2syeTdNS0gyUUFyRXZ0bFB1UQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxPQ3p1ZGlwVTZ0VVlWQlB2SlY4QzRJeWk4ZE45X05LWnU0dDR6VDktS0VPalJ3WHBRNVd3YThic2lxSk1PZVV0R1VXR1FYamRMbURuUFhDRDV1ZGxsYUhVaWlXN1c5TE9TdzBTLW9qU2t4bFl4QkhKVVVLNmI4bkhhR1Y1NEI0U0dhalBKZ01xNkNFSDlRTWIyM0hSUDBoaEJNRFMtTTVMOGJhRDZqdUh6RFVHYjZRWHNlRm",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-09-04T05:15:21.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 3,
-      "title": "\"C'est dégueulasse\" : sa candidature pour intégrer la police est refusée à cause de son TDAH - France 3 Régions",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONXdVZTNUMEhaVGtPSWxMeFNlY0tTUGpBZGJPOEtEVS1YYXdGaHhrTEtBbkNYMEgwSjh3YjZiUjVXcGV0WW5WdFl5bzVQRTI3LUduek9YUU9ScXlWczVrNkdfZWo1WWV5MnczQkE0SmQ1VkZlcTBoVEZaTjJ1cFZLaWNtbnEyQnF6ZGdPbDJBaXgwS3BDS3hjRXVrd0tKUjZiVFZSTTZPVktvdy13RGU2OTZmQXFNNjRNSXU1bUZ3VmRyVDZnY3REbk1xcVFCLVAydDVCQ2tpUHB6V2JOWEt2aWpQaTZEQVBpVElzaTloTWlQemc?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxONXdVZTNUMEhaVGtPSWxMeFNlY0tTUGpBZGJPOEtEVS1YYXdGaHhrTEtBbkNYMEgwSjh3YjZiUjVXcGV0WW5WdFl5bzVQRTI3LUduek9YUU9ScXlWczVrNkdfZWo1WWV5MnczQkE0SmQ1VkZlcTBoVEZaTjJ1cFZLaWNtbnEyQnF6ZGdPbDJBaXgwS3BDS3hjRXVrd0tKUjZiVFZSTTZPVktvdy13RGU2OTZmQXFNNjRNSX",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-09-04T04:00:02.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 4,
+      "id": 14,
       "title": "Au Dorat, Ludivine Cavelier aide les enfants autistes et TDAH et les seniors à gagner en autonomie grâce à l'ergothérapie - Le Populaire du Centre",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNejdWanZMdGpQRk16Vlg0b25KQTltQXZHNUNLWjRJRUtaZ003SVU1NXdkTkZ6aU16MmF4QllxSXVXU1c4MENDd0pOWHZScDEzUjNkYTA3a09SenZEa2kzUlVITXdBZ0ZfZjk3SHM2LXR0U2lKeHJweGpydE45QnN2dzhtVndES25aMG9ycFktd2dKX19BVHFYSVJneG1YaDQ0VXJMV3piZm96c00xVEh2allHdjFrZHNXbXZfYnRwdXh4NVNpSVY1WThPbXpqWFFwcVk0YlMwVUVGTmdmd1pqOHN0SjE2Z0VqTW9lbWFQQ1BUZk10SzF0YkV5dHNCQjUtcEZCUzFMWnlQeGFB?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNejdWanZMdGpQRk16Vlg0b25KQTltQXZHNUNLWjRJRUtaZ003SVU1NXdkTkZ6aU16MmF4QllxSXVXU1c4MENDd0pOWHZScDEzUjNkYTA3a09SenZEa2kzUlVITXdBZ0ZfZjk3SHM2LXR0U2lKeHJweGpydE45QnN2dzhtVndES25aMG9ycFktd2dKX19BVHFYSVJneG1YaDQ0VXJMV3piZm96c00xVEh2allHdjFrZHNXbX",
@@ -48,7 +158,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 5,
+      "id": 15,
       "title": "NDSU researcher studies ADHD as a workplace strength - InForum",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSlZRcldtR3hyQ0dYM0o3T3otSXljZEY3ZU5wTDQ5OFhKY2I1WFZvV2oxRklhbGJFSFRaYWhjTENsZGVPcW1qeDZ4eFI3b2M2aXo4M2cydlY5N2NaZkdobDBfVlpMT2daX191X1hsY0RfeWVOYVZvbXQxMDE3cW1XVWRuVXAxb1BvUlVQMmNmaUw?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPSlZRcldtR3hyQ0dYM0o3T3otSXljZEY3ZU5wTDQ5OFhKY2I1WFZvV2oxRklhbGJFSFRaYWhjTENsZGVPcW1qeDZ4eFI3b2M2aXo4M2cydlY5N2NaZkdobDBfVlpMT2daX191X1hsY0RfeWVOYVZvbXQxMDE3cW1XVWRuVXAxb1BvUlVQMmNmaUw?oc=5\" target=\"_blank\">NDSU researcher studies ADHD as ",
@@ -59,21 +169,10 @@
       "domain": "news.google.com"
     },
     {
-      "id": 6,
-      "title": "Paris Hilton On Her Adult ADHD Diagnosis & What That Means As A Mom - Scary Mommy",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaXNZM01qZXJhQnNiOVFCRXR2SFFGcjRKM2Yxa20wSTh1bTlkRFRqR1l3RmU1NG14bm9DRFZFUjA2cUlqVkk5azNDU2RKU1ZDYXVJa1ZkeXM3elZsN3k2NkRKaDFZNjFrMWZmZWxrdmlVY213Q3FEWjh0eWpwM3I3d3VVQnlxU215amFFN2ZB?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOaXNZM01qZXJhQnNiOVFCRXR2SFFGcjRKM2Yxa20wSTh1bTlkRFRqR1l3RmU1NG14bm9DRFZFUjA2cUlqVkk5azNDU2RKU1ZDYXVJa1ZkeXM3elZsN3k2NkRKaDFZNjFrMWZmZWxrdmlVY213Q3FEWjh0eWpwM3I3d3VVQnlxU215amFFN2ZB?oc=5\" target=\"_blank\">Paris Hilton On Her Adult ADHD Diag",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-09-03T19:17:14.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 7,
+      "id": 16,
       "title": "“ADHD is real” conflates real difficulties, an institutional category, and biology. - Psychology Today",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPakpXVWJzclhfWHE5Q21MbklQQkxCUHlXdHR5VFlKRkt3UUgxMWhIMDY5Q011WTQ5UzdkZ0hQTmdhTDc5ekFMZHI4R0JSWGwwNEdEQURHZGF3WURKbWYwRkd3djlOSXNkQ01RUmIya1loc1JYZXpJX004elJVclZZSkxPVkN4ODFZeUZqWFljWDEtbFRJSERpMmxR0gGfAUFVX3lxTE9SQ2xtU2ZibFZ5U25tc3hFMTdMVjFpV2sxc3FNNFVmQjNtTUZtYmNRMkFtSXVPbmc1SnBWNnRvTVlHYWVkSmdnbFpIS3ZWeWUyOGtDclpCZ2JiZm9tVk8weXQ3MHhBY0haR1I2dlIzMWVNY2dUUlJCbFc4SV9uRFQ1amRFSDA1SzE0bTRnd25ucjZHN0NYMllpeFpBbnNEUQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPakpXVWJzclhfWHE5Q21MbklQQkxCUHlXdHR5VFlKRkt3UUgxMWhIMDY5Q011WTQ5UzdkZ0hQTmdhTDc5ekFMZHI4R0JSWGwwNEdEQURHZGF3WURKbWYwRkd3djlOSXNkQ01RUmIya1loc1JYZXpJX004elJVclZZSkxPVkN4ODFZeUZqWFljWDEtbFRJSERpMmxR0gGfAUFVX3lxTE9SQ2xtU2ZibFZ5U25tc3hFMTdMVj",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTWt2V2UxS0ZfMjNDc3hXS090Q0dTc080RVdsVTBDcEtfOGVMdF9iVVhicE1Mc3FzTkVPNldoSzdHd0VSd09iUUs2bHF0VnE3N0xIQWlMaGpqeWJXQURIdHVBOUd4QTZIZ1VVQnFWOEZDUzV1YXBBMmdXNExmYWFweGs2aEtjSUEzOGUyckl5S2JGejlxZmtRYm130gGfAUFVX3lxTE9IYnBpaWhjdG5KSmhLMWhFU3hMSWpERVlkMkZKY19INF9wMi1ZY3BIemlsbGVjbm9Dcmc3NTVvWllaZUxYNHB0ZHFQSkFCVGt6UlAxV0RkTzg0QUNlcnBtT21qNXU1dzh5WW5zdFVsd0ZQdWJNMzJkeGZSZEZ1MXNadjZuRzlDZGpuMC03VDFpQllKdE5jUllCM2NvcFY4Yw?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQTWt2V2UxS0ZfMjNDc3hXS090Q0dTc080RVdsVTBDcEtfOGVMdF9iVVhicE1Mc3FzTkVPNldoSzdHd0VSd09iUUs2bHF0VnE3N0xIQWlMaGpqeWJXQURIdHVBOUd4QTZIZ1VVQnFWOEZDUzV1YXBBMmdXNExmYWFweGs2aEtjSUEzOGUyckl5S2JGejlxZmtRYm130gGfAUFVX3lxTE9IYnBpaWhjdG5KSmhLMWhFU3hMSW",
       "source": "Google News — ADHD",
       "lang": "EN",
       "icon": "🔍",
@@ -81,7 +180,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 8,
+      "id": 17,
       "title": "Sommes-nous tous autistes ou TDAH ? - France TV",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMzk4NGF6dy1vZUkwU29hb3hmRHExWXd3dnhWdHNfRkJ6NV9XdlZZNHNjTktoLTMzSDRVbjZnUWpTWV9pdmhTUTl4bVJHejhCR3AtSnZEQmQ1ZU1ja3Q3d1pMNXZtX2xENGZmams4alJfa3NlVkRJM2RSRFZLS0tCMXVrOVB0QnI4UmY0R015dWczclJKMU85SkRtcDNMeDNpTlI2Ng?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPMzk4NGF6dy1vZUkwU29hb3hmRHExWXd3dnhWdHNfRkJ6NV9XdlZZNHNjTktoLTMzSDRVbjZnUWpTWV9pdmhTUTl4bVJHejhCR3AtSnZEQmQ1ZU1ja3Q3d1pMNXZtX2xENGZmams4alJfa3NlVkRJM2RSRFZLS0tCMXVrOVB0QnI4UmY0R015dWczclJKMU85SkRtcDNMeDNpTlI2Ng?oc=5\" target=\"_blank\">Somme",
@@ -92,7 +191,18 @@
       "domain": "news.google.com"
     },
     {
-      "id": 9,
+      "id": 18,
+      "title": "TDAH chez les adultes : les prescriptions explosent depuis la crise sanitaire - pourquoidocteur.fr",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRHdRQWNlUU9kaWd1TUlXY3ZWMzZkR3pwSWZxS1k5M0MzRUYyOG1LR0N2Nk9CajhKUDIxc2dlZWhvSDhNdWE0MVN6dWxYWmNxTGo3c25tYllKNkZxQWRHblY5ZWNsOWdzQndhLWR2NUEtZGNOLWVOTG9RS0RxYkdveFdDY1hndjVmTjNESzJ6ZTZJbXFLdmdVVEhsWWdORU91TjM5YWZOWmNkZTlncWdZNlplSlB2Mm9xRkE?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPRHdRQWNlUU9kaWd1TUlXY3ZWMzZkR3pwSWZxS1k5M0MzRUYyOG1LR0N2Nk9CajhKUDIxc2dlZWhvSDhNdWE0MVN6dWxYWmNxTGo3c25tYllKNkZxQWRHblY5ZWNsOWdzQndhLWR2NUEtZGNOLWVOTG9RS0RxYkdveFdDY1hndjVmTjNESzJ6ZTZJbXFLdmdVVEhsWWdORU91TjM5YWZOWmNkZTlncWdZNlplSlB2Mm9xRk",
+      "source": "Google News — TDAH",
+      "lang": "FR",
+      "icon": "🇫🇷",
+      "date": "2026-09-03T11:55:00.000Z",
+      "domain": "news.google.com"
+    },
+    {
+      "id": 19,
       "title": "What parents should know about ADHD evaluations - WCVB",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQal9zTERDQWxrVDNPeU5veXhfS255Tk5iYVJWZkQ3TXNMOTQ1ZE5GZktWWWpoRHotSEhXbzkyREhoYUU0NVZHOUVwVzR5UjFFSVVINGJfOHR6TTV1eE9iZ1FXdmVoYlowV1JhSlpIVlpvMGpaN2t0bVNSbDB1c0hJUnZNczZUWU9rVWdJQ1djWHR4U1JPLUNfeU9NNnl0bDZaWGw0b2tKTXN1dzJSYmNGM05lemtFN19qd3c?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQal9zTERDQWxrVDNPeU5veXhfS255Tk5iYVJWZkQ3TXNMOTQ1ZE5GZktWWWpoRHotSEhXbzkyREhoYUU0NVZHOUVwVzR5UjFFSVVINGJfOHR6TTV1eE9iZ1FXdmVoYlowV1JhSlpIVlpvMGpaN2t0bVNSbDB1c0hJUnZNczZUWU9rVWdJQ1djWHR4U1JPLUNfeU9NNnl0bDZaWGw0b2tKTXN1dzJSYmNGM05lemtFN19qd3",
@@ -103,7 +213,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 10,
+      "id": 20,
       "title": "ADHD may have a surprising creative advantage - Science Daily",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGMlhldk9rcjFIYXlJcFRMV0tyTFB2d29aV1Z4Qm9Ca1FVTWZJcTd4aUVuLWpnN0F1YXVkSF9HdjFsU0RYTHRVZ1NrN0pnajFjUzNidFJJNFZmZFpkdGxldWY2ODl5NGlnTXJ5dVA5OA?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBGMlhldk9rcjFIYXlJcFRMV0tyTFB2d29aV1Z4Qm9Ca1FVTWZJcTd4aUVuLWpnN0F1YXVkSF9HdjFsU0RYTHRVZ1NrN0pnajFjUzNidFJJNFZmZFpkdGxldWY2ODl5NGlnTXJ5dVA5OA?oc=5\" target=\"_blank\">ADHD may have a surprising creative advantage</a>&nbsp;&nbsp;<font color=\"#6f",
@@ -114,7 +224,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 11,
+      "id": 21,
       "title": "Major update after boy, 5, is burned to death in front of his mom in hyperbaric chamber during ADHD treatment - the-sun.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2tveTh6aWVQeUtpaGZwYVhjbWZ6b2wydHJlbVkyVmJFZFExbEVDaG9IVVFpT3FtRlplNHk4NlZDQlF4Rmh2MFgtZFBNZkFaVXdkUXZYTDEzVUd2dVY5VHJDdXM1dXZYcF96ZUlYY0tlUU1Qa2dFNTd1MVJnM2dXTWJUSWlXNnNOdTVGWi1UTUZ1OFk?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2tveTh6aWVQeUtpaGZwYVhjbWZ6b2wydHJlbVkyVmJFZFExbEVDaG9IVVFpT3FtRlplNHk4NlZDQlF4Rmh2MFgtZFBNZkFaVXdkUXZYTDEzVUd2dVY5VHJDdXM1dXZYcF96ZUlYY0tlUU1Qa2dFNTd1MVJnM2dXTWJUSWlXNnNOdTVGWi1UTUZ1OFk?oc=5\" target=\"_blank\">Major update after boy, 5, i",
@@ -125,7 +235,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 12,
+      "id": 22,
       "title": "Irritability, anxiety and negative thought patterns in ADHD associated with increased depression risk - Cardiff University",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPekdIeFB4N0U2NTlaMFdjMkNnT1FGXzRadE9BbjBVUkdNZnRKN2UtVUFqb3lIaGYyV0pCRUVDcG0tTEtOMzhtdVVSYnd1ZDFZSlhrb0hSWDFneUdVdWJtUmJ2eWE4enRLRmJjY0xVOUhTYVU3SW9YWE9OMWVkTF9oR3ZVTV9DY2lWZDZnOUYyNXB1NEFRUzhKYUl4UXp1dng0VnUtVzFXeXFrMWJhd0YxaFY1MGNGMngzTkN5NGlReXZrWENiYlpNT2R3ZDBlYUhCUEIwcHl1SWlqRVpvMWc?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPekdIeFB4N0U2NTlaMFdjMkNnT1FGXzRadE9BbjBVUkdNZnRKN2UtVUFqb3lIaGYyV0pCRUVDcG0tTEtOMzhtdVVSYnd1ZDFZSlhrb0hSWDFneUdVdWJtUmJ2eWE4enRLRmJjY0xVOUhTYVU3SW9YWE9OMWVkTF9oR3ZVTV9DY2lWZDZnOUYyNXB1NEFRUzhKYUl4UXp1dng0VnUtVzFXeXFrMWJhd0YxaFY1MGNGMngzTk",
@@ -136,8 +246,8 @@
       "domain": "news.google.com"
     },
     {
-      "id": 13,
-      "title": "An autism or ADHD diagnosis without access to treatment is a hollow outcome | Letter - theguardian.com",
+      "id": 23,
+      "title": "An autism or ADHD diagnosis without access to treatment is a hollow outcome | Letter - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVHFmRVNTWTd1ak5YakIyWVFvaHF4alhuZnc5N0ZYcVlMeV9HUk5mYTkzWlJldm1RQVgzbThiY0d2TVl3Vk5DSjZYbElVQ1N1c2UwdTNSeEZiRWNIQ1RQbnhPdC1nQmRILUlyT01MSS1Vd0Zqenhvb004Xy1FTml2alMtYWotZTJkdGNCTjExUkQ4Y0lGWmpFWHFGdGtKdk9PZXZCTXhYUEtTR1FHUklHS2tqQ082cmZabTdhYk5pMHc?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVHFmRVNTWTd1ak5YakIyWVFvaHF4alhuZnc5N0ZYcVlMeV9HUk5mYTkzWlJldm1RQVgzbThiY0d2TVl3Vk5DSjZYbElVQ1N1c2UwdTNSeEZiRWNIQ1RQbnhPdC1nQmRILUlyT01MSS1Vd0Zqenhvb004Xy1FTml2alMtYWotZTJkdGNCTjExUkQ4Y0lGWmpFWHFGdGtKdk9PZXZCTXhYUEtTR1FHUklHS2tqQ082cmZabT",
       "source": "Google News — ADHD",
@@ -147,51 +257,18 @@
       "domain": "news.google.com"
     },
     {
-      "id": 14,
-      "title": "Is It ADHD or Perimenopause? Why It Could Be Both - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZC1pUWNjN1lxYlpJT1Y4QWtmcEhuMGZUWGs3X2JoRE1TYkpnQ0oyY1Y0am5aSGpzQnhkVFp1Y3dGalN1VzVESjE4ZS1DaUR1N0lmbVJLNzBuWWxmb0wyVEI4WW5KdC1MeTJYLV9CR0M4LWEtNFNWbkt1dGZFYnZ3ZTVtdnhfV3hxSlZ1QnhVeVBVMzJhZjdwZEVGWXJqb2VzM3c?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNZC1pUWNjN1lxYlpJT1Y4QWtmcEhuMGZUWGs3X2JoRE1TYkpnQ0oyY1Y0am5aSGpzQnhkVFp1Y3dGalN1VzVESjE4ZS1DaUR1N0lmbVJLNzBuWWxmb0wyVEI4WW5KdC1MeTJYLV9CR0M4LWEtNFNWbkt1dGZFYnZ3ZTVtdnhfV3hxSlZ1QnhVeVBVMzJhZjdwZEVGWXJqb2VzM3c?oc=5\" target=\"_blank\">Is It AD",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-09-02T14:44:53.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 15,
-      "title": "TDAH et médicaments : un ado sur quatre a une prescription - Radio-Canada",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE0xTzlyd2NnTmNwNzRqVlJFN1ZYWFFGZE42alFsYlBLOTRGWlJqQVNxNktQNE5UaWd2LTBQS2pDSDlMeVlQZ3Y2VEZaanZCVzRDTnN3aW1DYjNQNHF2YzhGLUxNRmhBa1RQUWYyd28xRWRjNHI4aDFlSXpFRVV0b0xfRWI3NHpDTEVlTFcwOURpSjhpRTlrcGVGeElGNElqMzNVLWdKYkdIb28?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE0xTzlyd2NnTmNwNzRqVlJFN1ZYWFFGZE42alFsYlBLOTRGWlJqQVNxNktQNE5UaWd2LTBQS2pDSDlMeVlQZ3Y2VEZaanZCVzRDTnN3aW1DYjNQNHF2YzhGLUxNRmhBa1RQUWYyd28xRWRjNHI4aDFlSXpFRVV0b0xfRWI3NHpDTEVlTFcwOURpSjhpRTlrcGVGeElGNElqMzNVLWdKYkdIb28?oc=5\" target=\"_bla",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-09-02T04:54:40.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 16,
+      "id": 24,
       "title": "Genetic evidence confirms ADHD symptoms cause poorer academic performance in kids - PsyPost",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnI2N1ltMHBSVElMOTBDbEhoZzZTeTVsSEQ5VU9jZFBpTjYzRURtOVBCV3dRZmN2bGZTdVVuNmwzZmRQTlZDcHBoRDZITjNWc0JfdkREV1VfdVktYkd5YUNMTXlmRXNlUVppX25oc2JCbjYxS081OU5oLW9fbGFiemNLc2tyX2RRZnI0VjFSMWpjd1JiYk1nVHIzVG43MzVLZlpYUHg2YUdPQQ?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnI2N1ltMHBSVElMOTBDbEhoZzZTeTVsSEQ5VU9jZFBpTjYzRURtOVBCV3dRZmN2bGZTdVVuNmwzZmRQTlZDcHBoRDZITjNWc0JfdkREV1VfdVktYkd5YUNMTXlmRXNlUVppX25oc2JCbjYxS081OU5oLW9fbGFiemNLc2tyX2RRZnI0VjFSMWpjd1JiYk1nVHIzVG43MzVLZlpYUHg2YUdPQQ?oc=5\" target=\"_blan",
-      "source": "Google News — ADHD",
+      "source": "Google News — ADHD Research",
       "lang": "EN",
-      "icon": "🔍",
+      "icon": "🔬",
       "date": "2026-09-01T20:16:58.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 17,
-      "title": "TDAH Archives - Place Gre'net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfN0RleWFpQjdmbzJQZGFtQ01CYmJYZUdHczV4MjREd1RZVTJyNVlqLUt1enh4ZVBiZDlnd3FsNWY3NmFWVmg3anBzVQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfN0RleWFpQjdmbzJQZGFtQ01CYmJYZUdHczV4MjREd1RZVTJyNVlqLUt1enh4ZVBiZDlnd3FsNWY3NmFWVmg3anBzVQ?oc=5\" target=\"_blank\">TDAH Archives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Place Gre'net</font>",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-09-01T14:48:54.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 18,
+      "id": 25,
       "title": "Autisme, dys, TDAH : cinq établissements ariégeois accompagnent les enfants dès la rentrée 2026 - azinat.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZTJ5TDdINUE0eXA0d2EwOTJzX3ZKeU9Uc2sxSDU4c2dXWTFVOS1ZNWx6MC1ONWFmOXRWald5ekI4ZXVtaGlBMHhJNWl6MEJPUlRLcVFrMDN0RXpnRkowNmVNdXVtOTB1N3VhUmpXOUswekJzNHRBVjE4aGxIUm1lMjYteEo5bUFQeGZfYlFPd1Z3ZVgzNEVzNEF3UDdpZVR2aHlaaG16OEJyMDBFNHIycUJMZkdiNmNDejVXamlqNW8?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZTJ5TDdINUE0eXA0d2EwOTJzX3ZKeU9Uc2sxSDU4c2dXWTFVOS1ZNWx6MC1ONWFmOXRWald5ekI4ZXVtaGlBMHhJNWl6MEJPUlRLcVFrMDN0RXpnRkowNmVNdXVtOTB1N3VhUmpXOUswekJzNHRBVjE4aGxIUm1lMjYteEo5bUFQeGZfYlFPd1Z3ZVgzNEVzNEF3UDdpZVR2aHlaaG16OEJyMDBFNHIycUJMZkdiNmNDej",
@@ -202,7 +279,7 @@
       "domain": "news.google.com"
     },
     {
-      "id": 19,
+      "id": 26,
       "title": "Recasting ADHD: Ben Hollingsworth on Advocacy, Stigma & Hollywood",
       "link": "https://www.additudemag.com/ben-hollingsworth-neurodivergent-actor/",
       "description": null,
@@ -213,18 +290,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 20,
-      "title": "Why Adolescents With ADHD Need Better Transitions to Adult Care - Cleveland Clinic",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUlZ3MF93YXdfbWpXOHFfUjRNYjhLcFpieldDemVBMjVqeVIySDRnQ0Z2RFc2YXVmUExGb2d1UVA1bV9RVXJqeGZvb0FrcXRwV2xRZFF0MkkwTkZxVm5qWndINFVfTHpCM3hLdnZfOFZVZmVZOF9uOGpSR3lmdThHRkpEejZSTWREeGRNNk5ERVN3NThZS2djMXNwSEx6ZXQySncw?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQUlZ3MF93YXdfbWpXOHFfUjRNYjhLcFpieldDemVBMjVqeVIySDRnQ0Z2RFc2YXVmUExGb2d1UVA1bV9RVXJqeGZvb0FrcXRwV2xRZFF0MkkwTkZxVm5qWndINFVfTHpCM3hLdnZfOFZVZmVZOF9uOGpSR3lmdThHRkpEejZSTWREeGRNNk5ERVN3NThZS2djMXNwSEx6ZXQySncw?oc=5\" target=\"_blank\">Why Ado",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-09-01T05:14:59.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 21,
+      "id": 27,
       "title": "ADHD Awareness Month 2026: ADHD at the Center",
       "link": "https://www.additudemag.com/adhd-awareness-2026/",
       "description": null,
@@ -235,29 +301,7 @@
       "domain": "additudemag.com"
     },
     {
-      "id": 22,
-      "title": "Why Is My ADHD Worse Before My Period? - Psychology Today",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWC1FNC1pWFNnRktSZzdweDlUVFVFZU1JR0Z5dDFNZ2ZFNThXaG4weWt4V2dleWFQVEE5LTlNVzRXM2tOQUZ6UHkteUtwVWZNQ05CRjZPMXU0MVgzVGVFSk5LOTJ3dzVleTdLdE1NaXF4a0piMlZXOGcyVGdhcmhGWEU2TXJ1RmhLbXI0RWNuT1k2ak1KdzYtcnRzV2Y4SDZPNk16dg?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNWC1FNC1pWFNnRktSZzdweDlUVFVFZU1JR0Z5dDFNZ2ZFNThXaG4weWt4V2dleWFQVEE5LTlNVzRXM2tOQUZ6UHkteUtwVWZNQ05CRjZPMXU0MVgzVGVFSk5LOTJ3dzVleTdLdE1NaXF4a0piMlZXOGcyVGdhcmhGWEU2TXJ1RmhLbXI0RWNuT1k2ak1KdzYtcnRzV2Y4SDZPNk16dg?oc=5\" target=\"_blank\">Why I",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-31T14:55:48.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 23,
-      "title": "ADHD Is the Disorder That Never Sleeps - ADDitude",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzF2aVpPSjFuY2Rncy1mRDM1SkEtV211YXJBbVBpRExxVTBhTlRTZlRyb0xBQV9mMzJHdDNsanpoQkJvVXl5Z1pacEIyREJyeGd0dkJ4aWc1d09oMnYzTUF6QkQ2V2JKbkpKSjN3UVV5N2YwYlR5VGU5X2ZMM3gwWjgzSQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzF2aVpPSjFuY2Rncy1mRDM1SkEtV211YXJBbVBpRExxVTBhTlRTZlRyb0xBQV9mMzJHdDNsanpoQkJvVXl5Z1pacEIyREJyeGd0dkJ4aWc1d09oMnYzTUF6QkQ2V2JKbkpKSjN3UVV5N2YwYlR5VGU5X2ZMM3gwWjgzSQ?oc=5\" target=\"_blank\">ADHD Is the Disorder That Never Sleeps</a>&nbsp;&",
-      "source": "Google News — ADHD Research",
-      "lang": "EN",
-      "icon": "🔬",
-      "date": "2026-08-31T13:58:11.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 24,
+      "id": 28,
       "title": "Study: 14 Psychiatric Conditions Share Genetic Roots - ADDitude",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOamhBQlU2WUQ0aU04M3FyNm5vYUt5WkhYSXVMcUwxYm9odDd4ODRaQmVpRk9QSV85M2pGX21iWkd6ejNrM2JpNFp2NkF5VVdxWlVBbDBlWDdqOHU0VFJuSS1aQ0E0WEpUYjVUY0E0Y3FpZF96VVhBUFhEelF2enR2LVVxdUw3eEM5aWtPVA?oc=5",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOamhBQlU2WUQ0aU04M3FyNm5vYUt5WkhYSXVMcUwxYm9odDd4ODRaQmVpRk9QSV85M2pGX21iWkd6ejNrM2JpNFp2NkF5VVdxWlVBbDBlWDdqOHU0VFJuSS1aQ0E0WEpUYjVUY0E0Y3FpZF96VVhBUFhEelF2enR2LVVxdUw3eEM5aWtPVA?oc=5\" target=\"_blank\">Study: 14 Psychiatric Conditions Shar",
@@ -268,69 +312,25 @@
       "domain": "news.google.com"
     },
     {
-      "id": 25,
-      "title": "Exploring the ADHD-Inflammation Link - ADDitude",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE80T3I0eDVVbnZqOHlSc1BzdmNHYU1Sd0ZxZ0hzeXlIRkN2M3o1ZE9qUnRxN3pxYWtsUmdyaWU3RHl4dGlvWjJ1ODRsYWJDTzdoMkFyU3R3UXNKREdrNWRvc3NYSHBwNGJPNzdhbl9RRS1QQQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE80T3I0eDVVbnZqOHlSc1BzdmNHYU1Sd0ZxZ0hzeXlIRkN2M3o1ZE9qUnRxN3pxYWtsUmdyaWU3RHl4dGlvWjJ1ODRsYWJDTzdoMkFyU3R3UXNKREdrNWRvc3NYSHBwNGJPNzdhbl9RRS1QQQ?oc=5\" target=\"_blank\">Exploring the ADHD-Inflammation Link</a>&nbsp;&nbsp;<font color=\"#6f6f6f\"",
-      "source": "Google News — ADHD",
+      "id": 29,
+      "title": "Severe Chronic Pain Overlaps with ADHD Traits In One-Quarter of Patients: New Study - ADDitude",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fNzdXX1Bfc2ZjX2JxSy1vT3dJMjhialhBblphWkZGTjExNjVjRXJUQ0RsaFRYeHphQ3lNdVphaEdGTjVFOU1PSXp2OG90RndwS0dpVzNLU1d5OVg4T2s0dWpuUFVYRzM4TTdVWEppNlI?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1fNzdXX1Bfc2ZjX2JxSy1vT3dJMjhialhBblphWkZGTjExNjVjRXJUQ0RsaFRYeHphQ3lNdVphaEdGTjVFOU1PSXp2OG90RndwS0dpVzNLU1d5OVg4T2s0dWpuUFVYRzM4TTdVWEppNlI?oc=5\" target=\"_blank\">Severe Chronic Pain Overlaps with ADHD Traits In One-Quarter of Patients: Ne",
+      "source": "Google News — ADHD Research",
       "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-31T13:56:09.000Z",
+      "icon": "🔬",
+      "date": "2026-08-31T13:56:21.000Z",
       "domain": "news.google.com"
     },
     {
-      "id": 26,
+      "id": 30,
       "title": "70 nouveaux dispositifs pour mieux accompagner les élèves avec des troubles du neurodéveloppement : autisme, DYS, TDAH, TDI - Handicap Gouv",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWmswcFVndFIyNlFSMTc2ZENiUUs4aHVrUVdQSkVZdFR6RGJ0a0tTRVZvMmY0d0tMOUpESHIzdHVHYVFfU05QVDVRR3ZoYW1VZkZ0WjlhMGJzM0d4M3h0aUF5OGIxUG9RRzVZU3luWlVhYVdRSDBfMjh2T2pGaU03NlYyd1laYVpXQ3RFVnl2cmR1NXNwVjc4SXFXTXNsQm93OWhub2N4bGRkX285cUVlYTFDSXZzM1NTdE54Yk8zZlJaTTdDV3RQWjNqYjlNcjR2VU5aRDFuTzZYM0FTUmJrSQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWmswcFVndFIyNlFSMTc2ZENiUUs4aHVrUVdQSkVZdFR6RGJ0a0tTRVZvMmY0d0tMOUpESHIzdHVHYVFfU05QVDVRR3ZoYW1VZkZ0WjlhMGJzM0d4M3h0aUF5OGIxUG9RRzVZU3luWlVhYVdRSDBfMjh2T2pGaU03NlYyd1laYVpXQ3RFVnl2cmR1NXNwVjc4SXFXTXNsQm93OWhub2N4bGRkX285cUVlYTFDSXZzM1NTdE",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeE5YWVJHZUJCVkwtcFgyMVpMc3JCOXJXTi1GWjM5YW1VSHZFNmhBcG9zblBCTFEtdjF5cEszQ3VfdUU2Tnk4QkZXTkYwd3ZzWFZ0bkZTZFdCblJkRVFaRGNlQmsxVk1NNk1mWDZEYThqQ1BMb3ZvUkhpVHF5V0lha2d5WUpVeG9DeW5zSHFvanJZa3lfdGZnSm9fSFdxR0pMZ2JWX2VDR19aUXY0OVZ0MXRfZjFwZlVsYmd1bEVJX011VElxVDdDUFpBTnJodTlSSWM1dkkzaHgyek0?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeE5YWVJHZUJCVkwtcFgyMVpMc3JCOXJXTi1GWjM5YW1VSHZFNmhBcG9zblBCTFEtdjF5cEszQ3VfdUU2Tnk4QkZXTkYwd3ZzWFZ0bkZTZFdCblJkRVFaRGNlQmsxVk1NNk1mWDZEYThqQ1BMb3ZvUkhpVHF5V0lha2d5WUpVeG9DeW5zSHFvanJZa3lfdGZnSm9fSFdxR0pMZ2JWX2VDR19aUXY0OVZ0MXRfZjFwZlVsYm",
       "source": "Google News — TDAH",
       "lang": "FR",
       "icon": "🇫🇷",
       "date": "2026-08-31T12:00:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 27,
-      "title": "10 Natural Supplements That May Help With ADHD - Verywell Health",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE81ZmFmNng3TnhMdG5tekpIWXIwalhfYkcwallaLVFuNjZWdnBoX09YS1Q2Mm5vdk1rYVdoTFhYeUhsS2tDWEszbnA4RXp1cE5Ra01QUTczb2lxVzd0X3RQWlB4eXZ3U0xNblJycFZCVlUxUQ?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE81ZmFmNng3TnhMdG5tekpIWXIwalhfYkcwallaLVFuNjZWdnBoX09YS1Q2Mm5vdk1rYVdoTFhYeUhsS2tDWEszbnA4RXp1cE5Ra01QUTczb2lxVzd0X3RQWlB4eXZ3U0xNblJycFZCVlUxUQ?oc=5\" target=\"_blank\">10 Natural Supplements That May Help With ADHD</a>&nbsp;&nbsp;<font color",
-      "source": "Google News — ADHD",
-      "lang": "EN",
-      "icon": "🔍",
-      "date": "2026-08-31T07:00:00.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 28,
-      "title": "Le Handicap selon SiiMn - Episode 12 : Les troubles Dys et TDAH - Aerocontact.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRHJRZ1lHZVJwUHFZVkpVN0w2RlJuTXVnWHVEdF9mdzFmUVJ1NHgwNFBCOFc2UWd5LXVIQUl1WmlXZ2gzelZLcnBIRFVHUFk4UldLZTlZMzdpUFJlc01ZR2tqNThuRVVMUTNBYUZvVnFta3VLc3ZDWXhxdkR3aThfaFVNdzU3S2JfOU5NQUZTZDBrSXMwLXM0ZDJKMjM4Tk1na1hB?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQRHJRZ1lHZVJwUHFZVkpVN0w2RlJuTXVnWHVEdF9mdzFmUVJ1NHgwNFBCOFc2UWd5LXVIQUl1WmlXZ2gzelZLcnBIRFVHUFk4UldLZTlZMzdpUFJlc01ZR2tqNThuRVVMUTNBYUZvVnFta3VLc3ZDWXhxdkR3aThfaFVNdzU3S2JfOU5NQUZTZDBrSXMwLXM0ZDJKMjM4Tk1na1hB?oc=5\" target=\"_blank\">Le Hand",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-08-31T03:48:54.000Z",
-      "domain": "news.google.com"
-    },
-    {
-      "id": 29,
-      "title": "“Is Generic ADHD Medication Less Effective Than the Brand-Name Version?”",
-      "link": "https://www.additudemag.com/generic-adhd-medications-efficacy/",
-      "description": null,
-      "source": "ADDitude Magazine",
-      "lang": "EN",
-      "icon": "📰",
-      "date": "2026-08-30T09:23:26.000Z",
-      "domain": "additudemag.com"
-    },
-    {
-      "id": 30,
-      "title": "Autisme, TDAH... Quand le diagnostic de troubles, médiatisés par les people, devient une quête identitaire - Marianne",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNE9oMjFsVThtNGgwanRNNkJmdmk5WElnSkFoSzJDa2FBb01mSHlEVmNNal9WcElxd2dmUng3WndWRTZBREtxQ21WQ0FBYi1iU3k1R1VUSjVab2tpRFBlVWJlQkprYklOWUdJMHhlcVFHcEtwekNpMEJBa3ZyUm1TUXJuTmdmdFExOTlsWVE3eTlnZWRoQmFJX0hSeWlrbzM2SEh3TGRURzVwWU9kQlhpMHZvZ1YzV3FpRlFzMEdUYjBTdENpNTVvM1lwU25jRkdwT1FXVEtn?oc=5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNE9oMjFsVThtNGgwanRNNkJmdmk5WElnSkFoSzJDa2FBb01mSHlEVmNNal9WcElxd2dmUng3WndWRTZBREtxQ21WQ0FBYi1iU3k1R1VUSjVab2tpRFBlVWJlQkprYklOWUdJMHhlcVFHcEtwekNpMEJBa3ZyUm1TUXJuTmdmdFExOTlsWVE3eTlnZWRoQmFJX0hSeWlrbzM2SEh3TGRURzVwWU9kQlhpMHZvZ1YzV3FpRl",
-      "source": "Google News — TDAH",
-      "lang": "FR",
-      "icon": "🇫🇷",
-      "date": "2026-08-28T10:00:05.000Z",
       "domain": "news.google.com"
     }
   ]
